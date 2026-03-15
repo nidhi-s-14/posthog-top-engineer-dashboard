@@ -1,0 +1,1570 @@
+{
+  "source": {
+    "input": "analysis/raw-data/posthog-commits.json",
+    "fetched_at": "2026-03-15T01:47:22Z",
+    "commit_count": 5553
+  },
+  "analyses": [
+    {
+      "analysis": "pr_merge_ratio",
+      "description": "Per-engineer PR opened-to-merged ratio.",
+      "status": "partial",
+      "notes": [
+        "A true PR merge ratio requires a pull request dataset that includes all opened PRs in the time window.",
+        "The current pipeline starts from commits, so it only exposes PRs that resulted in commits on the branch being analyzed."
+      ],
+      "engineers": [
+        {
+          "engineer": "Classy-Bear",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "Copilot",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "Daesgar",
+          "opened_pr_count": null,
+          "merged_pr_count": 18,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "EDsCODE",
+          "opened_pr_count": null,
+          "merged_pr_count": 14,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "GauravBansal29",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "Gilbert09",
+          "opened_pr_count": null,
+          "merged_pr_count": 59,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "JJCLane",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "KaranPradhan266",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "MarconLP",
+          "opened_pr_count": null,
+          "merged_pr_count": 23,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "MattBro",
+          "opened_pr_count": null,
+          "merged_pr_count": 66,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "MattPua",
+          "opened_pr_count": null,
+          "merged_pr_count": 39,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "MichaelKutsch-ph",
+          "opened_pr_count": null,
+          "merged_pr_count": 5,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "Nezz",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "Piccirello",
+          "opened_pr_count": null,
+          "merged_pr_count": 100,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "ProCO-RPHopkins",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "Radu-Raicea",
+          "opened_pr_count": null,
+          "merged_pr_count": 45,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "ReeceJones",
+          "opened_pr_count": null,
+          "merged_pr_count": 82,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "TueHaulund",
+          "opened_pr_count": null,
+          "merged_pr_count": 61,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "Twixes",
+          "opened_pr_count": null,
+          "merged_pr_count": 73,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "VojtechBartos",
+          "opened_pr_count": null,
+          "merged_pr_count": 15,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "a-lider",
+          "opened_pr_count": null,
+          "merged_pr_count": 39,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "abheek9",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "abhischekt",
+          "opened_pr_count": null,
+          "merged_pr_count": 15,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "abigailbramble",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "ablaszkiewicz",
+          "opened_pr_count": null,
+          "merged_pr_count": 65,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "adamleithp",
+          "opened_pr_count": null,
+          "merged_pr_count": 95,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "adboio",
+          "opened_pr_count": null,
+          "merged_pr_count": 153,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "andehen",
+          "opened_pr_count": null,
+          "merged_pr_count": 51,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "andre347",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "andrewjmcgehee",
+          "opened_pr_count": null,
+          "merged_pr_count": 68,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "andrewm4894",
+          "opened_pr_count": null,
+          "merged_pr_count": 218,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "andyzzhao",
+          "opened_pr_count": null,
+          "merged_pr_count": 38,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "anirudhpillai",
+          "opened_pr_count": null,
+          "merged_pr_count": 38,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "annikaschmid",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "antlio",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "arthurdedeus",
+          "opened_pr_count": null,
+          "merged_pr_count": 76,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "aspicer",
+          "opened_pr_count": null,
+          "merged_pr_count": 18,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "bciaraldi",
+          "opened_pr_count": null,
+          "merged_pr_count": 12,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "beatlevic",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "benjackwhite",
+          "opened_pr_count": null,
+          "merged_pr_count": 40,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "bill-ph",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "buildwithmalik",
+          "opened_pr_count": null,
+          "merged_pr_count": 3,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "caiquejjx",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "carlos-marchal-ph",
+          "opened_pr_count": null,
+          "merged_pr_count": 41,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "carlosguso",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "ceyniustranberg",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "charlescook-ph",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "charlesvien",
+          "opened_pr_count": null,
+          "merged_pr_count": 7,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "christiaan-ph",
+          "opened_pr_count": null,
+          "merged_pr_count": 20,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "clickhouse-sync-posthog[bot]",
+          "opened_pr_count": null,
+          "merged_pr_count": 5,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "clr182",
+          "opened_pr_count": null,
+          "merged_pr_count": 19,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "cvolzer3",
+          "opened_pr_count": null,
+          "merged_pr_count": 20,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "daibhin",
+          "opened_pr_count": null,
+          "merged_pr_count": 4,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "danielcarletti",
+          "opened_pr_count": null,
+          "merged_pr_count": 5,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "danielxnj",
+          "opened_pr_count": null,
+          "merged_pr_count": 13,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "daniloc",
+          "opened_pr_count": null,
+          "merged_pr_count": 5,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "darkLord19",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "darkopia",
+          "opened_pr_count": null,
+          "merged_pr_count": 12,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "dependabot[bot]",
+          "opened_pr_count": null,
+          "merged_pr_count": 30,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "dmarchuk",
+          "opened_pr_count": null,
+          "merged_pr_count": 3,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "dmarticus",
+          "opened_pr_count": null,
+          "merged_pr_count": 84,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "dmiska25",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "dustinbyrne",
+          "opened_pr_count": null,
+          "merged_pr_count": 13,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "edwinyjlim",
+          "opened_pr_count": null,
+          "merged_pr_count": 9,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "eli-r-ph",
+          "opened_pr_count": null,
+          "merged_pr_count": 111,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "estefaniarabadan",
+          "opened_pr_count": null,
+          "merged_pr_count": 36,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "fasyy612",
+          "opened_pr_count": null,
+          "merged_pr_count": 49,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "fercgomes",
+          "opened_pr_count": null,
+          "merged_pr_count": 35,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "fivestarspicy",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "frankh",
+          "opened_pr_count": null,
+          "merged_pr_count": 47,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "fuziontech",
+          "opened_pr_count": null,
+          "merged_pr_count": 40,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "gantoine",
+          "opened_pr_count": null,
+          "merged_pr_count": 12,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "georgemunyoro",
+          "opened_pr_count": null,
+          "merged_pr_count": 26,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "gesh",
+          "opened_pr_count": null,
+          "merged_pr_count": 34,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "gewenyu99",
+          "opened_pr_count": null,
+          "merged_pr_count": 6,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "gustavohstrassburger",
+          "opened_pr_count": null,
+          "merged_pr_count": 64,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "haacked",
+          "opened_pr_count": null,
+          "merged_pr_count": 114,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "harihran-del",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "havenbarnes",
+          "opened_pr_count": null,
+          "merged_pr_count": 69,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "hpouillot",
+          "opened_pr_count": null,
+          "merged_pr_count": 47,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "igormq",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "inkeep[bot]",
+          "opened_pr_count": null,
+          "merged_pr_count": 8,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "ioannisj",
+          "opened_pr_count": null,
+          "merged_pr_count": 3,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "jabahamondes",
+          "opened_pr_count": null,
+          "merged_pr_count": 57,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "jeremylongshore",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "jonathanlab",
+          "opened_pr_count": null,
+          "merged_pr_count": 8,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "jonmcwest",
+          "opened_pr_count": null,
+          "merged_pr_count": 116,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "jordanm-posthog",
+          "opened_pr_count": null,
+          "merged_pr_count": 58,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "jose-sequeira",
+          "opened_pr_count": null,
+          "merged_pr_count": 81,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "joshsny",
+          "opened_pr_count": null,
+          "merged_pr_count": 77,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "jurajmajerik",
+          "opened_pr_count": null,
+          "merged_pr_count": 49,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "k11kirky",
+          "opened_pr_count": null,
+          "merged_pr_count": 10,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "kappa90",
+          "opened_pr_count": null,
+          "merged_pr_count": 68,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "kliment-slice",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "ksvat",
+          "opened_pr_count": null,
+          "merged_pr_count": 36,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "kurekszymon",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "langesven",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "lmenezes",
+          "opened_pr_count": null,
+          "merged_pr_count": 26,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "lricoy",
+          "opened_pr_count": null,
+          "merged_pr_count": 55,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "lshaowei18",
+          "opened_pr_count": null,
+          "merged_pr_count": 5,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "lucasheriques",
+          "opened_pr_count": null,
+          "merged_pr_count": 28,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "luke-belton",
+          "opened_pr_count": null,
+          "merged_pr_count": 42,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "marandaneto",
+          "opened_pr_count": null,
+          "merged_pr_count": 5,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "mariusandra",
+          "opened_pr_count": null,
+          "merged_pr_count": 58,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "matheus-vb",
+          "opened_pr_count": null,
+          "merged_pr_count": 19,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "meikelmosby",
+          "opened_pr_count": null,
+          "merged_pr_count": 66,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "mendral-app[bot]",
+          "opened_pr_count": null,
+          "merged_pr_count": 156,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "mircoboettcher",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "mp-hog",
+          "opened_pr_count": null,
+          "merged_pr_count": 55,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "nickbest-ph",
+          "opened_pr_count": null,
+          "merged_pr_count": 45,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "nicowaltz",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "odin-posthog",
+          "opened_pr_count": null,
+          "merged_pr_count": 23,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "oliverb123",
+          "opened_pr_count": null,
+          "merged_pr_count": 52,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "ordehi",
+          "opened_pr_count": null,
+          "merged_pr_count": 37,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "orian",
+          "opened_pr_count": null,
+          "merged_pr_count": 29,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "orlandohohmeier",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "parinporecha",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "patricio-posthog",
+          "opened_pr_count": null,
+          "merged_pr_count": 17,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "pauldambra",
+          "opened_pr_count": null,
+          "merged_pr_count": 207,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "pawel-cebula",
+          "opened_pr_count": null,
+          "merged_pr_count": 23,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "pl",
+          "opened_pr_count": null,
+          "merged_pr_count": 58,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "posthog-bot",
+          "opened_pr_count": null,
+          "merged_pr_count": 8,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "posthog-js-upgrader[bot]",
+          "opened_pr_count": null,
+          "merged_pr_count": 43,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "posthog[bot]",
+          "opened_pr_count": null,
+          "merged_pr_count": 5,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "rafaeelaudibert",
+          "opened_pr_count": null,
+          "merged_pr_count": 148,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "raquelmsmith",
+          "opened_pr_count": null,
+          "merged_pr_count": 11,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "richardsolomou",
+          "opened_pr_count": null,
+          "merged_pr_count": 38,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "rnegron",
+          "opened_pr_count": null,
+          "merged_pr_count": 8,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "robbie-c",
+          "opened_pr_count": null,
+          "merged_pr_count": 74,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "rodrigoi",
+          "opened_pr_count": null,
+          "merged_pr_count": 50,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "rossgray",
+          "opened_pr_count": null,
+          "merged_pr_count": 42,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "sakce",
+          "opened_pr_count": null,
+          "merged_pr_count": 123,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "salmanmkc",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "sampennington",
+          "opened_pr_count": null,
+          "merged_pr_count": 84,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "sarahxsanders",
+          "opened_pr_count": null,
+          "merged_pr_count": 13,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "sayer122",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "scheduled-actions-posthog[bot]",
+          "opened_pr_count": null,
+          "merged_pr_count": 70,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "skoob13",
+          "opened_pr_count": null,
+          "merged_pr_count": 84,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "slshults",
+          "opened_pr_count": null,
+          "merged_pr_count": 5,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "sortafreel",
+          "opened_pr_count": null,
+          "merged_pr_count": 29,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "tatoalo",
+          "opened_pr_count": null,
+          "merged_pr_count": 52,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "tests-posthog[bot]",
+          "opened_pr_count": null,
+          "merged_pr_count": 6,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "thmsobrmlr",
+          "opened_pr_count": null,
+          "merged_pr_count": 82,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "timgl",
+          "opened_pr_count": null,
+          "merged_pr_count": 9,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "tomasfarias",
+          "opened_pr_count": null,
+          "merged_pr_count": 45,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "vdekrijger",
+          "opened_pr_count": null,
+          "merged_pr_count": 66,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "veryayskiy",
+          "opened_pr_count": null,
+          "merged_pr_count": 95,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "webjunkie",
+          "opened_pr_count": null,
+          "merged_pr_count": 140,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "will-marella",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "xljones",
+          "opened_pr_count": null,
+          "merged_pr_count": 2,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "yasen-posthog",
+          "opened_pr_count": null,
+          "merged_pr_count": 71,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "z0br0wn",
+          "opened_pr_count": null,
+          "merged_pr_count": 14,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "zachstence",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "zhou-quickli",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        },
+        {
+          "engineer": "zlwaterfield",
+          "opened_pr_count": null,
+          "merged_pr_count": 1,
+          "merge_ratio": null,
+          "notes": [
+            "Opened PR count is unavailable in the current commit-derived dataset.",
+            "Merged PR count is based on unique pull request numbers found in merged commits."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1249 @@
+{
+  "source": {
+    "from": "analysis/results/merged-pr-summary.json",
+    "definition": "average and median time between created_at and merged_at per engineer"
+  },
+  "engineer_count": 155,
+  "engineers": [
+    {
+      "engineer": "kurekszymon",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 0.45,
+      "average_open_to_merge_days": 0.02,
+      "median_open_to_merge_hours": 0.45,
+      "median_open_to_merge_days": 0.02
+    },
+    {
+      "engineer": "zachstence",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 1.04,
+      "average_open_to_merge_days": 0.04,
+      "median_open_to_merge_hours": 1.04,
+      "median_open_to_merge_days": 0.04
+    },
+    {
+      "engineer": "Classy-Bear",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 1.38,
+      "average_open_to_merge_days": 0.06,
+      "median_open_to_merge_hours": 1.38,
+      "median_open_to_merge_days": 0.06
+    },
+    {
+      "engineer": "Nezz",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 1.58,
+      "average_open_to_merge_days": 0.07,
+      "median_open_to_merge_hours": 1.58,
+      "median_open_to_merge_days": 0.07
+    },
+    {
+      "engineer": "andre347",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 2.42,
+      "average_open_to_merge_days": 0.1,
+      "median_open_to_merge_hours": 2.42,
+      "median_open_to_merge_days": 0.1
+    },
+    {
+      "engineer": "fuziontech",
+      "merged_pr_count": 40,
+      "average_open_to_merge_hours": 3.08,
+      "average_open_to_merge_days": 0.13,
+      "median_open_to_merge_hours": 0.51,
+      "median_open_to_merge_days": 0.02
+    },
+    {
+      "engineer": "posthog-js-upgrader[bot]",
+      "merged_pr_count": 43,
+      "average_open_to_merge_hours": 4.65,
+      "average_open_to_merge_days": 0.19,
+      "median_open_to_merge_hours": 1.65,
+      "median_open_to_merge_days": 0.07
+    },
+    {
+      "engineer": "ceyniustranberg",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 5.41,
+      "average_open_to_merge_days": 0.23,
+      "median_open_to_merge_hours": 5.41,
+      "median_open_to_merge_days": 0.23
+    },
+    {
+      "engineer": "orlandohohmeier",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 8.67,
+      "average_open_to_merge_days": 0.36,
+      "median_open_to_merge_hours": 8.67,
+      "median_open_to_merge_days": 0.36
+    },
+    {
+      "engineer": "carlosguso",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 8.94,
+      "average_open_to_merge_days": 0.37,
+      "median_open_to_merge_hours": 8.94,
+      "median_open_to_merge_days": 0.37
+    },
+    {
+      "engineer": "scheduled-actions-posthog[bot]",
+      "merged_pr_count": 70,
+      "average_open_to_merge_hours": 9.9,
+      "average_open_to_merge_days": 0.41,
+      "median_open_to_merge_hours": 1.84,
+      "median_open_to_merge_days": 0.08
+    },
+    {
+      "engineer": "mendral-app[bot]",
+      "merged_pr_count": 160,
+      "average_open_to_merge_hours": 11.94,
+      "average_open_to_merge_days": 0.5,
+      "median_open_to_merge_hours": 0.78,
+      "median_open_to_merge_days": 0.03
+    },
+    {
+      "engineer": "nicowaltz",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 12.14,
+      "average_open_to_merge_days": 0.51,
+      "median_open_to_merge_hours": 12.14,
+      "median_open_to_merge_days": 0.51
+    },
+    {
+      "engineer": "MattPua",
+      "merged_pr_count": 39,
+      "average_open_to_merge_hours": 14.0,
+      "average_open_to_merge_days": 0.58,
+      "median_open_to_merge_hours": 5.51,
+      "median_open_to_merge_days": 0.23
+    },
+    {
+      "engineer": "veryayskiy",
+      "merged_pr_count": 95,
+      "average_open_to_merge_hours": 14.28,
+      "average_open_to_merge_days": 0.6,
+      "median_open_to_merge_hours": 1.14,
+      "median_open_to_merge_days": 0.05
+    },
+    {
+      "engineer": "Daesgar",
+      "merged_pr_count": 18,
+      "average_open_to_merge_hours": 14.76,
+      "average_open_to_merge_days": 0.61,
+      "median_open_to_merge_hours": 1.81,
+      "median_open_to_merge_days": 0.08
+    },
+    {
+      "engineer": "dmarchuk",
+      "merged_pr_count": 3,
+      "average_open_to_merge_hours": 16.48,
+      "average_open_to_merge_days": 0.69,
+      "median_open_to_merge_hours": 17.61,
+      "median_open_to_merge_days": 0.73
+    },
+    {
+      "engineer": "fivestarspicy",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 16.55,
+      "average_open_to_merge_days": 0.69,
+      "median_open_to_merge_hours": 16.55,
+      "median_open_to_merge_days": 0.69
+    },
+    {
+      "engineer": "Piccirello",
+      "merged_pr_count": 102,
+      "average_open_to_merge_hours": 19.45,
+      "average_open_to_merge_days": 0.81,
+      "median_open_to_merge_hours": 3.29,
+      "median_open_to_merge_days": 0.14
+    },
+    {
+      "engineer": "joshsny",
+      "merged_pr_count": 78,
+      "average_open_to_merge_hours": 20.68,
+      "average_open_to_merge_days": 0.86,
+      "median_open_to_merge_hours": 0.97,
+      "median_open_to_merge_days": 0.04
+    },
+    {
+      "engineer": "xljones",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 21.61,
+      "average_open_to_merge_days": 0.9,
+      "median_open_to_merge_hours": 21.61,
+      "median_open_to_merge_days": 0.9
+    },
+    {
+      "engineer": "tomasfarias",
+      "merged_pr_count": 45,
+      "average_open_to_merge_hours": 22.65,
+      "average_open_to_merge_days": 0.94,
+      "median_open_to_merge_hours": 1.72,
+      "median_open_to_merge_days": 0.07
+    },
+    {
+      "engineer": "charlescook-ph",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 23.65,
+      "average_open_to_merge_days": 0.99,
+      "median_open_to_merge_hours": 23.65,
+      "median_open_to_merge_days": 0.99
+    },
+    {
+      "engineer": "ablaszkiewicz",
+      "merged_pr_count": 65,
+      "average_open_to_merge_hours": 23.74,
+      "average_open_to_merge_days": 0.99,
+      "median_open_to_merge_hours": 5.87,
+      "median_open_to_merge_days": 0.24
+    },
+    {
+      "engineer": "tests-posthog[bot]",
+      "merged_pr_count": 6,
+      "average_open_to_merge_hours": 23.95,
+      "average_open_to_merge_days": 1.0,
+      "median_open_to_merge_hours": 14.76,
+      "median_open_to_merge_days": 0.62
+    },
+    {
+      "engineer": "edwinyjlim",
+      "merged_pr_count": 9,
+      "average_open_to_merge_hours": 24.67,
+      "average_open_to_merge_days": 1.03,
+      "median_open_to_merge_hours": 3.26,
+      "median_open_to_merge_days": 0.14
+    },
+    {
+      "engineer": "sayer122",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 24.86,
+      "average_open_to_merge_days": 1.04,
+      "median_open_to_merge_hours": 24.86,
+      "median_open_to_merge_days": 1.04
+    },
+    {
+      "engineer": "orian",
+      "merged_pr_count": 29,
+      "average_open_to_merge_hours": 25.68,
+      "average_open_to_merge_days": 1.07,
+      "median_open_to_merge_hours": 3.17,
+      "median_open_to_merge_days": 0.13
+    },
+    {
+      "engineer": "JJCLane",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 26.44,
+      "average_open_to_merge_days": 1.1,
+      "median_open_to_merge_hours": 26.44,
+      "median_open_to_merge_days": 1.1
+    },
+    {
+      "engineer": "eli-r-ph",
+      "merged_pr_count": 111,
+      "average_open_to_merge_hours": 26.6,
+      "average_open_to_merge_days": 1.11,
+      "median_open_to_merge_hours": 2.56,
+      "median_open_to_merge_days": 0.11
+    },
+    {
+      "engineer": "carlos-marchal-ph",
+      "merged_pr_count": 41,
+      "average_open_to_merge_hours": 26.75,
+      "average_open_to_merge_days": 1.11,
+      "median_open_to_merge_hours": 16.03,
+      "median_open_to_merge_days": 0.67
+    },
+    {
+      "engineer": "adamleithp",
+      "merged_pr_count": 96,
+      "average_open_to_merge_hours": 27.27,
+      "average_open_to_merge_days": 1.14,
+      "median_open_to_merge_hours": 5.1,
+      "median_open_to_merge_days": 0.21
+    },
+    {
+      "engineer": "timgl",
+      "merged_pr_count": 9,
+      "average_open_to_merge_hours": 27.71,
+      "average_open_to_merge_days": 1.15,
+      "median_open_to_merge_hours": 7.95,
+      "median_open_to_merge_days": 0.33
+    },
+    {
+      "engineer": "posthog[bot]",
+      "merged_pr_count": 5,
+      "average_open_to_merge_hours": 27.86,
+      "average_open_to_merge_days": 1.16,
+      "median_open_to_merge_hours": 16.9,
+      "median_open_to_merge_days": 0.7
+    },
+    {
+      "engineer": "annikaschmid",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 28.46,
+      "average_open_to_merge_days": 1.19,
+      "median_open_to_merge_hours": 28.46,
+      "median_open_to_merge_days": 1.19
+    },
+    {
+      "engineer": "nickbest-ph",
+      "merged_pr_count": 45,
+      "average_open_to_merge_hours": 29.28,
+      "average_open_to_merge_days": 1.22,
+      "median_open_to_merge_hours": 6.09,
+      "median_open_to_merge_days": 0.25
+    },
+    {
+      "engineer": "odin-posthog",
+      "merged_pr_count": 23,
+      "average_open_to_merge_hours": 29.45,
+      "average_open_to_merge_days": 1.23,
+      "median_open_to_merge_hours": 2.78,
+      "median_open_to_merge_days": 0.12
+    },
+    {
+      "engineer": "mariusandra",
+      "merged_pr_count": 58,
+      "average_open_to_merge_hours": 30.48,
+      "average_open_to_merge_days": 1.27,
+      "median_open_to_merge_hours": 4.86,
+      "median_open_to_merge_days": 0.2
+    },
+    {
+      "engineer": "VojtechBartos",
+      "merged_pr_count": 15,
+      "average_open_to_merge_hours": 30.65,
+      "average_open_to_merge_days": 1.28,
+      "median_open_to_merge_hours": 14.69,
+      "median_open_to_merge_days": 0.61
+    },
+    {
+      "engineer": "jonathanlab",
+      "merged_pr_count": 8,
+      "average_open_to_merge_hours": 30.66,
+      "average_open_to_merge_days": 1.28,
+      "median_open_to_merge_hours": 12.96,
+      "median_open_to_merge_days": 0.54
+    },
+    {
+      "engineer": "dustinbyrne",
+      "merged_pr_count": 13,
+      "average_open_to_merge_hours": 30.67,
+      "average_open_to_merge_days": 1.28,
+      "median_open_to_merge_hours": 17.94,
+      "median_open_to_merge_days": 0.75
+    },
+    {
+      "engineer": "bciaraldi",
+      "merged_pr_count": 12,
+      "average_open_to_merge_hours": 32.26,
+      "average_open_to_merge_days": 1.34,
+      "median_open_to_merge_hours": 3.96,
+      "median_open_to_merge_days": 0.17
+    },
+    {
+      "engineer": "inkeep[bot]",
+      "merged_pr_count": 8,
+      "average_open_to_merge_hours": 32.43,
+      "average_open_to_merge_days": 1.35,
+      "median_open_to_merge_hours": 3.96,
+      "median_open_to_merge_days": 0.16
+    },
+    {
+      "engineer": "marandaneto",
+      "merged_pr_count": 5,
+      "average_open_to_merge_hours": 32.46,
+      "average_open_to_merge_days": 1.35,
+      "median_open_to_merge_hours": 25.16,
+      "median_open_to_merge_days": 1.05
+    },
+    {
+      "engineer": "estefaniarabadan",
+      "merged_pr_count": 37,
+      "average_open_to_merge_hours": 32.83,
+      "average_open_to_merge_days": 1.37,
+      "median_open_to_merge_hours": 5.52,
+      "median_open_to_merge_days": 0.23
+    },
+    {
+      "engineer": "jonmcwest",
+      "merged_pr_count": 116,
+      "average_open_to_merge_hours": 32.89,
+      "average_open_to_merge_days": 1.37,
+      "median_open_to_merge_hours": 4.69,
+      "median_open_to_merge_days": 0.2
+    },
+    {
+      "engineer": "jurajmajerik",
+      "merged_pr_count": 49,
+      "average_open_to_merge_hours": 33.59,
+      "average_open_to_merge_days": 1.4,
+      "median_open_to_merge_hours": 17.37,
+      "median_open_to_merge_days": 0.72
+    },
+    {
+      "engineer": "andrewm4894",
+      "merged_pr_count": 218,
+      "average_open_to_merge_hours": 33.82,
+      "average_open_to_merge_days": 1.41,
+      "median_open_to_merge_hours": 3.64,
+      "median_open_to_merge_days": 0.15
+    },
+    {
+      "engineer": "abhischekt",
+      "merged_pr_count": 15,
+      "average_open_to_merge_hours": 34.06,
+      "average_open_to_merge_days": 1.42,
+      "median_open_to_merge_hours": 23.22,
+      "median_open_to_merge_days": 0.97
+    },
+    {
+      "engineer": "mp-hog",
+      "merged_pr_count": 55,
+      "average_open_to_merge_hours": 34.34,
+      "average_open_to_merge_days": 1.43,
+      "median_open_to_merge_hours": 9.01,
+      "median_open_to_merge_days": 0.38
+    },
+    {
+      "engineer": "pauldambra",
+      "merged_pr_count": 209,
+      "average_open_to_merge_hours": 34.46,
+      "average_open_to_merge_days": 1.44,
+      "median_open_to_merge_hours": 9.84,
+      "median_open_to_merge_days": 0.41
+    },
+    {
+      "engineer": "abheek9",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 34.72,
+      "average_open_to_merge_days": 1.45,
+      "median_open_to_merge_hours": 34.72,
+      "median_open_to_merge_days": 1.45
+    },
+    {
+      "engineer": "frankh",
+      "merged_pr_count": 47,
+      "average_open_to_merge_hours": 35.38,
+      "average_open_to_merge_days": 1.47,
+      "median_open_to_merge_hours": 2.07,
+      "median_open_to_merge_days": 0.09
+    },
+    {
+      "engineer": "sarahxsanders",
+      "merged_pr_count": 13,
+      "average_open_to_merge_hours": 35.59,
+      "average_open_to_merge_days": 1.48,
+      "median_open_to_merge_hours": 16.15,
+      "median_open_to_merge_days": 0.67
+    },
+    {
+      "engineer": "gantoine",
+      "merged_pr_count": 12,
+      "average_open_to_merge_hours": 35.65,
+      "average_open_to_merge_days": 1.49,
+      "median_open_to_merge_hours": 22.24,
+      "median_open_to_merge_days": 0.93
+    },
+    {
+      "engineer": "robbie-c",
+      "merged_pr_count": 74,
+      "average_open_to_merge_hours": 35.83,
+      "average_open_to_merge_days": 1.49,
+      "median_open_to_merge_hours": 6.18,
+      "median_open_to_merge_days": 0.26
+    },
+    {
+      "engineer": "oliverb123",
+      "merged_pr_count": 54,
+      "average_open_to_merge_hours": 36.83,
+      "average_open_to_merge_days": 1.53,
+      "median_open_to_merge_hours": 1.93,
+      "median_open_to_merge_days": 0.08
+    },
+    {
+      "engineer": "jose-sequeira",
+      "merged_pr_count": 81,
+      "average_open_to_merge_hours": 37.43,
+      "average_open_to_merge_days": 1.56,
+      "median_open_to_merge_hours": 10.27,
+      "median_open_to_merge_days": 0.43
+    },
+    {
+      "engineer": "igormq",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 37.72,
+      "average_open_to_merge_days": 1.57,
+      "median_open_to_merge_hours": 37.72,
+      "median_open_to_merge_days": 1.57
+    },
+    {
+      "engineer": "sampennington",
+      "merged_pr_count": 84,
+      "average_open_to_merge_hours": 38.41,
+      "average_open_to_merge_days": 1.6,
+      "median_open_to_merge_hours": 21.18,
+      "median_open_to_merge_days": 0.88
+    },
+    {
+      "engineer": "hpouillot",
+      "merged_pr_count": 48,
+      "average_open_to_merge_hours": 39.85,
+      "average_open_to_merge_days": 1.66,
+      "median_open_to_merge_hours": 17.74,
+      "median_open_to_merge_days": 0.74
+    },
+    {
+      "engineer": "langesven",
+      "merged_pr_count": 3,
+      "average_open_to_merge_hours": 40.94,
+      "average_open_to_merge_days": 1.71,
+      "median_open_to_merge_hours": 1.0,
+      "median_open_to_merge_days": 0.04
+    },
+    {
+      "engineer": "daibhin",
+      "merged_pr_count": 4,
+      "average_open_to_merge_hours": 41.38,
+      "average_open_to_merge_days": 1.72,
+      "median_open_to_merge_hours": 46.85,
+      "median_open_to_merge_days": 1.95
+    },
+    {
+      "engineer": "k11kirky",
+      "merged_pr_count": 10,
+      "average_open_to_merge_hours": 41.63,
+      "average_open_to_merge_days": 1.73,
+      "median_open_to_merge_hours": 18.15,
+      "median_open_to_merge_days": 0.76
+    },
+    {
+      "engineer": "Radu-Raicea",
+      "merged_pr_count": 45,
+      "average_open_to_merge_hours": 42.23,
+      "average_open_to_merge_days": 1.76,
+      "median_open_to_merge_hours": 17.51,
+      "median_open_to_merge_days": 0.73
+    },
+    {
+      "engineer": "fasyy612",
+      "merged_pr_count": 49,
+      "average_open_to_merge_hours": 42.86,
+      "average_open_to_merge_days": 1.79,
+      "median_open_to_merge_hours": 19.23,
+      "median_open_to_merge_days": 0.8
+    },
+    {
+      "engineer": "sortafreel",
+      "merged_pr_count": 29,
+      "average_open_to_merge_hours": 43.96,
+      "average_open_to_merge_days": 1.83,
+      "median_open_to_merge_hours": 2.03,
+      "median_open_to_merge_days": 0.08
+    },
+    {
+      "engineer": "skoob13",
+      "merged_pr_count": 95,
+      "average_open_to_merge_hours": 44.15,
+      "average_open_to_merge_days": 1.84,
+      "median_open_to_merge_hours": 3.67,
+      "median_open_to_merge_days": 0.15
+    },
+    {
+      "engineer": "yasen-posthog",
+      "merged_pr_count": 76,
+      "average_open_to_merge_hours": 44.3,
+      "average_open_to_merge_days": 1.85,
+      "median_open_to_merge_hours": 19.01,
+      "median_open_to_merge_days": 0.79
+    },
+    {
+      "engineer": "lmenezes",
+      "merged_pr_count": 26,
+      "average_open_to_merge_hours": 45.44,
+      "average_open_to_merge_days": 1.89,
+      "median_open_to_merge_hours": 20.67,
+      "median_open_to_merge_days": 0.86
+    },
+    {
+      "engineer": "tatoalo",
+      "merged_pr_count": 52,
+      "average_open_to_merge_hours": 46.57,
+      "average_open_to_merge_days": 1.94,
+      "median_open_to_merge_hours": 2.0,
+      "median_open_to_merge_days": 0.08
+    },
+    {
+      "engineer": "MarconLP",
+      "merged_pr_count": 23,
+      "average_open_to_merge_hours": 47.44,
+      "average_open_to_merge_days": 1.98,
+      "median_open_to_merge_hours": 21.36,
+      "median_open_to_merge_days": 0.89
+    },
+    {
+      "engineer": "christiaan-ph",
+      "merged_pr_count": 20,
+      "average_open_to_merge_hours": 47.64,
+      "average_open_to_merge_days": 1.99,
+      "median_open_to_merge_hours": 2.74,
+      "median_open_to_merge_days": 0.11
+    },
+    {
+      "engineer": "andehen",
+      "merged_pr_count": 51,
+      "average_open_to_merge_hours": 47.72,
+      "average_open_to_merge_days": 1.99,
+      "median_open_to_merge_hours": 3.41,
+      "median_open_to_merge_days": 0.14
+    },
+    {
+      "engineer": "TueHaulund",
+      "merged_pr_count": 61,
+      "average_open_to_merge_hours": 48.17,
+      "average_open_to_merge_days": 2.01,
+      "median_open_to_merge_hours": 8.69,
+      "median_open_to_merge_days": 0.36
+    },
+    {
+      "engineer": "rossgray",
+      "merged_pr_count": 42,
+      "average_open_to_merge_hours": 48.41,
+      "average_open_to_merge_days": 2.02,
+      "median_open_to_merge_hours": 16.79,
+      "median_open_to_merge_days": 0.7
+    },
+    {
+      "engineer": "abigailbramble",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 48.71,
+      "average_open_to_merge_days": 2.03,
+      "median_open_to_merge_hours": 48.71,
+      "median_open_to_merge_days": 2.03
+    },
+    {
+      "engineer": "andyzzhao",
+      "merged_pr_count": 38,
+      "average_open_to_merge_hours": 49.04,
+      "average_open_to_merge_days": 2.04,
+      "median_open_to_merge_hours": 18.93,
+      "median_open_to_merge_days": 0.79
+    },
+    {
+      "engineer": "charlesvien",
+      "merged_pr_count": 7,
+      "average_open_to_merge_hours": 49.21,
+      "average_open_to_merge_days": 2.05,
+      "median_open_to_merge_hours": 20.23,
+      "median_open_to_merge_days": 0.84
+    },
+    {
+      "engineer": "pl",
+      "merged_pr_count": 61,
+      "average_open_to_merge_hours": 49.24,
+      "average_open_to_merge_days": 2.05,
+      "median_open_to_merge_hours": 4.24,
+      "median_open_to_merge_days": 0.18
+    },
+    {
+      "engineer": "matheus-vb",
+      "merged_pr_count": 19,
+      "average_open_to_merge_hours": 49.5,
+      "average_open_to_merge_days": 2.06,
+      "median_open_to_merge_hours": 24.93,
+      "median_open_to_merge_days": 1.04
+    },
+    {
+      "engineer": "rafaeelaudibert",
+      "merged_pr_count": 148,
+      "average_open_to_merge_hours": 50.38,
+      "average_open_to_merge_days": 2.1,
+      "median_open_to_merge_hours": 23.03,
+      "median_open_to_merge_days": 0.96
+    },
+    {
+      "engineer": "dmarticus",
+      "merged_pr_count": 84,
+      "average_open_to_merge_hours": 50.65,
+      "average_open_to_merge_days": 2.11,
+      "median_open_to_merge_hours": 19.72,
+      "median_open_to_merge_days": 0.82
+    },
+    {
+      "engineer": "richardsolomou",
+      "merged_pr_count": 38,
+      "average_open_to_merge_hours": 50.87,
+      "average_open_to_merge_days": 2.12,
+      "median_open_to_merge_hours": 7.32,
+      "median_open_to_merge_days": 0.3
+    },
+    {
+      "engineer": "meikelmosby",
+      "merged_pr_count": 67,
+      "average_open_to_merge_hours": 51.38,
+      "average_open_to_merge_days": 2.14,
+      "median_open_to_merge_hours": 18.33,
+      "median_open_to_merge_days": 0.76
+    },
+    {
+      "engineer": "GauravBansal29",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 52.19,
+      "average_open_to_merge_days": 2.17,
+      "median_open_to_merge_hours": 52.19,
+      "median_open_to_merge_days": 2.17
+    },
+    {
+      "engineer": "z0br0wn",
+      "merged_pr_count": 14,
+      "average_open_to_merge_hours": 52.53,
+      "average_open_to_merge_days": 2.19,
+      "median_open_to_merge_hours": 35.86,
+      "median_open_to_merge_days": 1.49
+    },
+    {
+      "engineer": "gesh",
+      "merged_pr_count": 34,
+      "average_open_to_merge_hours": 52.99,
+      "average_open_to_merge_days": 2.21,
+      "median_open_to_merge_hours": 17.95,
+      "median_open_to_merge_days": 0.75
+    },
+    {
+      "engineer": "gustavohstrassburger",
+      "merged_pr_count": 64,
+      "average_open_to_merge_hours": 53.57,
+      "average_open_to_merge_days": 2.23,
+      "median_open_to_merge_hours": 17.48,
+      "median_open_to_merge_days": 0.73
+    },
+    {
+      "engineer": "arthurdedeus",
+      "merged_pr_count": 78,
+      "average_open_to_merge_hours": 56.72,
+      "average_open_to_merge_days": 2.36,
+      "median_open_to_merge_hours": 23.85,
+      "median_open_to_merge_days": 0.99
+    },
+    {
+      "engineer": "caiquejjx",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 57.89,
+      "average_open_to_merge_days": 2.41,
+      "median_open_to_merge_hours": 57.89,
+      "median_open_to_merge_days": 2.41
+    },
+    {
+      "engineer": "rodrigoi",
+      "merged_pr_count": 50,
+      "average_open_to_merge_hours": 58.24,
+      "average_open_to_merge_days": 2.43,
+      "median_open_to_merge_hours": 30.88,
+      "median_open_to_merge_days": 1.29
+    },
+    {
+      "engineer": "slshults",
+      "merged_pr_count": 5,
+      "average_open_to_merge_hours": 58.81,
+      "average_open_to_merge_days": 2.45,
+      "median_open_to_merge_hours": 63.68,
+      "median_open_to_merge_days": 2.65
+    },
+    {
+      "engineer": "harihran-del",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 58.87,
+      "average_open_to_merge_days": 2.45,
+      "median_open_to_merge_hours": 58.87,
+      "median_open_to_merge_days": 2.45
+    },
+    {
+      "engineer": "haacked",
+      "merged_pr_count": 114,
+      "average_open_to_merge_hours": 63.44,
+      "average_open_to_merge_days": 2.64,
+      "median_open_to_merge_hours": 17.7,
+      "median_open_to_merge_days": 0.74
+    },
+    {
+      "engineer": "havenbarnes",
+      "merged_pr_count": 69,
+      "average_open_to_merge_hours": 65.12,
+      "average_open_to_merge_days": 2.71,
+      "median_open_to_merge_hours": 17.79,
+      "median_open_to_merge_days": 0.74
+    },
+    {
+      "engineer": "clr182",
+      "merged_pr_count": 19,
+      "average_open_to_merge_hours": 65.37,
+      "average_open_to_merge_days": 2.72,
+      "median_open_to_merge_hours": 19.18,
+      "median_open_to_merge_days": 0.8
+    },
+    {
+      "engineer": "patricio-posthog",
+      "merged_pr_count": 17,
+      "average_open_to_merge_hours": 65.97,
+      "average_open_to_merge_days": 2.75,
+      "median_open_to_merge_hours": 42.09,
+      "median_open_to_merge_days": 1.75
+    },
+    {
+      "engineer": "MattBro",
+      "merged_pr_count": 69,
+      "average_open_to_merge_hours": 67.26,
+      "average_open_to_merge_days": 2.8,
+      "median_open_to_merge_hours": 23.7,
+      "median_open_to_merge_days": 0.99
+    },
+    {
+      "engineer": "daniloc",
+      "merged_pr_count": 5,
+      "average_open_to_merge_hours": 68.37,
+      "average_open_to_merge_days": 2.85,
+      "median_open_to_merge_hours": 4.42,
+      "median_open_to_merge_days": 0.18
+    },
+    {
+      "engineer": "cvolzer3",
+      "merged_pr_count": 20,
+      "average_open_to_merge_hours": 69.33,
+      "average_open_to_merge_days": 2.89,
+      "median_open_to_merge_hours": 13.53,
+      "median_open_to_merge_days": 0.56
+    },
+    {
+      "engineer": "fercgomes",
+      "merged_pr_count": 36,
+      "average_open_to_merge_hours": 71.47,
+      "average_open_to_merge_days": 2.98,
+      "median_open_to_merge_hours": 14.0,
+      "median_open_to_merge_days": 0.58
+    },
+    {
+      "engineer": "bill-ph",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 72.43,
+      "average_open_to_merge_days": 3.02,
+      "median_open_to_merge_hours": 72.43,
+      "median_open_to_merge_days": 3.02
+    },
+    {
+      "engineer": "clickhouse-sync-posthog[bot]",
+      "merged_pr_count": 5,
+      "average_open_to_merge_hours": 72.52,
+      "average_open_to_merge_days": 3.02,
+      "median_open_to_merge_hours": 19.18,
+      "median_open_to_merge_days": 0.8
+    },
+    {
+      "engineer": "rnegron",
+      "merged_pr_count": 8,
+      "average_open_to_merge_hours": 72.83,
+      "average_open_to_merge_days": 3.03,
+      "median_open_to_merge_hours": 16.65,
+      "median_open_to_merge_days": 0.69
+    },
+    {
+      "engineer": "luke-belton",
+      "merged_pr_count": 44,
+      "average_open_to_merge_hours": 74.73,
+      "average_open_to_merge_days": 3.11,
+      "median_open_to_merge_hours": 20.99,
+      "median_open_to_merge_days": 0.87
+    },
+    {
+      "engineer": "ordehi",
+      "merged_pr_count": 37,
+      "average_open_to_merge_hours": 75.33,
+      "average_open_to_merge_days": 3.14,
+      "median_open_to_merge_hours": 19.0,
+      "median_open_to_merge_days": 0.79
+    },
+    {
+      "engineer": "webjunkie",
+      "merged_pr_count": 147,
+      "average_open_to_merge_hours": 75.87,
+      "average_open_to_merge_days": 3.16,
+      "median_open_to_merge_hours": 9.99,
+      "median_open_to_merge_days": 0.42
+    },
+    {
+      "engineer": "andrewjmcgehee",
+      "merged_pr_count": 69,
+      "average_open_to_merge_hours": 77.77,
+      "average_open_to_merge_days": 3.24,
+      "median_open_to_merge_hours": 5.75,
+      "median_open_to_merge_days": 0.24
+    },
+    {
+      "engineer": "danielcarletti",
+      "merged_pr_count": 5,
+      "average_open_to_merge_hours": 79.08,
+      "average_open_to_merge_days": 3.29,
+      "median_open_to_merge_hours": 70.52,
+      "median_open_to_merge_days": 2.94
+    },
+    {
+      "engineer": "pawel-cebula",
+      "merged_pr_count": 23,
+      "average_open_to_merge_hours": 79.49,
+      "average_open_to_merge_days": 3.31,
+      "median_open_to_merge_hours": 6.08,
+      "median_open_to_merge_days": 0.25
+    },
+    {
+      "engineer": "sakce",
+      "merged_pr_count": 123,
+      "average_open_to_merge_hours": 80.96,
+      "average_open_to_merge_days": 3.37,
+      "median_open_to_merge_hours": 16.55,
+      "median_open_to_merge_days": 0.69
+    },
+    {
+      "engineer": "anirudhpillai",
+      "merged_pr_count": 39,
+      "average_open_to_merge_hours": 81.03,
+      "average_open_to_merge_days": 3.38,
+      "median_open_to_merge_hours": 37.08,
+      "median_open_to_merge_days": 1.55
+    },
+    {
+      "engineer": "adboio",
+      "merged_pr_count": 153,
+      "average_open_to_merge_hours": 82.64,
+      "average_open_to_merge_days": 3.44,
+      "median_open_to_merge_hours": 38.81,
+      "median_open_to_merge_days": 1.62
+    },
+    {
+      "engineer": "lucasheriques",
+      "merged_pr_count": 28,
+      "average_open_to_merge_hours": 84.64,
+      "average_open_to_merge_days": 3.53,
+      "median_open_to_merge_hours": 34.53,
+      "median_open_to_merge_days": 1.44
+    },
+    {
+      "engineer": "thmsobrmlr",
+      "merged_pr_count": 82,
+      "average_open_to_merge_hours": 86.77,
+      "average_open_to_merge_days": 3.62,
+      "median_open_to_merge_hours": 23.09,
+      "median_open_to_merge_days": 0.96
+    },
+    {
+      "engineer": "parinporecha",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 87.54,
+      "average_open_to_merge_days": 3.65,
+      "median_open_to_merge_hours": 87.54,
+      "median_open_to_merge_days": 3.65
+    },
+    {
+      "engineer": "raquelmsmith",
+      "merged_pr_count": 11,
+      "average_open_to_merge_hours": 91.95,
+      "average_open_to_merge_days": 3.83,
+      "median_open_to_merge_hours": 24.28,
+      "median_open_to_merge_days": 1.01
+    },
+    {
+      "engineer": "danielxnj",
+      "merged_pr_count": 13,
+      "average_open_to_merge_hours": 92.03,
+      "average_open_to_merge_days": 3.83,
+      "median_open_to_merge_hours": 14.9,
+      "median_open_to_merge_days": 0.62
+    },
+    {
+      "engineer": "jabahamondes",
+      "merged_pr_count": 57,
+      "average_open_to_merge_hours": 95.05,
+      "average_open_to_merge_days": 3.96,
+      "median_open_to_merge_hours": 49.65,
+      "median_open_to_merge_days": 2.07
+    },
+    {
+      "engineer": "vdekrijger",
+      "merged_pr_count": 66,
+      "average_open_to_merge_hours": 95.09,
+      "average_open_to_merge_days": 3.96,
+      "median_open_to_merge_hours": 29.66,
+      "median_open_to_merge_days": 1.24
+    },
+    {
+      "engineer": "Twixes",
+      "merged_pr_count": 73,
+      "average_open_to_merge_hours": 98.16,
+      "average_open_to_merge_days": 4.09,
+      "median_open_to_merge_hours": 28.94,
+      "median_open_to_merge_days": 1.21
+    },
+    {
+      "engineer": "will-marella",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 99.17,
+      "average_open_to_merge_days": 4.13,
+      "median_open_to_merge_hours": 99.17,
+      "median_open_to_merge_days": 4.13
+    },
+    {
+      "engineer": "zhou-quickli",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 100.31,
+      "average_open_to_merge_days": 4.18,
+      "median_open_to_merge_hours": 100.31,
+      "median_open_to_merge_days": 4.18
+    },
+    {
+      "engineer": "jordanm-posthog",
+      "merged_pr_count": 58,
+      "average_open_to_merge_hours": 102.34,
+      "average_open_to_merge_days": 4.26,
+      "median_open_to_merge_hours": 43.61,
+      "median_open_to_merge_days": 1.82
+    },
+    {
+      "engineer": "kappa90",
+      "merged_pr_count": 68,
+      "average_open_to_merge_hours": 105.05,
+      "average_open_to_merge_days": 4.38,
+      "median_open_to_merge_hours": 44.75,
+      "median_open_to_merge_days": 1.86
+    },
+    {
+      "engineer": "dependabot[bot]",
+      "merged_pr_count": 30,
+      "average_open_to_merge_hours": 105.77,
+      "average_open_to_merge_days": 4.41,
+      "median_open_to_merge_hours": 21.0,
+      "median_open_to_merge_days": 0.88
+    },
+    {
+      "engineer": "georgemunyoro",
+      "merged_pr_count": 29,
+      "average_open_to_merge_hours": 106.67,
+      "average_open_to_merge_days": 4.44,
+      "median_open_to_merge_hours": 63.76,
+      "median_open_to_merge_days": 2.66
+    },
+    {
+      "engineer": "gewenyu99",
+      "merged_pr_count": 7,
+      "average_open_to_merge_hours": 110.6,
+      "average_open_to_merge_days": 4.61,
+      "median_open_to_merge_hours": 98.67,
+      "median_open_to_merge_days": 4.11
+    },
+    {
+      "engineer": "salmanmkc",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 112.05,
+      "average_open_to_merge_days": 4.67,
+      "median_open_to_merge_hours": 112.05,
+      "median_open_to_merge_days": 4.67
+    },
+    {
+      "engineer": "ksvat",
+      "merged_pr_count": 36,
+      "average_open_to_merge_hours": 114.09,
+      "average_open_to_merge_days": 4.75,
+      "median_open_to_merge_hours": 24.58,
+      "median_open_to_merge_days": 1.02
+    },
+    {
+      "engineer": "darkopia",
+      "merged_pr_count": 12,
+      "average_open_to_merge_hours": 122.52,
+      "average_open_to_merge_days": 5.11,
+      "median_open_to_merge_hours": 5.36,
+      "median_open_to_merge_days": 0.22
+    },
+    {
+      "engineer": "jeremylongshore",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 124.12,
+      "average_open_to_merge_days": 5.17,
+      "median_open_to_merge_hours": 124.12,
+      "median_open_to_merge_days": 5.17
+    },
+    {
+      "engineer": "ReeceJones",
+      "merged_pr_count": 82,
+      "average_open_to_merge_hours": 125.79,
+      "average_open_to_merge_days": 5.24,
+      "median_open_to_merge_hours": 43.81,
+      "median_open_to_merge_days": 1.83
+    },
+    {
+      "engineer": "Copilot",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 129.52,
+      "average_open_to_merge_days": 5.4,
+      "median_open_to_merge_hours": 129.52,
+      "median_open_to_merge_days": 5.4
+    },
+    {
+      "engineer": "lricoy",
+      "merged_pr_count": 55,
+      "average_open_to_merge_hours": 129.87,
+      "average_open_to_merge_days": 5.41,
+      "median_open_to_merge_hours": 18.9,
+      "median_open_to_merge_days": 0.79
+    },
+    {
+      "engineer": "EDsCODE",
+      "merged_pr_count": 14,
+      "average_open_to_merge_hours": 131.48,
+      "average_open_to_merge_days": 5.48,
+      "median_open_to_merge_hours": 11.53,
+      "median_open_to_merge_days": 0.48
+    },
+    {
+      "engineer": "kliment-slice",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 131.8,
+      "average_open_to_merge_days": 5.49,
+      "median_open_to_merge_hours": 131.8,
+      "median_open_to_merge_days": 5.49
+    },
+    {
+      "engineer": "a-lider",
+      "merged_pr_count": 39,
+      "average_open_to_merge_hours": 137.19,
+      "average_open_to_merge_days": 5.72,
+      "median_open_to_merge_hours": 34.17,
+      "median_open_to_merge_days": 1.42
+    },
+    {
+      "engineer": "beatlevic",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 144.7,
+      "average_open_to_merge_days": 6.03,
+      "median_open_to_merge_hours": 144.7,
+      "median_open_to_merge_days": 6.03
+    },
+    {
+      "engineer": "dmiska25",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 155.04,
+      "average_open_to_merge_days": 6.46,
+      "median_open_to_merge_hours": 155.04,
+      "median_open_to_merge_days": 6.46
+    },
+    {
+      "engineer": "benjackwhite",
+      "merged_pr_count": 40,
+      "average_open_to_merge_hours": 164.71,
+      "average_open_to_merge_days": 6.86,
+      "median_open_to_merge_hours": 48.46,
+      "median_open_to_merge_days": 2.02
+    },
+    {
+      "engineer": "MichaelKutsch-ph",
+      "merged_pr_count": 5,
+      "average_open_to_merge_hours": 169.87,
+      "average_open_to_merge_days": 7.08,
+      "median_open_to_merge_hours": 10.65,
+      "median_open_to_merge_days": 0.44
+    },
+    {
+      "engineer": "Gilbert09",
+      "merged_pr_count": 59,
+      "average_open_to_merge_hours": 170.19,
+      "average_open_to_merge_days": 7.09,
+      "median_open_to_merge_hours": 2.48,
+      "median_open_to_merge_days": 0.1
+    },
+    {
+      "engineer": "darkLord19",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 186.4,
+      "average_open_to_merge_days": 7.77,
+      "median_open_to_merge_hours": 186.4,
+      "median_open_to_merge_days": 7.77
+    },
+    {
+      "engineer": "mircoboettcher",
+      "merged_pr_count": 2,
+      "average_open_to_merge_hours": 206.56,
+      "average_open_to_merge_days": 8.61,
+      "median_open_to_merge_hours": 206.56,
+      "median_open_to_merge_days": 8.61
+    },
+    {
+      "engineer": "aspicer",
+      "merged_pr_count": 18,
+      "average_open_to_merge_hours": 209.92,
+      "average_open_to_merge_days": 8.75,
+      "median_open_to_merge_hours": 41.86,
+      "median_open_to_merge_days": 1.74
+    },
+    {
+      "engineer": "KaranPradhan266",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 251.11,
+      "average_open_to_merge_days": 10.46,
+      "median_open_to_merge_hours": 251.11,
+      "median_open_to_merge_days": 10.46
+    },
+    {
+      "engineer": "posthog-bot",
+      "merged_pr_count": 8,
+      "average_open_to_merge_hours": 251.14,
+      "average_open_to_merge_days": 10.46,
+      "median_open_to_merge_hours": 3.62,
+      "median_open_to_merge_days": 0.15
+    },
+    {
+      "engineer": "lshaowei18",
+      "merged_pr_count": 5,
+      "average_open_to_merge_hours": 346.56,
+      "average_open_to_merge_days": 14.44,
+      "median_open_to_merge_hours": 198.62,
+      "median_open_to_merge_days": 8.28
+    },
+    {
+      "engineer": "buildwithmalik",
+      "merged_pr_count": 3,
+      "average_open_to_merge_hours": 359.16,
+      "average_open_to_merge_days": 14.96,
+      "median_open_to_merge_hours": 383.86,
+      "median_open_to_merge_days": 15.99
+    },
+    {
+      "engineer": "ioannisj",
+      "merged_pr_count": 3,
+      "average_open_to_merge_hours": 605.73,
+      "average_open_to_merge_days": 25.24,
+      "median_open_to_merge_hours": 149.29,
+      "median_open_to_merge_days": 6.22
+    },
+    {
+      "engineer": "ProCO-RPHopkins",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 1039.56,
+      "average_open_to_merge_days": 43.31,
+      "median_open_to_merge_hours": 1039.56,
+      "median_open_to_merge_days": 43.31
+    },
+    {
+      "engineer": "antlio",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 1343.02,
+      "average_open_to_merge_days": 55.96,
+      "median_open_to_merge_hours": 1343.02,
+      "median_open_to_merge_days": 55.96
+    },
+    {
+      "engineer": "zlwaterfield",
+      "merged_pr_count": 1,
+      "average_open_to_merge_hours": 2415.5,
+      "average_open_to_merge_days": 100.65,
+      "median_open_to_merge_hours": 2415.5,
+      "median_open_to_merge_days": 100.65
+    }
+  ]
+}

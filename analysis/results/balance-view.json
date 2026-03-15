@@ -1,0 +1,1129 @@
+{
+  "source": {
+    "from": "analysis/results/git-history-summary.json",
+    "analysis": "review_commit_pr_ratio"
+  },
+  "engineer_count": 140,
+  "engineers": [
+    {
+      "engineer": "Piccirello",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "1:0:1",
+      "balance_score": 0.5
+    },
+    {
+      "engineer": "ablaszkiewicz",
+      "review_count": 3,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "3:0:3",
+      "balance_score": 0.5
+    },
+    {
+      "engineer": "lucasheriques",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "1:0:1",
+      "balance_score": 0.5
+    },
+    {
+      "engineer": "orian",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "1:0:1",
+      "balance_score": 0.5
+    },
+    {
+      "engineer": "hpouillot",
+      "review_count": 3,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "3:0:4",
+      "balance_score": 0.4286
+    },
+    {
+      "engineer": "oliverb123",
+      "review_count": 7,
+      "commit_count": 0,
+      "pr_count": 5,
+      "review_commit_pr_ratio": "7:0:5",
+      "balance_score": 0.4167
+    },
+    {
+      "engineer": "MattBro",
+      "review_count": 6,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "6:0:4",
+      "balance_score": 0.4
+    },
+    {
+      "engineer": "mariusandra",
+      "review_count": 3,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "3:0:2",
+      "balance_score": 0.4
+    },
+    {
+      "engineer": "dmarticus",
+      "review_count": 3,
+      "commit_count": 0,
+      "pr_count": 5,
+      "review_commit_pr_ratio": "3:0:5",
+      "balance_score": 0.375
+    },
+    {
+      "engineer": "fercgomes",
+      "review_count": 6,
+      "commit_count": 0,
+      "pr_count": 10,
+      "review_commit_pr_ratio": "6:0:10",
+      "balance_score": 0.375
+    },
+    {
+      "engineer": "robbie-c",
+      "review_count": 3,
+      "commit_count": 0,
+      "pr_count": 5,
+      "review_commit_pr_ratio": "3:0:5",
+      "balance_score": 0.375
+    },
+    {
+      "engineer": "thmsobrmlr",
+      "review_count": 3,
+      "commit_count": 0,
+      "pr_count": 5,
+      "review_commit_pr_ratio": "3:0:5",
+      "balance_score": 0.375
+    },
+    {
+      "engineer": "Gilbert09",
+      "review_count": 2,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "2:0:1",
+      "balance_score": 0.3333
+    },
+    {
+      "engineer": "andrewjmcgehee",
+      "review_count": 2,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "2:0:4",
+      "balance_score": 0.3333
+    },
+    {
+      "engineer": "gantoine",
+      "review_count": 2,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "2:0:1",
+      "balance_score": 0.3333
+    },
+    {
+      "engineer": "havenbarnes",
+      "review_count": 2,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "2:0:4",
+      "balance_score": 0.3333
+    },
+    {
+      "engineer": "pawel-cebula",
+      "review_count": 2,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "2:0:1",
+      "balance_score": 0.3333
+    },
+    {
+      "engineer": "rafaeelaudibert",
+      "review_count": 8,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "8:0:4",
+      "balance_score": 0.3333
+    },
+    {
+      "engineer": "sortafreel",
+      "review_count": 2,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "2:0:4",
+      "balance_score": 0.3333
+    },
+    {
+      "engineer": "tomasfarias",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "1:0:2",
+      "balance_score": 0.3333
+    },
+    {
+      "engineer": "veryayskiy",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "1:0:2",
+      "balance_score": 0.3333
+    },
+    {
+      "engineer": "benjackwhite",
+      "review_count": 2,
+      "commit_count": 0,
+      "pr_count": 5,
+      "review_commit_pr_ratio": "2:0:5",
+      "balance_score": 0.2857
+    },
+    {
+      "engineer": "webjunkie",
+      "review_count": 8,
+      "commit_count": 0,
+      "pr_count": 21,
+      "review_commit_pr_ratio": "8:0:21",
+      "balance_score": 0.2759
+    },
+    {
+      "engineer": "georgemunyoro",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "1:0:3",
+      "balance_score": 0.25
+    },
+    {
+      "engineer": "jordanm-posthog",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "1:0:3",
+      "balance_score": 0.25
+    },
+    {
+      "engineer": "jose-sequeira",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "1:0:3",
+      "balance_score": 0.25
+    },
+    {
+      "engineer": "aspicer",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "1:0:4",
+      "balance_score": 0.2
+    },
+    {
+      "engineer": "fasyy612",
+      "review_count": 4,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "4:0:1",
+      "balance_score": 0.2
+    },
+    {
+      "engineer": "haacked",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "1:0:4",
+      "balance_score": 0.2
+    },
+    {
+      "engineer": "lricoy",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "1:0:4",
+      "balance_score": 0.2
+    },
+    {
+      "engineer": "yasen-posthog",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "1:0:4",
+      "balance_score": 0.2
+    },
+    {
+      "engineer": "TueHaulund",
+      "review_count": 5,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "5:0:1",
+      "balance_score": 0.1667
+    },
+    {
+      "engineer": "eli-r-ph",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 5,
+      "review_commit_pr_ratio": "1:0:5",
+      "balance_score": 0.1667
+    },
+    {
+      "engineer": "joshsny",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 5,
+      "review_commit_pr_ratio": "1:0:5",
+      "balance_score": 0.1667
+    },
+    {
+      "engineer": "sampennington",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 9,
+      "review_commit_pr_ratio": "1:0:9",
+      "balance_score": 0.1
+    },
+    {
+      "engineer": "luke-belton",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 11,
+      "review_commit_pr_ratio": "1:0:11",
+      "balance_score": 0.0833
+    },
+    {
+      "engineer": "sakce",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 16,
+      "review_commit_pr_ratio": "1:0:16",
+      "balance_score": 0.0588
+    },
+    {
+      "engineer": "Arpan200502",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "EDsCODE",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 0,
+      "review_commit_pr_ratio": "1:0:0",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "HarshadaGawas05",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "Illumiknight07",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "JasonLovesDoggo",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "KarloAldrete",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "MarconLP",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 6,
+      "review_commit_pr_ratio": "0:0:6",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "MattPua",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 7,
+      "review_commit_pr_ratio": "0:0:7",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "MichaelKutsch-ph",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "MikeAthie",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "NewSmoke38",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "Radu-Raicea",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 5,
+      "review_commit_pr_ratio": "0:0:5",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "ReeceJones",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "SaraMiteva",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "Sireeshreddy01",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "Twixes",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 9,
+      "review_commit_pr_ratio": "0:0:9",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "Vitor-Bukovitz",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "VojtechBartos",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "0:0:3",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "a-lider",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "abhischekt",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "abigailbramble",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 0,
+      "review_commit_pr_ratio": "1:0:0",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "adboio",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 10,
+      "review_commit_pr_ratio": "0:0:10",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "advaitpaliwal",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "andehen",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "0:0:3",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "andrewm4894",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 17,
+      "review_commit_pr_ratio": "0:0:17",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "andyzzhao",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "anirudhpillai",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "0:0:3",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "annaszell",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "anujsb",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "arthurdedeus",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "0:0:3",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "bciaraldi",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "bill-ph",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 0,
+      "review_commit_pr_ratio": "1:0:0",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "carlos-marchal-ph",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "ceyniustranberg",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "charlescook-ph",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "charlesvien",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "christiaan-ph",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "clr182",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "cvolzer3",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "danielalanbates",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "danielcarletti",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "darkopia",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 6,
+      "review_commit_pr_ratio": "0:0:6",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "dependabot[bot]",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 19,
+      "review_commit_pr_ratio": "0:0:19",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "dmarchuk",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "dschofie",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "dustinbyrne",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "edwinyjlim",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "ericls",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "estefaniarabadan",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "feliperalmeida",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "frankh",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 0,
+      "review_commit_pr_ratio": "1:0:0",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "gdeglin",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "gesh",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 0,
+      "review_commit_pr_ratio": "1:0:0",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "gewenyu99",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "grandhi02",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "gustavohstrassburger",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "0:0:3",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "harihran-del",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 11,
+      "review_commit_pr_ratio": "0:0:11",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "inkeep[bot]",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 10,
+      "review_commit_pr_ratio": "0:0:10",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "jabahamondes",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "jaencarrodine",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "janpio",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "jonmcwest",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "joshuaisaact",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "jurajmajerik",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "kappa90",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "0:0:3",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "ksvat",
+      "review_count": 6,
+      "commit_count": 0,
+      "pr_count": 0,
+      "review_commit_pr_ratio": "6:0:0",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "kurekszymon",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "kyleswank",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "lmenezes",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "manthankhawse",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "masylum",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "matheus-vb",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "mcoll-posthog",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 0,
+      "review_commit_pr_ratio": "1:0:0",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "meikelmosby",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 8,
+      "review_commit_pr_ratio": "0:0:8",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "mendral-app[bot]",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 12,
+      "review_commit_pr_ratio": "0:0:12",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "mircoboettcher",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "nickbest-ph",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "0:0:3",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "odin-posthog",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "okxint",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "parinporecha",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "patricio-posthog",
+      "review_count": 2,
+      "commit_count": 0,
+      "pr_count": 0,
+      "review_commit_pr_ratio": "2:0:0",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "pauldambra",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 18,
+      "review_commit_pr_ratio": "0:0:18",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "pl",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "0:0:3",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "posthog-js-upgrader[bot]",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 7,
+      "review_commit_pr_ratio": "0:0:7",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "posthog[bot]",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 9,
+      "review_commit_pr_ratio": "0:0:9",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "ragini-pandey",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "rainsubtime",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "raquelmsmith",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "richardsolomou",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "rnegron",
+      "review_count": 1,
+      "commit_count": 0,
+      "pr_count": 0,
+      "review_commit_pr_ratio": "1:0:0",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "rodrigoi",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "0:0:4",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "rohan-pandeyy",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "rossgray",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 4,
+      "review_commit_pr_ratio": "0:0:4",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "sbrin",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "scheduled-actions-posthog[bot]",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "skoob13",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 10,
+      "review_commit_pr_ratio": "0:0:10",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "slshults",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "tejasae-afk",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "vdekrijger",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "vmaineng",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 1,
+      "review_commit_pr_ratio": "0:0:1",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "xljones",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "z0br0wn",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 2,
+      "review_commit_pr_ratio": "0:0:2",
+      "balance_score": 0.0
+    },
+    {
+      "engineer": "zaniluca",
+      "review_count": 0,
+      "commit_count": 0,
+      "pr_count": 3,
+      "review_commit_pr_ratio": "0:0:3",
+      "balance_score": 0.0
+    }
+  ]
+}

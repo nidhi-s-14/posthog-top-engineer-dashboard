@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PostHog Engineering Impact Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <h1>Nidhi Sura - PostHog Engineers Dashboard</h1>
+      </header>
+
+      <main>
+        <section class="dashboard-grid">
+          <article class="panel panel-feature panel-tall">
+            <div class="panel-heading">
+              <p class="section-kicker">Final Scoreboard</p>
+              <h3>Engineer ranking</h3>
+            </div>
+            <p class="panel-copy">
+              Weighted using 25% throughput, 25% collaboration, 35% impact, & 15% speed.
+            </p>
+            <div class="scoreboard-shell">
+              <div class="scoreboard-head">
+                <span>Name</span>
+                <span>Overall score</span>
+              </div>
+              <div class="scoreboard-list" id="scoreboard-list"></div>
+            </div>
+          </article>
+
+          <article class="panel panel-chart">
+            <div class="panel-heading">
+              <p class="section-kicker">Throughput</p>
+              <h3>PRs Opened / PRs Merged</h3>
+            </div>
+            <div class="chart-shell">
+              <svg id="throughput-chart" aria-label="Throughput dot plot"></svg>
+            </div>
+          </article>
+
+          <article class="panel panel-chart">
+            <div class="panel-heading">
+              <p class="section-kicker">Balance View</p>
+              <h3>Stacked PRs, Reviews & Commits</h3>
+            </div>
+            <div class="chart-shell">
+              <div class="chart-legend" id="balance-legend"></div>
+              <svg id="balance-chart" aria-label="Stacked balance chart"></svg>
+            </div>
+          </article>
+
+          <article class="panel panel-chart">
+            <div class="panel-heading">
+              <p class="section-kicker">Merge Time</p>
+              <h3>Average PR merge time per engineer</h3>
+            </div>
+            <div class="chart-shell">
+              <svg id="merge-time-chart" aria-label="Average merge time chart"></svg>
+            </div>
+          </article>
+
+          <article class="panel panel-chart">
+            <div class="panel-heading">
+              <p class="section-kicker">Code Impact</p>
+              <h3>log(lines changed) * files changed</h3>
+            </div>
+            <div class="chart-shell">
+              <svg id="change-surface-chart" aria-label="Change surface chart"></svg>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <div class="tooltip" id="chart-tooltip" hidden></div>
+    <script src="script.js"></script>
+  </body>
+</html>

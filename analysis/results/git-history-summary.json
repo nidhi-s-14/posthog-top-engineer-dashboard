@@ -1,0 +1,4257 @@
+{
+  "source": {
+    "repo_path": "/Users/nidhisura/Documents/Repositories/posthog-top-engineer-dashboard/vendor/posthog",
+    "since": "2025-12-15T06:32:12Z",
+    "commit_count": 5552
+  },
+  "analyses": [
+    {
+      "analysis": "commit_activity",
+      "description": "Per-engineer commit activity from local git history.",
+      "engineers": [
+        {
+          "engineer": "andrewm4894",
+          "commit_count": 218,
+          "merge_commit_count": 0,
+          "files_changed": 1079,
+          "lines_added": 38145,
+          "lines_deleted": 8581
+        },
+        {
+          "engineer": "pauldambra",
+          "commit_count": 207,
+          "merge_commit_count": 0,
+          "files_changed": 1026,
+          "lines_added": 23122,
+          "lines_deleted": 11842
+        },
+        {
+          "engineer": "mendral-app[bot]",
+          "commit_count": 156,
+          "merge_commit_count": 0,
+          "files_changed": 279,
+          "lines_added": 6912,
+          "lines_deleted": 1643
+        },
+        {
+          "engineer": "adboio",
+          "commit_count": 153,
+          "merge_commit_count": 0,
+          "files_changed": 829,
+          "lines_added": 26480,
+          "lines_deleted": 10612
+        },
+        {
+          "engineer": "rafaeelaudibert",
+          "commit_count": 148,
+          "merge_commit_count": 0,
+          "files_changed": 3966,
+          "lines_added": 84393,
+          "lines_deleted": 51427
+        },
+        {
+          "engineer": "webjunkie",
+          "commit_count": 140,
+          "merge_commit_count": 0,
+          "files_changed": 16332,
+          "lines_added": 3096476,
+          "lines_deleted": 68676
+        },
+        {
+          "engineer": "sakce",
+          "commit_count": 123,
+          "merge_commit_count": 0,
+          "files_changed": 707,
+          "lines_added": 24790,
+          "lines_deleted": 5496
+        },
+        {
+          "engineer": "jonmcwest",
+          "commit_count": 116,
+          "merge_commit_count": 0,
+          "files_changed": 690,
+          "lines_added": 16777,
+          "lines_deleted": 4950
+        },
+        {
+          "engineer": "haacked",
+          "commit_count": 114,
+          "merge_commit_count": 0,
+          "files_changed": 552,
+          "lines_added": 33937,
+          "lines_deleted": 9200
+        },
+        {
+          "engineer": "eli-r-ph",
+          "commit_count": 111,
+          "merge_commit_count": 0,
+          "files_changed": 581,
+          "lines_added": 38159,
+          "lines_deleted": 9071
+        },
+        {
+          "engineer": "Piccirello",
+          "commit_count": 100,
+          "merge_commit_count": 0,
+          "files_changed": 730,
+          "lines_added": 13239,
+          "lines_deleted": 3352
+        },
+        {
+          "engineer": "adamleithp",
+          "commit_count": 95,
+          "merge_commit_count": 0,
+          "files_changed": 3367,
+          "lines_added": 19873,
+          "lines_deleted": 19846
+        },
+        {
+          "engineer": "veryayskiy",
+          "commit_count": 95,
+          "merge_commit_count": 0,
+          "files_changed": 654,
+          "lines_added": 24688,
+          "lines_deleted": 3232
+        },
+        {
+          "engineer": "skoob13",
+          "commit_count": 85,
+          "merge_commit_count": 0,
+          "files_changed": 799,
+          "lines_added": 24266,
+          "lines_deleted": 12061
+        },
+        {
+          "engineer": "sampennington",
+          "commit_count": 84,
+          "merge_commit_count": 0,
+          "files_changed": 467,
+          "lines_added": 15367,
+          "lines_deleted": 4129
+        },
+        {
+          "engineer": "dmarticus",
+          "commit_count": 84,
+          "merge_commit_count": 0,
+          "files_changed": 620,
+          "lines_added": 27856,
+          "lines_deleted": 38844
+        },
+        {
+          "engineer": "ReeceJones",
+          "commit_count": 82,
+          "merge_commit_count": 0,
+          "files_changed": 601,
+          "lines_added": 22022,
+          "lines_deleted": 4366
+        },
+        {
+          "engineer": "thmsobrmlr",
+          "commit_count": 82,
+          "merge_commit_count": 0,
+          "files_changed": 477,
+          "lines_added": 14523,
+          "lines_deleted": 13150
+        },
+        {
+          "engineer": "jose-sequeira",
+          "commit_count": 81,
+          "merge_commit_count": 0,
+          "files_changed": 669,
+          "lines_added": 35230,
+          "lines_deleted": 19986
+        },
+        {
+          "engineer": "joshsny",
+          "commit_count": 77,
+          "merge_commit_count": 0,
+          "files_changed": 696,
+          "lines_added": 17325,
+          "lines_deleted": 7706
+        },
+        {
+          "engineer": "arthurdedeus",
+          "commit_count": 76,
+          "merge_commit_count": 0,
+          "files_changed": 614,
+          "lines_added": 14344,
+          "lines_deleted": 3504
+        },
+        {
+          "engineer": "robbie-c",
+          "commit_count": 74,
+          "merge_commit_count": 0,
+          "files_changed": 537,
+          "lines_added": 20032,
+          "lines_deleted": 6869
+        },
+        {
+          "engineer": "Twixes",
+          "commit_count": 73,
+          "merge_commit_count": 0,
+          "files_changed": 459,
+          "lines_added": 92264,
+          "lines_deleted": 4727
+        },
+        {
+          "engineer": "yasen-posthog",
+          "commit_count": 71,
+          "merge_commit_count": 0,
+          "files_changed": 606,
+          "lines_added": 14416,
+          "lines_deleted": 6622
+        },
+        {
+          "engineer": "scheduled-actions-posthog[bot]",
+          "commit_count": 70,
+          "merge_commit_count": 0,
+          "files_changed": 138,
+          "lines_added": 3582,
+          "lines_deleted": 3625
+        },
+        {
+          "engineer": "havenbarnes",
+          "commit_count": 69,
+          "merge_commit_count": 0,
+          "files_changed": 524,
+          "lines_added": 14860,
+          "lines_deleted": 7770
+        },
+        {
+          "engineer": "andrewjmcgehee",
+          "commit_count": 68,
+          "merge_commit_count": 0,
+          "files_changed": 382,
+          "lines_added": 18089,
+          "lines_deleted": 9818
+        },
+        {
+          "engineer": "kappa90",
+          "commit_count": 68,
+          "merge_commit_count": 0,
+          "files_changed": 652,
+          "lines_added": 17426,
+          "lines_deleted": 9833
+        },
+        {
+          "engineer": "MattBro",
+          "commit_count": 66,
+          "merge_commit_count": 0,
+          "files_changed": 357,
+          "lines_added": 13621,
+          "lines_deleted": 1217
+        },
+        {
+          "engineer": "vdekrijger",
+          "commit_count": 66,
+          "merge_commit_count": 0,
+          "files_changed": 333,
+          "lines_added": 15996,
+          "lines_deleted": 3458
+        },
+        {
+          "engineer": "meikelmosby",
+          "commit_count": 66,
+          "merge_commit_count": 0,
+          "files_changed": 372,
+          "lines_added": 14615,
+          "lines_deleted": 6167
+        },
+        {
+          "engineer": "ablaszkiewicz",
+          "commit_count": 65,
+          "merge_commit_count": 0,
+          "files_changed": 385,
+          "lines_added": 12907,
+          "lines_deleted": 3257
+        },
+        {
+          "engineer": "gustavohstrassburger",
+          "commit_count": 64,
+          "merge_commit_count": 0,
+          "files_changed": 258,
+          "lines_added": 13032,
+          "lines_deleted": 1972
+        },
+        {
+          "engineer": "TueHaulund",
+          "commit_count": 61,
+          "merge_commit_count": 0,
+          "files_changed": 694,
+          "lines_added": 32145,
+          "lines_deleted": 15239
+        },
+        {
+          "engineer": "Gilbert09",
+          "commit_count": 59,
+          "merge_commit_count": 0,
+          "files_changed": 382,
+          "lines_added": 19542,
+          "lines_deleted": 14351
+        },
+        {
+          "engineer": "jordanm-posthog",
+          "commit_count": 58,
+          "merge_commit_count": 0,
+          "files_changed": 379,
+          "lines_added": 109726,
+          "lines_deleted": 2840
+        },
+        {
+          "engineer": "mariusandra",
+          "commit_count": 58,
+          "merge_commit_count": 0,
+          "files_changed": 561,
+          "lines_added": 26777,
+          "lines_deleted": 7950
+        },
+        {
+          "engineer": "pl",
+          "commit_count": 58,
+          "merge_commit_count": 0,
+          "files_changed": 400,
+          "lines_added": 35220,
+          "lines_deleted": 8775
+        },
+        {
+          "engineer": "jabahamondes",
+          "commit_count": 57,
+          "merge_commit_count": 0,
+          "files_changed": 445,
+          "lines_added": 15559,
+          "lines_deleted": 4678
+        },
+        {
+          "engineer": "mp-hog",
+          "commit_count": 55,
+          "merge_commit_count": 0,
+          "files_changed": 273,
+          "lines_added": 10109,
+          "lines_deleted": 5906
+        },
+        {
+          "engineer": "lricoy",
+          "commit_count": 55,
+          "merge_commit_count": 0,
+          "files_changed": 256,
+          "lines_added": 8103,
+          "lines_deleted": 2407
+        },
+        {
+          "engineer": "oliverb123",
+          "commit_count": 52,
+          "merge_commit_count": 0,
+          "files_changed": 302,
+          "lines_added": 13212,
+          "lines_deleted": 4142
+        },
+        {
+          "engineer": "tatoalo",
+          "commit_count": 52,
+          "merge_commit_count": 0,
+          "files_changed": 588,
+          "lines_added": 22553,
+          "lines_deleted": 3734
+        },
+        {
+          "engineer": "andehen",
+          "commit_count": 51,
+          "merge_commit_count": 0,
+          "files_changed": 263,
+          "lines_added": 6875,
+          "lines_deleted": 4287
+        },
+        {
+          "engineer": "rodrigoi",
+          "commit_count": 50,
+          "merge_commit_count": 0,
+          "files_changed": 229,
+          "lines_added": 18389,
+          "lines_deleted": 5016
+        },
+        {
+          "engineer": "fasyy612",
+          "commit_count": 49,
+          "merge_commit_count": 0,
+          "files_changed": 267,
+          "lines_added": 6495,
+          "lines_deleted": 5753
+        },
+        {
+          "engineer": "jurajmajerik",
+          "commit_count": 48,
+          "merge_commit_count": 0,
+          "files_changed": 281,
+          "lines_added": 14000,
+          "lines_deleted": 2735
+        },
+        {
+          "engineer": "hpouillot",
+          "commit_count": 48,
+          "merge_commit_count": 0,
+          "files_changed": 414,
+          "lines_added": 12011,
+          "lines_deleted": 6214
+        },
+        {
+          "engineer": "frankh",
+          "commit_count": 47,
+          "merge_commit_count": 0,
+          "files_changed": 376,
+          "lines_added": 11917,
+          "lines_deleted": 2960
+        },
+        {
+          "engineer": "tomasfarias",
+          "commit_count": 45,
+          "merge_commit_count": 0,
+          "files_changed": 117,
+          "lines_added": 2450,
+          "lines_deleted": 497
+        },
+        {
+          "engineer": "nickbest-ph",
+          "commit_count": 45,
+          "merge_commit_count": 0,
+          "files_changed": 367,
+          "lines_added": 25511,
+          "lines_deleted": 4318
+        },
+        {
+          "engineer": "Radu-Raicea",
+          "commit_count": 45,
+          "merge_commit_count": 0,
+          "files_changed": 380,
+          "lines_added": 17506,
+          "lines_deleted": 4056
+        },
+        {
+          "engineer": "posthog-js-upgrader[bot]",
+          "commit_count": 43,
+          "merge_commit_count": 0,
+          "files_changed": 354,
+          "lines_added": 2754,
+          "lines_deleted": 3567
+        },
+        {
+          "engineer": "rossgray",
+          "commit_count": 42,
+          "merge_commit_count": 0,
+          "files_changed": 282,
+          "lines_added": 12074,
+          "lines_deleted": 7396
+        },
+        {
+          "engineer": "luke-belton",
+          "commit_count": 42,
+          "merge_commit_count": 0,
+          "files_changed": 114,
+          "lines_added": 3130,
+          "lines_deleted": 582
+        },
+        {
+          "engineer": "carlos-marchal-ph",
+          "commit_count": 41,
+          "merge_commit_count": 0,
+          "files_changed": 201,
+          "lines_added": 9101,
+          "lines_deleted": 2889
+        },
+        {
+          "engineer": "benjackwhite",
+          "commit_count": 40,
+          "merge_commit_count": 0,
+          "files_changed": 1455,
+          "lines_added": 9113,
+          "lines_deleted": 18371
+        },
+        {
+          "engineer": "fuziontech",
+          "commit_count": 40,
+          "merge_commit_count": 0,
+          "files_changed": 88,
+          "lines_added": 5375,
+          "lines_deleted": 1394
+        },
+        {
+          "engineer": "a-lider",
+          "commit_count": 39,
+          "merge_commit_count": 0,
+          "files_changed": 381,
+          "lines_added": 9054,
+          "lines_deleted": 3723
+        },
+        {
+          "engineer": "MattPua",
+          "commit_count": 39,
+          "merge_commit_count": 0,
+          "files_changed": 164,
+          "lines_added": 1954,
+          "lines_deleted": 1159
+        },
+        {
+          "engineer": "andyzzhao",
+          "commit_count": 38,
+          "merge_commit_count": 0,
+          "files_changed": 157,
+          "lines_added": 5982,
+          "lines_deleted": 2544
+        },
+        {
+          "engineer": "anirudhpillai",
+          "commit_count": 38,
+          "merge_commit_count": 0,
+          "files_changed": 277,
+          "lines_added": 6195,
+          "lines_deleted": 1858
+        },
+        {
+          "engineer": "richardsolomou",
+          "commit_count": 38,
+          "merge_commit_count": 0,
+          "files_changed": 469,
+          "lines_added": 19846,
+          "lines_deleted": 6274
+        },
+        {
+          "engineer": "estefaniarabadan",
+          "commit_count": 37,
+          "merge_commit_count": 0,
+          "files_changed": 142,
+          "lines_added": 5846,
+          "lines_deleted": 1980
+        },
+        {
+          "engineer": "ordehi",
+          "commit_count": 37,
+          "merge_commit_count": 0,
+          "files_changed": 186,
+          "lines_added": 5051,
+          "lines_deleted": 750
+        },
+        {
+          "engineer": "ksvat",
+          "commit_count": 36,
+          "merge_commit_count": 0,
+          "files_changed": 141,
+          "lines_added": 3199,
+          "lines_deleted": 1000
+        },
+        {
+          "engineer": "fercgomes",
+          "commit_count": 35,
+          "merge_commit_count": 0,
+          "files_changed": 291,
+          "lines_added": 11065,
+          "lines_deleted": 5141
+        },
+        {
+          "engineer": "gesh",
+          "commit_count": 34,
+          "merge_commit_count": 0,
+          "files_changed": 314,
+          "lines_added": 5402,
+          "lines_deleted": 917
+        },
+        {
+          "engineer": "dependabot[bot]",
+          "commit_count": 30,
+          "merge_commit_count": 0,
+          "files_changed": 144,
+          "lines_added": 5145,
+          "lines_deleted": 3649
+        },
+        {
+          "engineer": "sortafreel",
+          "commit_count": 29,
+          "merge_commit_count": 0,
+          "files_changed": 175,
+          "lines_added": 11161,
+          "lines_deleted": 1539
+        },
+        {
+          "engineer": "orian",
+          "commit_count": 29,
+          "merge_commit_count": 0,
+          "files_changed": 91,
+          "lines_added": 1667,
+          "lines_deleted": 707
+        },
+        {
+          "engineer": "lucasheriques",
+          "commit_count": 28,
+          "merge_commit_count": 0,
+          "files_changed": 216,
+          "lines_added": 9836,
+          "lines_deleted": 1855
+        },
+        {
+          "engineer": "lmenezes",
+          "commit_count": 26,
+          "merge_commit_count": 0,
+          "files_changed": 301,
+          "lines_added": 9654,
+          "lines_deleted": 8164
+        },
+        {
+          "engineer": "georgemunyoro",
+          "commit_count": 26,
+          "merge_commit_count": 0,
+          "files_changed": 349,
+          "lines_added": 41748,
+          "lines_deleted": 38396
+        },
+        {
+          "engineer": "MarconLP",
+          "commit_count": 23,
+          "merge_commit_count": 0,
+          "files_changed": 465,
+          "lines_added": 11930,
+          "lines_deleted": 2612
+        },
+        {
+          "engineer": "pawel-cebula",
+          "commit_count": 23,
+          "merge_commit_count": 0,
+          "files_changed": 82,
+          "lines_added": 2076,
+          "lines_deleted": 584
+        },
+        {
+          "engineer": "odin-posthog",
+          "commit_count": 23,
+          "merge_commit_count": 0,
+          "files_changed": 140,
+          "lines_added": 9283,
+          "lines_deleted": 1657
+        },
+        {
+          "engineer": "christiaan-ph",
+          "commit_count": 20,
+          "merge_commit_count": 0,
+          "files_changed": 44,
+          "lines_added": 454,
+          "lines_deleted": 127
+        },
+        {
+          "engineer": "cvolzer3",
+          "commit_count": 20,
+          "merge_commit_count": 0,
+          "files_changed": 235,
+          "lines_added": 8058,
+          "lines_deleted": 3017
+        },
+        {
+          "engineer": "clr182",
+          "commit_count": 19,
+          "merge_commit_count": 0,
+          "files_changed": 141,
+          "lines_added": 10143,
+          "lines_deleted": 7694
+        },
+        {
+          "engineer": "matheus-vb",
+          "commit_count": 19,
+          "merge_commit_count": 0,
+          "files_changed": 112,
+          "lines_added": 5209,
+          "lines_deleted": 2978
+        },
+        {
+          "engineer": "aspicer",
+          "commit_count": 18,
+          "merge_commit_count": 0,
+          "files_changed": 199,
+          "lines_added": 6451,
+          "lines_deleted": 834
+        },
+        {
+          "engineer": "Daesgar",
+          "commit_count": 18,
+          "merge_commit_count": 0,
+          "files_changed": 56,
+          "lines_added": 1268,
+          "lines_deleted": 372
+        },
+        {
+          "engineer": "patricio-posthog",
+          "commit_count": 17,
+          "merge_commit_count": 0,
+          "files_changed": 91,
+          "lines_added": 3122,
+          "lines_deleted": 369
+        },
+        {
+          "engineer": "VojtechBartos",
+          "commit_count": 15,
+          "merge_commit_count": 0,
+          "files_changed": 296,
+          "lines_added": 49064,
+          "lines_deleted": 23525
+        },
+        {
+          "engineer": "abhischekt",
+          "commit_count": 15,
+          "merge_commit_count": 0,
+          "files_changed": 63,
+          "lines_added": 5895,
+          "lines_deleted": 731
+        },
+        {
+          "engineer": "EDsCODE",
+          "commit_count": 14,
+          "merge_commit_count": 0,
+          "files_changed": 62,
+          "lines_added": 2610,
+          "lines_deleted": 584
+        },
+        {
+          "engineer": "z0br0wn",
+          "commit_count": 14,
+          "merge_commit_count": 0,
+          "files_changed": 85,
+          "lines_added": 5555,
+          "lines_deleted": 1824
+        },
+        {
+          "engineer": "sarahxsanders",
+          "commit_count": 13,
+          "merge_commit_count": 0,
+          "files_changed": 286,
+          "lines_added": 9303,
+          "lines_deleted": 3044
+        },
+        {
+          "engineer": "danielxnj",
+          "commit_count": 13,
+          "merge_commit_count": 0,
+          "files_changed": 47,
+          "lines_added": 1368,
+          "lines_deleted": 2040
+        },
+        {
+          "engineer": "dustinbyrne",
+          "commit_count": 13,
+          "merge_commit_count": 0,
+          "files_changed": 51,
+          "lines_added": 1799,
+          "lines_deleted": 529
+        },
+        {
+          "engineer": "gantoine",
+          "commit_count": 12,
+          "merge_commit_count": 0,
+          "files_changed": 251,
+          "lines_added": 5521,
+          "lines_deleted": 3835
+        },
+        {
+          "engineer": "darkopia",
+          "commit_count": 12,
+          "merge_commit_count": 0,
+          "files_changed": 33,
+          "lines_added": 844,
+          "lines_deleted": 56
+        },
+        {
+          "engineer": "bciaraldi",
+          "commit_count": 12,
+          "merge_commit_count": 0,
+          "files_changed": 28,
+          "lines_added": 468,
+          "lines_deleted": 162
+        },
+        {
+          "engineer": "raquelmsmith",
+          "commit_count": 11,
+          "merge_commit_count": 0,
+          "files_changed": 159,
+          "lines_added": 4594,
+          "lines_deleted": 1454
+        },
+        {
+          "engineer": "k11kirky",
+          "commit_count": 10,
+          "merge_commit_count": 0,
+          "files_changed": 69,
+          "lines_added": 2826,
+          "lines_deleted": 78
+        },
+        {
+          "engineer": "edwinyjlim",
+          "commit_count": 9,
+          "merge_commit_count": 0,
+          "files_changed": 119,
+          "lines_added": 3454,
+          "lines_deleted": 4375
+        },
+        {
+          "engineer": "timgl",
+          "commit_count": 9,
+          "merge_commit_count": 0,
+          "files_changed": 36,
+          "lines_added": 1242,
+          "lines_deleted": 199
+        },
+        {
+          "engineer": "inkeep[bot]",
+          "commit_count": 8,
+          "merge_commit_count": 0,
+          "files_changed": 10,
+          "lines_added": 145,
+          "lines_deleted": 55
+        },
+        {
+          "engineer": "rnegron",
+          "commit_count": 8,
+          "merge_commit_count": 0,
+          "files_changed": 24,
+          "lines_added": 111,
+          "lines_deleted": 56
+        },
+        {
+          "engineer": "jonathanlab",
+          "commit_count": 8,
+          "merge_commit_count": 0,
+          "files_changed": 30,
+          "lines_added": 410,
+          "lines_deleted": 152
+        },
+        {
+          "engineer": "posthog-bot",
+          "commit_count": 8,
+          "merge_commit_count": 0,
+          "files_changed": 15,
+          "lines_added": 551,
+          "lines_deleted": 222
+        },
+        {
+          "engineer": "charlesvien",
+          "commit_count": 7,
+          "merge_commit_count": 0,
+          "files_changed": 92,
+          "lines_added": 1172,
+          "lines_deleted": 847
+        },
+        {
+          "engineer": "tests-posthog[bot]",
+          "commit_count": 6,
+          "merge_commit_count": 0,
+          "files_changed": 14,
+          "lines_added": 3041,
+          "lines_deleted": 414
+        },
+        {
+          "engineer": "gewenyu99",
+          "commit_count": 6,
+          "merge_commit_count": 0,
+          "files_changed": 258,
+          "lines_added": 9209,
+          "lines_deleted": 3787
+        },
+        {
+          "engineer": "danielcarletti",
+          "commit_count": 5,
+          "merge_commit_count": 0,
+          "files_changed": 25,
+          "lines_added": 2206,
+          "lines_deleted": 122
+        },
+        {
+          "engineer": "posthog[bot]",
+          "commit_count": 5,
+          "merge_commit_count": 0,
+          "files_changed": 34,
+          "lines_added": 209,
+          "lines_deleted": 1790
+        },
+        {
+          "engineer": "MichaelKutsch-ph",
+          "commit_count": 5,
+          "merge_commit_count": 0,
+          "files_changed": 14,
+          "lines_added": 449,
+          "lines_deleted": 250
+        },
+        {
+          "engineer": "marandaneto",
+          "commit_count": 5,
+          "merge_commit_count": 0,
+          "files_changed": 14,
+          "lines_added": 147,
+          "lines_deleted": 17
+        },
+        {
+          "engineer": "slshults",
+          "commit_count": 5,
+          "merge_commit_count": 0,
+          "files_changed": 11,
+          "lines_added": 262,
+          "lines_deleted": 49
+        },
+        {
+          "engineer": "daniloc",
+          "commit_count": 5,
+          "merge_commit_count": 0,
+          "files_changed": 17,
+          "lines_added": 334,
+          "lines_deleted": 357
+        },
+        {
+          "engineer": "clickhouse-sync-posthog[bot]",
+          "commit_count": 5,
+          "merge_commit_count": 0,
+          "files_changed": 5,
+          "lines_added": 17,
+          "lines_deleted": 17
+        },
+        {
+          "engineer": "lshaowei18",
+          "commit_count": 5,
+          "merge_commit_count": 0,
+          "files_changed": 13,
+          "lines_added": 1752,
+          "lines_deleted": 2234
+        },
+        {
+          "engineer": "daibhin",
+          "commit_count": 4,
+          "merge_commit_count": 0,
+          "files_changed": 52,
+          "lines_added": 1258,
+          "lines_deleted": 1030
+        },
+        {
+          "engineer": "dmarchuk",
+          "commit_count": 3,
+          "merge_commit_count": 0,
+          "files_changed": 13,
+          "lines_added": 557,
+          "lines_deleted": 141
+        },
+        {
+          "engineer": "ioannisj",
+          "commit_count": 3,
+          "merge_commit_count": 0,
+          "files_changed": 43,
+          "lines_added": 2165,
+          "lines_deleted": 59
+        },
+        {
+          "engineer": "buildwithmalik",
+          "commit_count": 3,
+          "merge_commit_count": 0,
+          "files_changed": 62,
+          "lines_added": 3096,
+          "lines_deleted": 369
+        },
+        {
+          "engineer": "xljones",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 3,
+          "lines_deleted": 1
+        },
+        {
+          "engineer": "nicowaltz",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 34,
+          "lines_added": 5006,
+          "lines_deleted": 10
+        },
+        {
+          "engineer": "charlescook-ph",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 9,
+          "lines_deleted": 2
+        },
+        {
+          "engineer": "harihran-del",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 3,
+          "lines_added": 29,
+          "lines_deleted": 2
+        },
+        {
+          "engineer": "abheek9",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 14,
+          "lines_added": 252,
+          "lines_deleted": 6
+        },
+        {
+          "engineer": "langesven",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 6,
+          "lines_deleted": 2
+        },
+        {
+          "engineer": "mircoboettcher",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 4,
+          "lines_added": 24,
+          "lines_deleted": 3
+        },
+        {
+          "engineer": "Copilot",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 11,
+          "lines_added": 65,
+          "lines_deleted": 10
+        },
+        {
+          "engineer": "jeremylongshore",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 5,
+          "lines_deleted": 14
+        },
+        {
+          "engineer": "bill-ph",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 11,
+          "lines_added": 660,
+          "lines_deleted": 351
+        },
+        {
+          "engineer": "dmiska25",
+          "commit_count": 2,
+          "merge_commit_count": 0,
+          "files_changed": 3,
+          "lines_added": 211,
+          "lines_deleted": 41
+        },
+        {
+          "engineer": "orlandohohmeier",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 2,
+          "lines_deleted": 2
+        },
+        {
+          "engineer": "beatlevic",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 63,
+          "lines_deleted": 31
+        },
+        {
+          "engineer": "andre347",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 6,
+          "lines_deleted": 4
+        },
+        {
+          "engineer": "parinporecha",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 6,
+          "lines_added": 30,
+          "lines_deleted": 10
+        },
+        {
+          "engineer": "kliment-slice",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 11,
+          "lines_added": 194,
+          "lines_deleted": 3
+        },
+        {
+          "engineer": "ceyniustranberg",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 4,
+          "lines_added": 101,
+          "lines_deleted": 13
+        },
+        {
+          "engineer": "salmanmkc",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 33,
+          "lines_added": 102,
+          "lines_deleted": 90
+        },
+        {
+          "engineer": "annikaschmid",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 2,
+          "lines_deleted": 2
+        },
+        {
+          "engineer": "will-marella",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 1,
+          "lines_deleted": 1
+        },
+        {
+          "engineer": "Classy-Bear",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 2,
+          "lines_deleted": 2
+        },
+        {
+          "engineer": "kurekszymon",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 6,
+          "lines_deleted": 6
+        },
+        {
+          "engineer": "antlio",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 2,
+          "lines_deleted": 2
+        },
+        {
+          "engineer": "Nezz",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 14,
+          "lines_deleted": 16
+        },
+        {
+          "engineer": "darkLord19",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 1,
+          "lines_deleted": 1
+        },
+        {
+          "engineer": "igormq",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 24,
+          "lines_deleted": 0
+        },
+        {
+          "engineer": "fivestarspicy",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 19,
+          "lines_deleted": 2
+        },
+        {
+          "engineer": "zlwaterfield",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 30,
+          "lines_added": 1298,
+          "lines_deleted": 236
+        },
+        {
+          "engineer": "caiquejjx",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 1,
+          "lines_deleted": 0
+        },
+        {
+          "engineer": "sayer122",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 1,
+          "lines_deleted": 0
+        },
+        {
+          "engineer": "JJCLane",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 3,
+          "lines_added": 5,
+          "lines_deleted": 4
+        },
+        {
+          "engineer": "zhou-quickli",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 35,
+          "lines_deleted": 21
+        },
+        {
+          "engineer": "KaranPradhan266",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 2,
+          "lines_deleted": 0
+        },
+        {
+          "engineer": "GauravBansal29",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 10,
+          "lines_added": 39,
+          "lines_deleted": 5
+        },
+        {
+          "engineer": "carlosguso",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 3,
+          "lines_deleted": 2
+        },
+        {
+          "engineer": "ProCO-RPHopkins",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 6,
+          "lines_added": 109,
+          "lines_deleted": 14
+        },
+        {
+          "engineer": "abigailbramble",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 1,
+          "lines_added": 6,
+          "lines_deleted": 5
+        },
+        {
+          "engineer": "zachstence",
+          "commit_count": 1,
+          "merge_commit_count": 0,
+          "files_changed": 2,
+          "lines_added": 2,
+          "lines_deleted": 2
+        }
+      ]
+    },
+    {
+      "analysis": "merged_pr_count",
+      "description": "Unique merged PRs per engineer inferred from commit messages in local git history.",
+      "notes": [
+        "This is not a true opened-to-merged ratio.",
+        "Git history can show merged PRs referenced in commit messages, but not every PR opened in the time window."
+      ],
+      "engineers": [
+        {
+          "engineer": "andrewm4894",
+          "merged_pr_count": 218
+        },
+        {
+          "engineer": "pauldambra",
+          "merged_pr_count": 207
+        },
+        {
+          "engineer": "mendral-app[bot]",
+          "merged_pr_count": 156
+        },
+        {
+          "engineer": "adboio",
+          "merged_pr_count": 153
+        },
+        {
+          "engineer": "rafaeelaudibert",
+          "merged_pr_count": 148
+        },
+        {
+          "engineer": "webjunkie",
+          "merged_pr_count": 140
+        },
+        {
+          "engineer": "sakce",
+          "merged_pr_count": 123
+        },
+        {
+          "engineer": "jonmcwest",
+          "merged_pr_count": 116
+        },
+        {
+          "engineer": "haacked",
+          "merged_pr_count": 114
+        },
+        {
+          "engineer": "eli-r-ph",
+          "merged_pr_count": 111
+        },
+        {
+          "engineer": "Piccirello",
+          "merged_pr_count": 100
+        },
+        {
+          "engineer": "adamleithp",
+          "merged_pr_count": 95
+        },
+        {
+          "engineer": "veryayskiy",
+          "merged_pr_count": 95
+        },
+        {
+          "engineer": "sampennington",
+          "merged_pr_count": 84
+        },
+        {
+          "engineer": "skoob13",
+          "merged_pr_count": 84
+        },
+        {
+          "engineer": "dmarticus",
+          "merged_pr_count": 84
+        },
+        {
+          "engineer": "ReeceJones",
+          "merged_pr_count": 82
+        },
+        {
+          "engineer": "thmsobrmlr",
+          "merged_pr_count": 82
+        },
+        {
+          "engineer": "jose-sequeira",
+          "merged_pr_count": 81
+        },
+        {
+          "engineer": "joshsny",
+          "merged_pr_count": 77
+        },
+        {
+          "engineer": "arthurdedeus",
+          "merged_pr_count": 76
+        },
+        {
+          "engineer": "robbie-c",
+          "merged_pr_count": 74
+        },
+        {
+          "engineer": "Twixes",
+          "merged_pr_count": 73
+        },
+        {
+          "engineer": "yasen-posthog",
+          "merged_pr_count": 71
+        },
+        {
+          "engineer": "scheduled-actions-posthog[bot]",
+          "merged_pr_count": 70
+        },
+        {
+          "engineer": "havenbarnes",
+          "merged_pr_count": 69
+        },
+        {
+          "engineer": "andrewjmcgehee",
+          "merged_pr_count": 68
+        },
+        {
+          "engineer": "kappa90",
+          "merged_pr_count": 68
+        },
+        {
+          "engineer": "MattBro",
+          "merged_pr_count": 66
+        },
+        {
+          "engineer": "vdekrijger",
+          "merged_pr_count": 66
+        },
+        {
+          "engineer": "meikelmosby",
+          "merged_pr_count": 66
+        },
+        {
+          "engineer": "ablaszkiewicz",
+          "merged_pr_count": 65
+        },
+        {
+          "engineer": "gustavohstrassburger",
+          "merged_pr_count": 64
+        },
+        {
+          "engineer": "TueHaulund",
+          "merged_pr_count": 61
+        },
+        {
+          "engineer": "Gilbert09",
+          "merged_pr_count": 59
+        },
+        {
+          "engineer": "jordanm-posthog",
+          "merged_pr_count": 58
+        },
+        {
+          "engineer": "mariusandra",
+          "merged_pr_count": 58
+        },
+        {
+          "engineer": "pl",
+          "merged_pr_count": 58
+        },
+        {
+          "engineer": "jabahamondes",
+          "merged_pr_count": 57
+        },
+        {
+          "engineer": "mp-hog",
+          "merged_pr_count": 55
+        },
+        {
+          "engineer": "lricoy",
+          "merged_pr_count": 55
+        },
+        {
+          "engineer": "oliverb123",
+          "merged_pr_count": 52
+        },
+        {
+          "engineer": "tatoalo",
+          "merged_pr_count": 52
+        },
+        {
+          "engineer": "andehen",
+          "merged_pr_count": 51
+        },
+        {
+          "engineer": "rodrigoi",
+          "merged_pr_count": 50
+        },
+        {
+          "engineer": "fasyy612",
+          "merged_pr_count": 49
+        },
+        {
+          "engineer": "jurajmajerik",
+          "merged_pr_count": 48
+        },
+        {
+          "engineer": "hpouillot",
+          "merged_pr_count": 47
+        },
+        {
+          "engineer": "frankh",
+          "merged_pr_count": 47
+        },
+        {
+          "engineer": "tomasfarias",
+          "merged_pr_count": 45
+        },
+        {
+          "engineer": "nickbest-ph",
+          "merged_pr_count": 45
+        },
+        {
+          "engineer": "Radu-Raicea",
+          "merged_pr_count": 45
+        },
+        {
+          "engineer": "posthog-js-upgrader[bot]",
+          "merged_pr_count": 43
+        },
+        {
+          "engineer": "rossgray",
+          "merged_pr_count": 42
+        },
+        {
+          "engineer": "luke-belton",
+          "merged_pr_count": 42
+        },
+        {
+          "engineer": "carlos-marchal-ph",
+          "merged_pr_count": 41
+        },
+        {
+          "engineer": "benjackwhite",
+          "merged_pr_count": 40
+        },
+        {
+          "engineer": "fuziontech",
+          "merged_pr_count": 40
+        },
+        {
+          "engineer": "a-lider",
+          "merged_pr_count": 39
+        },
+        {
+          "engineer": "MattPua",
+          "merged_pr_count": 39
+        },
+        {
+          "engineer": "andyzzhao",
+          "merged_pr_count": 38
+        },
+        {
+          "engineer": "anirudhpillai",
+          "merged_pr_count": 38
+        },
+        {
+          "engineer": "richardsolomou",
+          "merged_pr_count": 38
+        },
+        {
+          "engineer": "ordehi",
+          "merged_pr_count": 37
+        },
+        {
+          "engineer": "estefaniarabadan",
+          "merged_pr_count": 36
+        },
+        {
+          "engineer": "ksvat",
+          "merged_pr_count": 36
+        },
+        {
+          "engineer": "fercgomes",
+          "merged_pr_count": 35
+        },
+        {
+          "engineer": "gesh",
+          "merged_pr_count": 34
+        },
+        {
+          "engineer": "dependabot[bot]",
+          "merged_pr_count": 30
+        },
+        {
+          "engineer": "sortafreel",
+          "merged_pr_count": 29
+        },
+        {
+          "engineer": "orian",
+          "merged_pr_count": 29
+        },
+        {
+          "engineer": "lucasheriques",
+          "merged_pr_count": 28
+        },
+        {
+          "engineer": "lmenezes",
+          "merged_pr_count": 26
+        },
+        {
+          "engineer": "georgemunyoro",
+          "merged_pr_count": 26
+        },
+        {
+          "engineer": "MarconLP",
+          "merged_pr_count": 23
+        },
+        {
+          "engineer": "pawel-cebula",
+          "merged_pr_count": 23
+        },
+        {
+          "engineer": "odin-posthog",
+          "merged_pr_count": 23
+        },
+        {
+          "engineer": "christiaan-ph",
+          "merged_pr_count": 20
+        },
+        {
+          "engineer": "cvolzer3",
+          "merged_pr_count": 20
+        },
+        {
+          "engineer": "clr182",
+          "merged_pr_count": 19
+        },
+        {
+          "engineer": "matheus-vb",
+          "merged_pr_count": 19
+        },
+        {
+          "engineer": "aspicer",
+          "merged_pr_count": 18
+        },
+        {
+          "engineer": "Daesgar",
+          "merged_pr_count": 18
+        },
+        {
+          "engineer": "patricio-posthog",
+          "merged_pr_count": 17
+        },
+        {
+          "engineer": "VojtechBartos",
+          "merged_pr_count": 15
+        },
+        {
+          "engineer": "abhischekt",
+          "merged_pr_count": 15
+        },
+        {
+          "engineer": "EDsCODE",
+          "merged_pr_count": 14
+        },
+        {
+          "engineer": "z0br0wn",
+          "merged_pr_count": 14
+        },
+        {
+          "engineer": "sarahxsanders",
+          "merged_pr_count": 13
+        },
+        {
+          "engineer": "danielxnj",
+          "merged_pr_count": 13
+        },
+        {
+          "engineer": "dustinbyrne",
+          "merged_pr_count": 13
+        },
+        {
+          "engineer": "gantoine",
+          "merged_pr_count": 12
+        },
+        {
+          "engineer": "darkopia",
+          "merged_pr_count": 12
+        },
+        {
+          "engineer": "bciaraldi",
+          "merged_pr_count": 12
+        },
+        {
+          "engineer": "raquelmsmith",
+          "merged_pr_count": 11
+        },
+        {
+          "engineer": "k11kirky",
+          "merged_pr_count": 10
+        },
+        {
+          "engineer": "edwinyjlim",
+          "merged_pr_count": 9
+        },
+        {
+          "engineer": "timgl",
+          "merged_pr_count": 9
+        },
+        {
+          "engineer": "inkeep[bot]",
+          "merged_pr_count": 8
+        },
+        {
+          "engineer": "rnegron",
+          "merged_pr_count": 8
+        },
+        {
+          "engineer": "jonathanlab",
+          "merged_pr_count": 8
+        },
+        {
+          "engineer": "posthog-bot",
+          "merged_pr_count": 8
+        },
+        {
+          "engineer": "charlesvien",
+          "merged_pr_count": 7
+        },
+        {
+          "engineer": "tests-posthog[bot]",
+          "merged_pr_count": 6
+        },
+        {
+          "engineer": "gewenyu99",
+          "merged_pr_count": 6
+        },
+        {
+          "engineer": "danielcarletti",
+          "merged_pr_count": 5
+        },
+        {
+          "engineer": "posthog[bot]",
+          "merged_pr_count": 5
+        },
+        {
+          "engineer": "MichaelKutsch-ph",
+          "merged_pr_count": 5
+        },
+        {
+          "engineer": "marandaneto",
+          "merged_pr_count": 5
+        },
+        {
+          "engineer": "slshults",
+          "merged_pr_count": 5
+        },
+        {
+          "engineer": "daniloc",
+          "merged_pr_count": 5
+        },
+        {
+          "engineer": "clickhouse-sync-posthog[bot]",
+          "merged_pr_count": 5
+        },
+        {
+          "engineer": "lshaowei18",
+          "merged_pr_count": 5
+        },
+        {
+          "engineer": "daibhin",
+          "merged_pr_count": 4
+        },
+        {
+          "engineer": "dmarchuk",
+          "merged_pr_count": 3
+        },
+        {
+          "engineer": "ioannisj",
+          "merged_pr_count": 3
+        },
+        {
+          "engineer": "buildwithmalik",
+          "merged_pr_count": 3
+        },
+        {
+          "engineer": "xljones",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "nicowaltz",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "charlescook-ph",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "harihran-del",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "abheek9",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "langesven",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "mircoboettcher",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "Copilot",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "jeremylongshore",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "bill-ph",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "dmiska25",
+          "merged_pr_count": 2
+        },
+        {
+          "engineer": "orlandohohmeier",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "beatlevic",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "andre347",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "parinporecha",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "kliment-slice",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "ceyniustranberg",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "salmanmkc",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "annikaschmid",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "will-marella",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "Classy-Bear",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "kurekszymon",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "antlio",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "Nezz",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "darkLord19",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "igormq",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "fivestarspicy",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "zlwaterfield",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "caiquejjx",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "sayer122",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "JJCLane",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "zhou-quickli",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "KaranPradhan266",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "GauravBansal29",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "carlosguso",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "ProCO-RPHopkins",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "abigailbramble",
+          "merged_pr_count": 1
+        },
+        {
+          "engineer": "zachstence",
+          "merged_pr_count": 1
+        }
+      ]
+    },
+    {
+      "analysis": "review_commit_pr_ratio",
+      "description": "Per-engineer review, commit, and PR ratio based on the current open PR dataset.",
+      "engineers": [
+        {
+          "engineer": "Piccirello",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "1:0:1",
+          "balance_score": 0.5
+        },
+        {
+          "engineer": "ablaszkiewicz",
+          "review_count": 3,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "3:0:3",
+          "balance_score": 0.5
+        },
+        {
+          "engineer": "lucasheriques",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "1:0:1",
+          "balance_score": 0.5
+        },
+        {
+          "engineer": "orian",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "1:0:1",
+          "balance_score": 0.5
+        },
+        {
+          "engineer": "hpouillot",
+          "review_count": 3,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "3:0:4",
+          "balance_score": 0.4286
+        },
+        {
+          "engineer": "oliverb123",
+          "review_count": 7,
+          "commit_count": 0,
+          "pr_count": 5,
+          "review_commit_pr_ratio": "7:0:5",
+          "balance_score": 0.4167
+        },
+        {
+          "engineer": "MattBro",
+          "review_count": 6,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "6:0:4",
+          "balance_score": 0.4
+        },
+        {
+          "engineer": "mariusandra",
+          "review_count": 3,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "3:0:2",
+          "balance_score": 0.4
+        },
+        {
+          "engineer": "dmarticus",
+          "review_count": 3,
+          "commit_count": 0,
+          "pr_count": 5,
+          "review_commit_pr_ratio": "3:0:5",
+          "balance_score": 0.375
+        },
+        {
+          "engineer": "fercgomes",
+          "review_count": 6,
+          "commit_count": 0,
+          "pr_count": 10,
+          "review_commit_pr_ratio": "6:0:10",
+          "balance_score": 0.375
+        },
+        {
+          "engineer": "robbie-c",
+          "review_count": 3,
+          "commit_count": 0,
+          "pr_count": 5,
+          "review_commit_pr_ratio": "3:0:5",
+          "balance_score": 0.375
+        },
+        {
+          "engineer": "thmsobrmlr",
+          "review_count": 3,
+          "commit_count": 0,
+          "pr_count": 5,
+          "review_commit_pr_ratio": "3:0:5",
+          "balance_score": 0.375
+        },
+        {
+          "engineer": "Gilbert09",
+          "review_count": 2,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "2:0:1",
+          "balance_score": 0.3333
+        },
+        {
+          "engineer": "andrewjmcgehee",
+          "review_count": 2,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "2:0:4",
+          "balance_score": 0.3333
+        },
+        {
+          "engineer": "gantoine",
+          "review_count": 2,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "2:0:1",
+          "balance_score": 0.3333
+        },
+        {
+          "engineer": "havenbarnes",
+          "review_count": 2,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "2:0:4",
+          "balance_score": 0.3333
+        },
+        {
+          "engineer": "pawel-cebula",
+          "review_count": 2,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "2:0:1",
+          "balance_score": 0.3333
+        },
+        {
+          "engineer": "rafaeelaudibert",
+          "review_count": 8,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "8:0:4",
+          "balance_score": 0.3333
+        },
+        {
+          "engineer": "sortafreel",
+          "review_count": 2,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "2:0:4",
+          "balance_score": 0.3333
+        },
+        {
+          "engineer": "tomasfarias",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "1:0:2",
+          "balance_score": 0.3333
+        },
+        {
+          "engineer": "veryayskiy",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "1:0:2",
+          "balance_score": 0.3333
+        },
+        {
+          "engineer": "benjackwhite",
+          "review_count": 2,
+          "commit_count": 0,
+          "pr_count": 5,
+          "review_commit_pr_ratio": "2:0:5",
+          "balance_score": 0.2857
+        },
+        {
+          "engineer": "webjunkie",
+          "review_count": 8,
+          "commit_count": 0,
+          "pr_count": 21,
+          "review_commit_pr_ratio": "8:0:21",
+          "balance_score": 0.2759
+        },
+        {
+          "engineer": "georgemunyoro",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "1:0:3",
+          "balance_score": 0.25
+        },
+        {
+          "engineer": "jordanm-posthog",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "1:0:3",
+          "balance_score": 0.25
+        },
+        {
+          "engineer": "jose-sequeira",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "1:0:3",
+          "balance_score": 0.25
+        },
+        {
+          "engineer": "aspicer",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "1:0:4",
+          "balance_score": 0.2
+        },
+        {
+          "engineer": "fasyy612",
+          "review_count": 4,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "4:0:1",
+          "balance_score": 0.2
+        },
+        {
+          "engineer": "haacked",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "1:0:4",
+          "balance_score": 0.2
+        },
+        {
+          "engineer": "lricoy",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "1:0:4",
+          "balance_score": 0.2
+        },
+        {
+          "engineer": "yasen-posthog",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "1:0:4",
+          "balance_score": 0.2
+        },
+        {
+          "engineer": "TueHaulund",
+          "review_count": 5,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "5:0:1",
+          "balance_score": 0.1667
+        },
+        {
+          "engineer": "eli-r-ph",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 5,
+          "review_commit_pr_ratio": "1:0:5",
+          "balance_score": 0.1667
+        },
+        {
+          "engineer": "joshsny",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 5,
+          "review_commit_pr_ratio": "1:0:5",
+          "balance_score": 0.1667
+        },
+        {
+          "engineer": "sampennington",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 9,
+          "review_commit_pr_ratio": "1:0:9",
+          "balance_score": 0.1
+        },
+        {
+          "engineer": "luke-belton",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 11,
+          "review_commit_pr_ratio": "1:0:11",
+          "balance_score": 0.0833
+        },
+        {
+          "engineer": "sakce",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 16,
+          "review_commit_pr_ratio": "1:0:16",
+          "balance_score": 0.0588
+        },
+        {
+          "engineer": "Arpan200502",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "EDsCODE",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 0,
+          "review_commit_pr_ratio": "1:0:0",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "HarshadaGawas05",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "Illumiknight07",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "JasonLovesDoggo",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "KarloAldrete",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "MarconLP",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 6,
+          "review_commit_pr_ratio": "0:0:6",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "MattPua",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 7,
+          "review_commit_pr_ratio": "0:0:7",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "MichaelKutsch-ph",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "MikeAthie",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "NewSmoke38",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "Radu-Raicea",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 5,
+          "review_commit_pr_ratio": "0:0:5",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "ReeceJones",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "SaraMiteva",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "Sireeshreddy01",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "Twixes",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 9,
+          "review_commit_pr_ratio": "0:0:9",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "Vitor-Bukovitz",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "VojtechBartos",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "0:0:3",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "a-lider",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "abhischekt",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "abigailbramble",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 0,
+          "review_commit_pr_ratio": "1:0:0",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "adboio",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 10,
+          "review_commit_pr_ratio": "0:0:10",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "advaitpaliwal",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "andehen",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "0:0:3",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "andrewm4894",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 17,
+          "review_commit_pr_ratio": "0:0:17",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "andyzzhao",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "anirudhpillai",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "0:0:3",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "annaszell",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "anujsb",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "arthurdedeus",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "0:0:3",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "bciaraldi",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "bill-ph",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 0,
+          "review_commit_pr_ratio": "1:0:0",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "carlos-marchal-ph",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "ceyniustranberg",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "charlescook-ph",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "charlesvien",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "christiaan-ph",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "clr182",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "cvolzer3",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "danielalanbates",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "danielcarletti",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "darkopia",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 6,
+          "review_commit_pr_ratio": "0:0:6",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "dependabot[bot]",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 19,
+          "review_commit_pr_ratio": "0:0:19",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "dmarchuk",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "dschofie",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "dustinbyrne",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "edwinyjlim",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "ericls",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "estefaniarabadan",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "feliperalmeida",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "frankh",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 0,
+          "review_commit_pr_ratio": "1:0:0",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "gdeglin",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "gesh",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 0,
+          "review_commit_pr_ratio": "1:0:0",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "gewenyu99",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "grandhi02",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "gustavohstrassburger",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "0:0:3",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "harihran-del",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 11,
+          "review_commit_pr_ratio": "0:0:11",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "inkeep[bot]",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 10,
+          "review_commit_pr_ratio": "0:0:10",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "jabahamondes",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "jaencarrodine",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "janpio",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "jonmcwest",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "joshuaisaact",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "jurajmajerik",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "kappa90",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "0:0:3",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "ksvat",
+          "review_count": 6,
+          "commit_count": 0,
+          "pr_count": 0,
+          "review_commit_pr_ratio": "6:0:0",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "kurekszymon",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "kyleswank",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "lmenezes",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "manthankhawse",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "masylum",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "matheus-vb",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "mcoll-posthog",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 0,
+          "review_commit_pr_ratio": "1:0:0",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "meikelmosby",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 8,
+          "review_commit_pr_ratio": "0:0:8",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "mendral-app[bot]",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 12,
+          "review_commit_pr_ratio": "0:0:12",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "mircoboettcher",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "nickbest-ph",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "0:0:3",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "odin-posthog",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "okxint",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "parinporecha",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "patricio-posthog",
+          "review_count": 2,
+          "commit_count": 0,
+          "pr_count": 0,
+          "review_commit_pr_ratio": "2:0:0",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "pauldambra",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 18,
+          "review_commit_pr_ratio": "0:0:18",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "pl",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "0:0:3",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "posthog-js-upgrader[bot]",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 7,
+          "review_commit_pr_ratio": "0:0:7",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "posthog[bot]",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 9,
+          "review_commit_pr_ratio": "0:0:9",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "ragini-pandey",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "rainsubtime",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "raquelmsmith",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "richardsolomou",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "rnegron",
+          "review_count": 1,
+          "commit_count": 0,
+          "pr_count": 0,
+          "review_commit_pr_ratio": "1:0:0",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "rodrigoi",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "0:0:4",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "rohan-pandeyy",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "rossgray",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 4,
+          "review_commit_pr_ratio": "0:0:4",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "sbrin",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "scheduled-actions-posthog[bot]",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "skoob13",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 10,
+          "review_commit_pr_ratio": "0:0:10",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "slshults",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "tejasae-afk",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "vdekrijger",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "vmaineng",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 1,
+          "review_commit_pr_ratio": "0:0:1",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "xljones",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "z0br0wn",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 2,
+          "review_commit_pr_ratio": "0:0:2",
+          "balance_score": 0.0
+        },
+        {
+          "engineer": "zaniluca",
+          "review_count": 0,
+          "commit_count": 0,
+          "pr_count": 3,
+          "review_commit_pr_ratio": "0:0:3",
+          "balance_score": 0.0
+        }
+      ]
+    },
+    {
+      "analysis": "pr_open_to_merge_time",
+      "description": "Average and median time between PR creation and merge for each engineer.",
+      "engineers": [
+        {
+          "engineer": "kurekszymon",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 0.45,
+          "median_open_to_merge_hours": 0.45,
+          "average_open_to_merge_days": 0.02,
+          "median_open_to_merge_days": 0.02
+        },
+        {
+          "engineer": "zachstence",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 1.04,
+          "median_open_to_merge_hours": 1.04,
+          "average_open_to_merge_days": 0.04,
+          "median_open_to_merge_days": 0.04
+        },
+        {
+          "engineer": "Classy-Bear",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 1.38,
+          "median_open_to_merge_hours": 1.38,
+          "average_open_to_merge_days": 0.06,
+          "median_open_to_merge_days": 0.06
+        },
+        {
+          "engineer": "Nezz",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 1.58,
+          "median_open_to_merge_hours": 1.58,
+          "average_open_to_merge_days": 0.07,
+          "median_open_to_merge_days": 0.07
+        },
+        {
+          "engineer": "andre347",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 2.42,
+          "median_open_to_merge_hours": 2.42,
+          "average_open_to_merge_days": 0.1,
+          "median_open_to_merge_days": 0.1
+        },
+        {
+          "engineer": "fuziontech",
+          "merged_pr_count": 40,
+          "average_open_to_merge_hours": 3.08,
+          "median_open_to_merge_hours": 0.51,
+          "average_open_to_merge_days": 0.13,
+          "median_open_to_merge_days": 0.02
+        },
+        {
+          "engineer": "posthog-js-upgrader[bot]",
+          "merged_pr_count": 43,
+          "average_open_to_merge_hours": 4.65,
+          "median_open_to_merge_hours": 1.65,
+          "average_open_to_merge_days": 0.19,
+          "median_open_to_merge_days": 0.07
+        },
+        {
+          "engineer": "ceyniustranberg",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 5.41,
+          "median_open_to_merge_hours": 5.41,
+          "average_open_to_merge_days": 0.23,
+          "median_open_to_merge_days": 0.23
+        },
+        {
+          "engineer": "orlandohohmeier",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 8.67,
+          "median_open_to_merge_hours": 8.67,
+          "average_open_to_merge_days": 0.36,
+          "median_open_to_merge_days": 0.36
+        },
+        {
+          "engineer": "carlosguso",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 8.94,
+          "median_open_to_merge_hours": 8.94,
+          "average_open_to_merge_days": 0.37,
+          "median_open_to_merge_days": 0.37
+        },
+        {
+          "engineer": "scheduled-actions-posthog[bot]",
+          "merged_pr_count": 70,
+          "average_open_to_merge_hours": 9.9,
+          "median_open_to_merge_hours": 1.84,
+          "average_open_to_merge_days": 0.41,
+          "median_open_to_merge_days": 0.08
+        },
+        {
+          "engineer": "mendral-app[bot]",
+          "merged_pr_count": 160,
+          "average_open_to_merge_hours": 11.94,
+          "median_open_to_merge_hours": 0.78,
+          "average_open_to_merge_days": 0.5,
+          "median_open_to_merge_days": 0.03
+        },
+        {
+          "engineer": "nicowaltz",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 12.14,
+          "median_open_to_merge_hours": 12.14,
+          "average_open_to_merge_days": 0.51,
+          "median_open_to_merge_days": 0.51
+        },
+        {
+          "engineer": "MattPua",
+          "merged_pr_count": 39,
+          "average_open_to_merge_hours": 14.0,
+          "median_open_to_merge_hours": 5.51,
+          "average_open_to_merge_days": 0.58,
+          "median_open_to_merge_days": 0.23
+        },
+        {
+          "engineer": "veryayskiy",
+          "merged_pr_count": 95,
+          "average_open_to_merge_hours": 14.28,
+          "median_open_to_merge_hours": 1.14,
+          "average_open_to_merge_days": 0.6,
+          "median_open_to_merge_days": 0.05
+        },
+        {
+          "engineer": "Daesgar",
+          "merged_pr_count": 18,
+          "average_open_to_merge_hours": 14.76,
+          "median_open_to_merge_hours": 1.81,
+          "average_open_to_merge_days": 0.61,
+          "median_open_to_merge_days": 0.08
+        },
+        {
+          "engineer": "dmarchuk",
+          "merged_pr_count": 3,
+          "average_open_to_merge_hours": 16.48,
+          "median_open_to_merge_hours": 17.61,
+          "average_open_to_merge_days": 0.69,
+          "median_open_to_merge_days": 0.73
+        },
+        {
+          "engineer": "fivestarspicy",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 16.55,
+          "median_open_to_merge_hours": 16.55,
+          "average_open_to_merge_days": 0.69,
+          "median_open_to_merge_days": 0.69
+        },
+        {
+          "engineer": "Piccirello",
+          "merged_pr_count": 102,
+          "average_open_to_merge_hours": 19.45,
+          "median_open_to_merge_hours": 3.29,
+          "average_open_to_merge_days": 0.81,
+          "median_open_to_merge_days": 0.14
+        },
+        {
+          "engineer": "joshsny",
+          "merged_pr_count": 78,
+          "average_open_to_merge_hours": 20.68,
+          "median_open_to_merge_hours": 0.97,
+          "average_open_to_merge_days": 0.86,
+          "median_open_to_merge_days": 0.04
+        },
+        {
+          "engineer": "xljones",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 21.61,
+          "median_open_to_merge_hours": 21.61,
+          "average_open_to_merge_days": 0.9,
+          "median_open_to_merge_days": 0.9
+        },
+        {
+          "engineer": "tomasfarias",
+          "merged_pr_count": 45,
+          "average_open_to_merge_hours": 22.65,
+          "median_open_to_merge_hours": 1.72,
+          "average_open_to_merge_days": 0.94,
+          "median_open_to_merge_days": 0.07
+        },
+        {
+          "engineer": "charlescook-ph",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 23.65,
+          "median_open_to_merge_hours": 23.65,
+          "average_open_to_merge_days": 0.99,
+          "median_open_to_merge_days": 0.99
+        },
+        {
+          "engineer": "ablaszkiewicz",
+          "merged_pr_count": 65,
+          "average_open_to_merge_hours": 23.74,
+          "median_open_to_merge_hours": 5.87,
+          "average_open_to_merge_days": 0.99,
+          "median_open_to_merge_days": 0.24
+        },
+        {
+          "engineer": "tests-posthog[bot]",
+          "merged_pr_count": 6,
+          "average_open_to_merge_hours": 23.95,
+          "median_open_to_merge_hours": 14.76,
+          "average_open_to_merge_days": 1.0,
+          "median_open_to_merge_days": 0.62
+        },
+        {
+          "engineer": "edwinyjlim",
+          "merged_pr_count": 9,
+          "average_open_to_merge_hours": 24.67,
+          "median_open_to_merge_hours": 3.26,
+          "average_open_to_merge_days": 1.03,
+          "median_open_to_merge_days": 0.14
+        },
+        {
+          "engineer": "sayer122",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 24.86,
+          "median_open_to_merge_hours": 24.86,
+          "average_open_to_merge_days": 1.04,
+          "median_open_to_merge_days": 1.04
+        },
+        {
+          "engineer": "orian",
+          "merged_pr_count": 29,
+          "average_open_to_merge_hours": 25.68,
+          "median_open_to_merge_hours": 3.17,
+          "average_open_to_merge_days": 1.07,
+          "median_open_to_merge_days": 0.13
+        },
+        {
+          "engineer": "JJCLane",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 26.44,
+          "median_open_to_merge_hours": 26.44,
+          "average_open_to_merge_days": 1.1,
+          "median_open_to_merge_days": 1.1
+        },
+        {
+          "engineer": "eli-r-ph",
+          "merged_pr_count": 111,
+          "average_open_to_merge_hours": 26.6,
+          "median_open_to_merge_hours": 2.56,
+          "average_open_to_merge_days": 1.11,
+          "median_open_to_merge_days": 0.11
+        },
+        {
+          "engineer": "carlos-marchal-ph",
+          "merged_pr_count": 41,
+          "average_open_to_merge_hours": 26.75,
+          "median_open_to_merge_hours": 16.03,
+          "average_open_to_merge_days": 1.11,
+          "median_open_to_merge_days": 0.67
+        },
+        {
+          "engineer": "adamleithp",
+          "merged_pr_count": 96,
+          "average_open_to_merge_hours": 27.27,
+          "median_open_to_merge_hours": 5.1,
+          "average_open_to_merge_days": 1.14,
+          "median_open_to_merge_days": 0.21
+        },
+        {
+          "engineer": "timgl",
+          "merged_pr_count": 9,
+          "average_open_to_merge_hours": 27.71,
+          "median_open_to_merge_hours": 7.95,
+          "average_open_to_merge_days": 1.15,
+          "median_open_to_merge_days": 0.33
+        },
+        {
+          "engineer": "posthog[bot]",
+          "merged_pr_count": 5,
+          "average_open_to_merge_hours": 27.86,
+          "median_open_to_merge_hours": 16.9,
+          "average_open_to_merge_days": 1.16,
+          "median_open_to_merge_days": 0.7
+        },
+        {
+          "engineer": "annikaschmid",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 28.46,
+          "median_open_to_merge_hours": 28.46,
+          "average_open_to_merge_days": 1.19,
+          "median_open_to_merge_days": 1.19
+        },
+        {
+          "engineer": "nickbest-ph",
+          "merged_pr_count": 45,
+          "average_open_to_merge_hours": 29.28,
+          "median_open_to_merge_hours": 6.09,
+          "average_open_to_merge_days": 1.22,
+          "median_open_to_merge_days": 0.25
+        },
+        {
+          "engineer": "odin-posthog",
+          "merged_pr_count": 23,
+          "average_open_to_merge_hours": 29.45,
+          "median_open_to_merge_hours": 2.78,
+          "average_open_to_merge_days": 1.23,
+          "median_open_to_merge_days": 0.12
+        },
+        {
+          "engineer": "mariusandra",
+          "merged_pr_count": 58,
+          "average_open_to_merge_hours": 30.48,
+          "median_open_to_merge_hours": 4.86,
+          "average_open_to_merge_days": 1.27,
+          "median_open_to_merge_days": 0.2
+        },
+        {
+          "engineer": "VojtechBartos",
+          "merged_pr_count": 15,
+          "average_open_to_merge_hours": 30.65,
+          "median_open_to_merge_hours": 14.69,
+          "average_open_to_merge_days": 1.28,
+          "median_open_to_merge_days": 0.61
+        },
+        {
+          "engineer": "jonathanlab",
+          "merged_pr_count": 8,
+          "average_open_to_merge_hours": 30.66,
+          "median_open_to_merge_hours": 12.96,
+          "average_open_to_merge_days": 1.28,
+          "median_open_to_merge_days": 0.54
+        },
+        {
+          "engineer": "dustinbyrne",
+          "merged_pr_count": 13,
+          "average_open_to_merge_hours": 30.67,
+          "median_open_to_merge_hours": 17.94,
+          "average_open_to_merge_days": 1.28,
+          "median_open_to_merge_days": 0.75
+        },
+        {
+          "engineer": "bciaraldi",
+          "merged_pr_count": 12,
+          "average_open_to_merge_hours": 32.26,
+          "median_open_to_merge_hours": 3.96,
+          "average_open_to_merge_days": 1.34,
+          "median_open_to_merge_days": 0.17
+        },
+        {
+          "engineer": "inkeep[bot]",
+          "merged_pr_count": 8,
+          "average_open_to_merge_hours": 32.43,
+          "median_open_to_merge_hours": 3.96,
+          "average_open_to_merge_days": 1.35,
+          "median_open_to_merge_days": 0.16
+        },
+        {
+          "engineer": "marandaneto",
+          "merged_pr_count": 5,
+          "average_open_to_merge_hours": 32.46,
+          "median_open_to_merge_hours": 25.16,
+          "average_open_to_merge_days": 1.35,
+          "median_open_to_merge_days": 1.05
+        },
+        {
+          "engineer": "estefaniarabadan",
+          "merged_pr_count": 37,
+          "average_open_to_merge_hours": 32.83,
+          "median_open_to_merge_hours": 5.52,
+          "average_open_to_merge_days": 1.37,
+          "median_open_to_merge_days": 0.23
+        },
+        {
+          "engineer": "jonmcwest",
+          "merged_pr_count": 116,
+          "average_open_to_merge_hours": 32.89,
+          "median_open_to_merge_hours": 4.69,
+          "average_open_to_merge_days": 1.37,
+          "median_open_to_merge_days": 0.2
+        },
+        {
+          "engineer": "jurajmajerik",
+          "merged_pr_count": 49,
+          "average_open_to_merge_hours": 33.59,
+          "median_open_to_merge_hours": 17.37,
+          "average_open_to_merge_days": 1.4,
+          "median_open_to_merge_days": 0.72
+        },
+        {
+          "engineer": "andrewm4894",
+          "merged_pr_count": 218,
+          "average_open_to_merge_hours": 33.82,
+          "median_open_to_merge_hours": 3.64,
+          "average_open_to_merge_days": 1.41,
+          "median_open_to_merge_days": 0.15
+        },
+        {
+          "engineer": "abhischekt",
+          "merged_pr_count": 15,
+          "average_open_to_merge_hours": 34.06,
+          "median_open_to_merge_hours": 23.22,
+          "average_open_to_merge_days": 1.42,
+          "median_open_to_merge_days": 0.97
+        },
+        {
+          "engineer": "mp-hog",
+          "merged_pr_count": 55,
+          "average_open_to_merge_hours": 34.34,
+          "median_open_to_merge_hours": 9.01,
+          "average_open_to_merge_days": 1.43,
+          "median_open_to_merge_days": 0.38
+        },
+        {
+          "engineer": "pauldambra",
+          "merged_pr_count": 209,
+          "average_open_to_merge_hours": 34.46,
+          "median_open_to_merge_hours": 9.84,
+          "average_open_to_merge_days": 1.44,
+          "median_open_to_merge_days": 0.41
+        },
+        {
+          "engineer": "abheek9",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 34.72,
+          "median_open_to_merge_hours": 34.72,
+          "average_open_to_merge_days": 1.45,
+          "median_open_to_merge_days": 1.45
+        },
+        {
+          "engineer": "frankh",
+          "merged_pr_count": 47,
+          "average_open_to_merge_hours": 35.38,
+          "median_open_to_merge_hours": 2.07,
+          "average_open_to_merge_days": 1.47,
+          "median_open_to_merge_days": 0.09
+        },
+        {
+          "engineer": "sarahxsanders",
+          "merged_pr_count": 13,
+          "average_open_to_merge_hours": 35.59,
+          "median_open_to_merge_hours": 16.15,
+          "average_open_to_merge_days": 1.48,
+          "median_open_to_merge_days": 0.67
+        },
+        {
+          "engineer": "gantoine",
+          "merged_pr_count": 12,
+          "average_open_to_merge_hours": 35.65,
+          "median_open_to_merge_hours": 22.24,
+          "average_open_to_merge_days": 1.49,
+          "median_open_to_merge_days": 0.93
+        },
+        {
+          "engineer": "robbie-c",
+          "merged_pr_count": 74,
+          "average_open_to_merge_hours": 35.83,
+          "median_open_to_merge_hours": 6.18,
+          "average_open_to_merge_days": 1.49,
+          "median_open_to_merge_days": 0.26
+        },
+        {
+          "engineer": "oliverb123",
+          "merged_pr_count": 54,
+          "average_open_to_merge_hours": 36.83,
+          "median_open_to_merge_hours": 1.93,
+          "average_open_to_merge_days": 1.53,
+          "median_open_to_merge_days": 0.08
+        },
+        {
+          "engineer": "jose-sequeira",
+          "merged_pr_count": 81,
+          "average_open_to_merge_hours": 37.43,
+          "median_open_to_merge_hours": 10.27,
+          "average_open_to_merge_days": 1.56,
+          "median_open_to_merge_days": 0.43
+        },
+        {
+          "engineer": "igormq",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 37.72,
+          "median_open_to_merge_hours": 37.72,
+          "average_open_to_merge_days": 1.57,
+          "median_open_to_merge_days": 1.57
+        },
+        {
+          "engineer": "sampennington",
+          "merged_pr_count": 84,
+          "average_open_to_merge_hours": 38.41,
+          "median_open_to_merge_hours": 21.18,
+          "average_open_to_merge_days": 1.6,
+          "median_open_to_merge_days": 0.88
+        },
+        {
+          "engineer": "hpouillot",
+          "merged_pr_count": 48,
+          "average_open_to_merge_hours": 39.85,
+          "median_open_to_merge_hours": 17.74,
+          "average_open_to_merge_days": 1.66,
+          "median_open_to_merge_days": 0.74
+        },
+        {
+          "engineer": "langesven",
+          "merged_pr_count": 3,
+          "average_open_to_merge_hours": 40.94,
+          "median_open_to_merge_hours": 1.0,
+          "average_open_to_merge_days": 1.71,
+          "median_open_to_merge_days": 0.04
+        },
+        {
+          "engineer": "daibhin",
+          "merged_pr_count": 4,
+          "average_open_to_merge_hours": 41.38,
+          "median_open_to_merge_hours": 46.85,
+          "average_open_to_merge_days": 1.72,
+          "median_open_to_merge_days": 1.95
+        },
+        {
+          "engineer": "k11kirky",
+          "merged_pr_count": 10,
+          "average_open_to_merge_hours": 41.63,
+          "median_open_to_merge_hours": 18.15,
+          "average_open_to_merge_days": 1.73,
+          "median_open_to_merge_days": 0.76
+        },
+        {
+          "engineer": "Radu-Raicea",
+          "merged_pr_count": 45,
+          "average_open_to_merge_hours": 42.23,
+          "median_open_to_merge_hours": 17.51,
+          "average_open_to_merge_days": 1.76,
+          "median_open_to_merge_days": 0.73
+        },
+        {
+          "engineer": "fasyy612",
+          "merged_pr_count": 49,
+          "average_open_to_merge_hours": 42.86,
+          "median_open_to_merge_hours": 19.23,
+          "average_open_to_merge_days": 1.79,
+          "median_open_to_merge_days": 0.8
+        },
+        {
+          "engineer": "sortafreel",
+          "merged_pr_count": 29,
+          "average_open_to_merge_hours": 43.96,
+          "median_open_to_merge_hours": 2.03,
+          "average_open_to_merge_days": 1.83,
+          "median_open_to_merge_days": 0.08
+        },
+        {
+          "engineer": "skoob13",
+          "merged_pr_count": 95,
+          "average_open_to_merge_hours": 44.15,
+          "median_open_to_merge_hours": 3.67,
+          "average_open_to_merge_days": 1.84,
+          "median_open_to_merge_days": 0.15
+        },
+        {
+          "engineer": "yasen-posthog",
+          "merged_pr_count": 76,
+          "average_open_to_merge_hours": 44.3,
+          "median_open_to_merge_hours": 19.01,
+          "average_open_to_merge_days": 1.85,
+          "median_open_to_merge_days": 0.79
+        },
+        {
+          "engineer": "lmenezes",
+          "merged_pr_count": 26,
+          "average_open_to_merge_hours": 45.44,
+          "median_open_to_merge_hours": 20.67,
+          "average_open_to_merge_days": 1.89,
+          "median_open_to_merge_days": 0.86
+        },
+        {
+          "engineer": "tatoalo",
+          "merged_pr_count": 52,
+          "average_open_to_merge_hours": 46.57,
+          "median_open_to_merge_hours": 2.0,
+          "average_open_to_merge_days": 1.94,
+          "median_open_to_merge_days": 0.08
+        },
+        {
+          "engineer": "MarconLP",
+          "merged_pr_count": 23,
+          "average_open_to_merge_hours": 47.44,
+          "median_open_to_merge_hours": 21.36,
+          "average_open_to_merge_days": 1.98,
+          "median_open_to_merge_days": 0.89
+        },
+        {
+          "engineer": "christiaan-ph",
+          "merged_pr_count": 20,
+          "average_open_to_merge_hours": 47.64,
+          "median_open_to_merge_hours": 2.74,
+          "average_open_to_merge_days": 1.99,
+          "median_open_to_merge_days": 0.11
+        },
+        {
+          "engineer": "andehen",
+          "merged_pr_count": 51,
+          "average_open_to_merge_hours": 47.72,
+          "median_open_to_merge_hours": 3.41,
+          "average_open_to_merge_days": 1.99,
+          "median_open_to_merge_days": 0.14
+        },
+        {
+          "engineer": "TueHaulund",
+          "merged_pr_count": 61,
+          "average_open_to_merge_hours": 48.17,
+          "median_open_to_merge_hours": 8.69,
+          "average_open_to_merge_days": 2.01,
+          "median_open_to_merge_days": 0.36
+        },
+        {
+          "engineer": "rossgray",
+          "merged_pr_count": 42,
+          "average_open_to_merge_hours": 48.41,
+          "median_open_to_merge_hours": 16.79,
+          "average_open_to_merge_days": 2.02,
+          "median_open_to_merge_days": 0.7
+        },
+        {
+          "engineer": "abigailbramble",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 48.71,
+          "median_open_to_merge_hours": 48.71,
+          "average_open_to_merge_days": 2.03,
+          "median_open_to_merge_days": 2.03
+        },
+        {
+          "engineer": "andyzzhao",
+          "merged_pr_count": 38,
+          "average_open_to_merge_hours": 49.04,
+          "median_open_to_merge_hours": 18.93,
+          "average_open_to_merge_days": 2.04,
+          "median_open_to_merge_days": 0.79
+        },
+        {
+          "engineer": "charlesvien",
+          "merged_pr_count": 7,
+          "average_open_to_merge_hours": 49.21,
+          "median_open_to_merge_hours": 20.23,
+          "average_open_to_merge_days": 2.05,
+          "median_open_to_merge_days": 0.84
+        },
+        {
+          "engineer": "pl",
+          "merged_pr_count": 61,
+          "average_open_to_merge_hours": 49.24,
+          "median_open_to_merge_hours": 4.24,
+          "average_open_to_merge_days": 2.05,
+          "median_open_to_merge_days": 0.18
+        },
+        {
+          "engineer": "matheus-vb",
+          "merged_pr_count": 19,
+          "average_open_to_merge_hours": 49.5,
+          "median_open_to_merge_hours": 24.93,
+          "average_open_to_merge_days": 2.06,
+          "median_open_to_merge_days": 1.04
+        },
+        {
+          "engineer": "rafaeelaudibert",
+          "merged_pr_count": 148,
+          "average_open_to_merge_hours": 50.38,
+          "median_open_to_merge_hours": 23.03,
+          "average_open_to_merge_days": 2.1,
+          "median_open_to_merge_days": 0.96
+        },
+        {
+          "engineer": "dmarticus",
+          "merged_pr_count": 84,
+          "average_open_to_merge_hours": 50.65,
+          "median_open_to_merge_hours": 19.72,
+          "average_open_to_merge_days": 2.11,
+          "median_open_to_merge_days": 0.82
+        },
+        {
+          "engineer": "richardsolomou",
+          "merged_pr_count": 38,
+          "average_open_to_merge_hours": 50.87,
+          "median_open_to_merge_hours": 7.32,
+          "average_open_to_merge_days": 2.12,
+          "median_open_to_merge_days": 0.3
+        },
+        {
+          "engineer": "meikelmosby",
+          "merged_pr_count": 67,
+          "average_open_to_merge_hours": 51.38,
+          "median_open_to_merge_hours": 18.33,
+          "average_open_to_merge_days": 2.14,
+          "median_open_to_merge_days": 0.76
+        },
+        {
+          "engineer": "GauravBansal29",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 52.19,
+          "median_open_to_merge_hours": 52.19,
+          "average_open_to_merge_days": 2.17,
+          "median_open_to_merge_days": 2.17
+        },
+        {
+          "engineer": "z0br0wn",
+          "merged_pr_count": 14,
+          "average_open_to_merge_hours": 52.53,
+          "median_open_to_merge_hours": 35.86,
+          "average_open_to_merge_days": 2.19,
+          "median_open_to_merge_days": 1.49
+        },
+        {
+          "engineer": "gesh",
+          "merged_pr_count": 34,
+          "average_open_to_merge_hours": 52.99,
+          "median_open_to_merge_hours": 17.95,
+          "average_open_to_merge_days": 2.21,
+          "median_open_to_merge_days": 0.75
+        },
+        {
+          "engineer": "gustavohstrassburger",
+          "merged_pr_count": 64,
+          "average_open_to_merge_hours": 53.57,
+          "median_open_to_merge_hours": 17.48,
+          "average_open_to_merge_days": 2.23,
+          "median_open_to_merge_days": 0.73
+        },
+        {
+          "engineer": "arthurdedeus",
+          "merged_pr_count": 78,
+          "average_open_to_merge_hours": 56.72,
+          "median_open_to_merge_hours": 23.85,
+          "average_open_to_merge_days": 2.36,
+          "median_open_to_merge_days": 0.99
+        },
+        {
+          "engineer": "caiquejjx",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 57.89,
+          "median_open_to_merge_hours": 57.89,
+          "average_open_to_merge_days": 2.41,
+          "median_open_to_merge_days": 2.41
+        },
+        {
+          "engineer": "rodrigoi",
+          "merged_pr_count": 50,
+          "average_open_to_merge_hours": 58.24,
+          "median_open_to_merge_hours": 30.88,
+          "average_open_to_merge_days": 2.43,
+          "median_open_to_merge_days": 1.29
+        },
+        {
+          "engineer": "slshults",
+          "merged_pr_count": 5,
+          "average_open_to_merge_hours": 58.81,
+          "median_open_to_merge_hours": 63.68,
+          "average_open_to_merge_days": 2.45,
+          "median_open_to_merge_days": 2.65
+        },
+        {
+          "engineer": "harihran-del",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 58.87,
+          "median_open_to_merge_hours": 58.87,
+          "average_open_to_merge_days": 2.45,
+          "median_open_to_merge_days": 2.45
+        },
+        {
+          "engineer": "haacked",
+          "merged_pr_count": 114,
+          "average_open_to_merge_hours": 63.44,
+          "median_open_to_merge_hours": 17.7,
+          "average_open_to_merge_days": 2.64,
+          "median_open_to_merge_days": 0.74
+        },
+        {
+          "engineer": "havenbarnes",
+          "merged_pr_count": 69,
+          "average_open_to_merge_hours": 65.12,
+          "median_open_to_merge_hours": 17.79,
+          "average_open_to_merge_days": 2.71,
+          "median_open_to_merge_days": 0.74
+        },
+        {
+          "engineer": "clr182",
+          "merged_pr_count": 19,
+          "average_open_to_merge_hours": 65.37,
+          "median_open_to_merge_hours": 19.18,
+          "average_open_to_merge_days": 2.72,
+          "median_open_to_merge_days": 0.8
+        },
+        {
+          "engineer": "patricio-posthog",
+          "merged_pr_count": 17,
+          "average_open_to_merge_hours": 65.97,
+          "median_open_to_merge_hours": 42.09,
+          "average_open_to_merge_days": 2.75,
+          "median_open_to_merge_days": 1.75
+        },
+        {
+          "engineer": "MattBro",
+          "merged_pr_count": 69,
+          "average_open_to_merge_hours": 67.26,
+          "median_open_to_merge_hours": 23.7,
+          "average_open_to_merge_days": 2.8,
+          "median_open_to_merge_days": 0.99
+        },
+        {
+          "engineer": "daniloc",
+          "merged_pr_count": 5,
+          "average_open_to_merge_hours": 68.37,
+          "median_open_to_merge_hours": 4.42,
+          "average_open_to_merge_days": 2.85,
+          "median_open_to_merge_days": 0.18
+        },
+        {
+          "engineer": "cvolzer3",
+          "merged_pr_count": 20,
+          "average_open_to_merge_hours": 69.33,
+          "median_open_to_merge_hours": 13.53,
+          "average_open_to_merge_days": 2.89,
+          "median_open_to_merge_days": 0.56
+        },
+        {
+          "engineer": "fercgomes",
+          "merged_pr_count": 36,
+          "average_open_to_merge_hours": 71.47,
+          "median_open_to_merge_hours": 14.0,
+          "average_open_to_merge_days": 2.98,
+          "median_open_to_merge_days": 0.58
+        },
+        {
+          "engineer": "bill-ph",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 72.43,
+          "median_open_to_merge_hours": 72.43,
+          "average_open_to_merge_days": 3.02,
+          "median_open_to_merge_days": 3.02
+        },
+        {
+          "engineer": "clickhouse-sync-posthog[bot]",
+          "merged_pr_count": 5,
+          "average_open_to_merge_hours": 72.52,
+          "median_open_to_merge_hours": 19.18,
+          "average_open_to_merge_days": 3.02,
+          "median_open_to_merge_days": 0.8
+        },
+        {
+          "engineer": "rnegron",
+          "merged_pr_count": 8,
+          "average_open_to_merge_hours": 72.83,
+          "median_open_to_merge_hours": 16.65,
+          "average_open_to_merge_days": 3.03,
+          "median_open_to_merge_days": 0.69
+        },
+        {
+          "engineer": "luke-belton",
+          "merged_pr_count": 44,
+          "average_open_to_merge_hours": 74.73,
+          "median_open_to_merge_hours": 20.99,
+          "average_open_to_merge_days": 3.11,
+          "median_open_to_merge_days": 0.87
+        },
+        {
+          "engineer": "ordehi",
+          "merged_pr_count": 37,
+          "average_open_to_merge_hours": 75.33,
+          "median_open_to_merge_hours": 19.0,
+          "average_open_to_merge_days": 3.14,
+          "median_open_to_merge_days": 0.79
+        },
+        {
+          "engineer": "webjunkie",
+          "merged_pr_count": 147,
+          "average_open_to_merge_hours": 75.87,
+          "median_open_to_merge_hours": 9.99,
+          "average_open_to_merge_days": 3.16,
+          "median_open_to_merge_days": 0.42
+        },
+        {
+          "engineer": "andrewjmcgehee",
+          "merged_pr_count": 69,
+          "average_open_to_merge_hours": 77.77,
+          "median_open_to_merge_hours": 5.75,
+          "average_open_to_merge_days": 3.24,
+          "median_open_to_merge_days": 0.24
+        },
+        {
+          "engineer": "danielcarletti",
+          "merged_pr_count": 5,
+          "average_open_to_merge_hours": 79.08,
+          "median_open_to_merge_hours": 70.52,
+          "average_open_to_merge_days": 3.29,
+          "median_open_to_merge_days": 2.94
+        },
+        {
+          "engineer": "pawel-cebula",
+          "merged_pr_count": 23,
+          "average_open_to_merge_hours": 79.49,
+          "median_open_to_merge_hours": 6.08,
+          "average_open_to_merge_days": 3.31,
+          "median_open_to_merge_days": 0.25
+        },
+        {
+          "engineer": "sakce",
+          "merged_pr_count": 123,
+          "average_open_to_merge_hours": 80.96,
+          "median_open_to_merge_hours": 16.55,
+          "average_open_to_merge_days": 3.37,
+          "median_open_to_merge_days": 0.69
+        },
+        {
+          "engineer": "anirudhpillai",
+          "merged_pr_count": 39,
+          "average_open_to_merge_hours": 81.03,
+          "median_open_to_merge_hours": 37.08,
+          "average_open_to_merge_days": 3.38,
+          "median_open_to_merge_days": 1.55
+        },
+        {
+          "engineer": "adboio",
+          "merged_pr_count": 153,
+          "average_open_to_merge_hours": 82.64,
+          "median_open_to_merge_hours": 38.81,
+          "average_open_to_merge_days": 3.44,
+          "median_open_to_merge_days": 1.62
+        },
+        {
+          "engineer": "lucasheriques",
+          "merged_pr_count": 28,
+          "average_open_to_merge_hours": 84.64,
+          "median_open_to_merge_hours": 34.53,
+          "average_open_to_merge_days": 3.53,
+          "median_open_to_merge_days": 1.44
+        },
+        {
+          "engineer": "thmsobrmlr",
+          "merged_pr_count": 82,
+          "average_open_to_merge_hours": 86.77,
+          "median_open_to_merge_hours": 23.09,
+          "average_open_to_merge_days": 3.62,
+          "median_open_to_merge_days": 0.96
+        },
+        {
+          "engineer": "parinporecha",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 87.54,
+          "median_open_to_merge_hours": 87.54,
+          "average_open_to_merge_days": 3.65,
+          "median_open_to_merge_days": 3.65
+        },
+        {
+          "engineer": "raquelmsmith",
+          "merged_pr_count": 11,
+          "average_open_to_merge_hours": 91.95,
+          "median_open_to_merge_hours": 24.28,
+          "average_open_to_merge_days": 3.83,
+          "median_open_to_merge_days": 1.01
+        },
+        {
+          "engineer": "danielxnj",
+          "merged_pr_count": 13,
+          "average_open_to_merge_hours": 92.03,
+          "median_open_to_merge_hours": 14.9,
+          "average_open_to_merge_days": 3.83,
+          "median_open_to_merge_days": 0.62
+        },
+        {
+          "engineer": "jabahamondes",
+          "merged_pr_count": 57,
+          "average_open_to_merge_hours": 95.05,
+          "median_open_to_merge_hours": 49.65,
+          "average_open_to_merge_days": 3.96,
+          "median_open_to_merge_days": 2.07
+        },
+        {
+          "engineer": "vdekrijger",
+          "merged_pr_count": 66,
+          "average_open_to_merge_hours": 95.09,
+          "median_open_to_merge_hours": 29.66,
+          "average_open_to_merge_days": 3.96,
+          "median_open_to_merge_days": 1.24
+        },
+        {
+          "engineer": "Twixes",
+          "merged_pr_count": 73,
+          "average_open_to_merge_hours": 98.16,
+          "median_open_to_merge_hours": 28.94,
+          "average_open_to_merge_days": 4.09,
+          "median_open_to_merge_days": 1.21
+        },
+        {
+          "engineer": "will-marella",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 99.17,
+          "median_open_to_merge_hours": 99.17,
+          "average_open_to_merge_days": 4.13,
+          "median_open_to_merge_days": 4.13
+        },
+        {
+          "engineer": "zhou-quickli",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 100.31,
+          "median_open_to_merge_hours": 100.31,
+          "average_open_to_merge_days": 4.18,
+          "median_open_to_merge_days": 4.18
+        },
+        {
+          "engineer": "jordanm-posthog",
+          "merged_pr_count": 58,
+          "average_open_to_merge_hours": 102.34,
+          "median_open_to_merge_hours": 43.61,
+          "average_open_to_merge_days": 4.26,
+          "median_open_to_merge_days": 1.82
+        },
+        {
+          "engineer": "kappa90",
+          "merged_pr_count": 68,
+          "average_open_to_merge_hours": 105.05,
+          "median_open_to_merge_hours": 44.75,
+          "average_open_to_merge_days": 4.38,
+          "median_open_to_merge_days": 1.86
+        },
+        {
+          "engineer": "dependabot[bot]",
+          "merged_pr_count": 30,
+          "average_open_to_merge_hours": 105.77,
+          "median_open_to_merge_hours": 21.0,
+          "average_open_to_merge_days": 4.41,
+          "median_open_to_merge_days": 0.88
+        },
+        {
+          "engineer": "georgemunyoro",
+          "merged_pr_count": 29,
+          "average_open_to_merge_hours": 106.67,
+          "median_open_to_merge_hours": 63.76,
+          "average_open_to_merge_days": 4.44,
+          "median_open_to_merge_days": 2.66
+        },
+        {
+          "engineer": "gewenyu99",
+          "merged_pr_count": 7,
+          "average_open_to_merge_hours": 110.6,
+          "median_open_to_merge_hours": 98.67,
+          "average_open_to_merge_days": 4.61,
+          "median_open_to_merge_days": 4.11
+        },
+        {
+          "engineer": "salmanmkc",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 112.05,
+          "median_open_to_merge_hours": 112.05,
+          "average_open_to_merge_days": 4.67,
+          "median_open_to_merge_days": 4.67
+        },
+        {
+          "engineer": "ksvat",
+          "merged_pr_count": 36,
+          "average_open_to_merge_hours": 114.09,
+          "median_open_to_merge_hours": 24.58,
+          "average_open_to_merge_days": 4.75,
+          "median_open_to_merge_days": 1.02
+        },
+        {
+          "engineer": "darkopia",
+          "merged_pr_count": 12,
+          "average_open_to_merge_hours": 122.52,
+          "median_open_to_merge_hours": 5.36,
+          "average_open_to_merge_days": 5.11,
+          "median_open_to_merge_days": 0.22
+        },
+        {
+          "engineer": "jeremylongshore",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 124.12,
+          "median_open_to_merge_hours": 124.12,
+          "average_open_to_merge_days": 5.17,
+          "median_open_to_merge_days": 5.17
+        },
+        {
+          "engineer": "ReeceJones",
+          "merged_pr_count": 82,
+          "average_open_to_merge_hours": 125.79,
+          "median_open_to_merge_hours": 43.81,
+          "average_open_to_merge_days": 5.24,
+          "median_open_to_merge_days": 1.83
+        },
+        {
+          "engineer": "Copilot",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 129.52,
+          "median_open_to_merge_hours": 129.52,
+          "average_open_to_merge_days": 5.4,
+          "median_open_to_merge_days": 5.4
+        },
+        {
+          "engineer": "lricoy",
+          "merged_pr_count": 55,
+          "average_open_to_merge_hours": 129.87,
+          "median_open_to_merge_hours": 18.9,
+          "average_open_to_merge_days": 5.41,
+          "median_open_to_merge_days": 0.79
+        },
+        {
+          "engineer": "EDsCODE",
+          "merged_pr_count": 14,
+          "average_open_to_merge_hours": 131.48,
+          "median_open_to_merge_hours": 11.53,
+          "average_open_to_merge_days": 5.48,
+          "median_open_to_merge_days": 0.48
+        },
+        {
+          "engineer": "kliment-slice",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 131.8,
+          "median_open_to_merge_hours": 131.8,
+          "average_open_to_merge_days": 5.49,
+          "median_open_to_merge_days": 5.49
+        },
+        {
+          "engineer": "a-lider",
+          "merged_pr_count": 39,
+          "average_open_to_merge_hours": 137.19,
+          "median_open_to_merge_hours": 34.17,
+          "average_open_to_merge_days": 5.72,
+          "median_open_to_merge_days": 1.42
+        },
+        {
+          "engineer": "beatlevic",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 144.7,
+          "median_open_to_merge_hours": 144.7,
+          "average_open_to_merge_days": 6.03,
+          "median_open_to_merge_days": 6.03
+        },
+        {
+          "engineer": "dmiska25",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 155.04,
+          "median_open_to_merge_hours": 155.04,
+          "average_open_to_merge_days": 6.46,
+          "median_open_to_merge_days": 6.46
+        },
+        {
+          "engineer": "benjackwhite",
+          "merged_pr_count": 40,
+          "average_open_to_merge_hours": 164.71,
+          "median_open_to_merge_hours": 48.46,
+          "average_open_to_merge_days": 6.86,
+          "median_open_to_merge_days": 2.02
+        },
+        {
+          "engineer": "MichaelKutsch-ph",
+          "merged_pr_count": 5,
+          "average_open_to_merge_hours": 169.87,
+          "median_open_to_merge_hours": 10.65,
+          "average_open_to_merge_days": 7.08,
+          "median_open_to_merge_days": 0.44
+        },
+        {
+          "engineer": "Gilbert09",
+          "merged_pr_count": 59,
+          "average_open_to_merge_hours": 170.19,
+          "median_open_to_merge_hours": 2.48,
+          "average_open_to_merge_days": 7.09,
+          "median_open_to_merge_days": 0.1
+        },
+        {
+          "engineer": "darkLord19",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 186.4,
+          "median_open_to_merge_hours": 186.4,
+          "average_open_to_merge_days": 7.77,
+          "median_open_to_merge_days": 7.77
+        },
+        {
+          "engineer": "mircoboettcher",
+          "merged_pr_count": 2,
+          "average_open_to_merge_hours": 206.56,
+          "median_open_to_merge_hours": 206.56,
+          "average_open_to_merge_days": 8.61,
+          "median_open_to_merge_days": 8.61
+        },
+        {
+          "engineer": "aspicer",
+          "merged_pr_count": 18,
+          "average_open_to_merge_hours": 209.92,
+          "median_open_to_merge_hours": 41.86,
+          "average_open_to_merge_days": 8.75,
+          "median_open_to_merge_days": 1.74
+        },
+        {
+          "engineer": "KaranPradhan266",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 251.11,
+          "median_open_to_merge_hours": 251.11,
+          "average_open_to_merge_days": 10.46,
+          "median_open_to_merge_days": 10.46
+        },
+        {
+          "engineer": "posthog-bot",
+          "merged_pr_count": 8,
+          "average_open_to_merge_hours": 251.14,
+          "median_open_to_merge_hours": 3.62,
+          "average_open_to_merge_days": 10.46,
+          "median_open_to_merge_days": 0.15
+        },
+        {
+          "engineer": "lshaowei18",
+          "merged_pr_count": 5,
+          "average_open_to_merge_hours": 346.56,
+          "median_open_to_merge_hours": 198.62,
+          "average_open_to_merge_days": 14.44,
+          "median_open_to_merge_days": 8.28
+        },
+        {
+          "engineer": "buildwithmalik",
+          "merged_pr_count": 3,
+          "average_open_to_merge_hours": 359.16,
+          "median_open_to_merge_hours": 383.86,
+          "average_open_to_merge_days": 14.96,
+          "median_open_to_merge_days": 15.99
+        },
+        {
+          "engineer": "ioannisj",
+          "merged_pr_count": 3,
+          "average_open_to_merge_hours": 605.73,
+          "median_open_to_merge_hours": 149.29,
+          "average_open_to_merge_days": 25.24,
+          "median_open_to_merge_days": 6.22
+        },
+        {
+          "engineer": "ProCO-RPHopkins",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 1039.56,
+          "median_open_to_merge_hours": 1039.56,
+          "average_open_to_merge_days": 43.31,
+          "median_open_to_merge_days": 43.31
+        },
+        {
+          "engineer": "antlio",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 1343.02,
+          "median_open_to_merge_hours": 1343.02,
+          "average_open_to_merge_days": 55.96,
+          "median_open_to_merge_days": 55.96
+        },
+        {
+          "engineer": "zlwaterfield",
+          "merged_pr_count": 1,
+          "average_open_to_merge_hours": 2415.5,
+          "median_open_to_merge_hours": 2415.5,
+          "average_open_to_merge_days": 100.65,
+          "median_open_to_merge_days": 100.65
+        }
+      ]
+    }
+  ]
+}

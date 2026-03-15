@@ -1,0 +1,1383 @@
+{
+  "source": {
+    "from": "analysis/results/opened-pr-window-summary.json",
+    "definition": "merged_pr_count / opened_pr_count for PRs created inside the selected time window"
+  },
+  "engineer_count": 229,
+  "engineers": [
+    {
+      "engineer": "sarahxsanders",
+      "opened_pr_count": 13,
+      "merged_pr_count": 13,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "k11kirky",
+      "opened_pr_count": 10,
+      "merged_pr_count": 10,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "jonathanlab",
+      "opened_pr_count": 8,
+      "merged_pr_count": 8,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "MichaelKutsch-ph",
+      "opened_pr_count": 5,
+      "merged_pr_count": 5,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "marandaneto",
+      "opened_pr_count": 5,
+      "merged_pr_count": 5,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "nicowaltz",
+      "opened_pr_count": 2,
+      "merged_pr_count": 2,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "ioannisj",
+      "opened_pr_count": 2,
+      "merged_pr_count": 2,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "abheek9",
+      "opened_pr_count": 2,
+      "merged_pr_count": 2,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "buildwithmalik",
+      "opened_pr_count": 2,
+      "merged_pr_count": 2,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "orlandohohmeier",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "andre347",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "kliment-slice",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "annikaschmid",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "Classy-Bear",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "will-marella",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "Nezz",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "igormq",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "fivestarspicy",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "darkLord19",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "caiquejjx",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "sayer122",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "JJCLane",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "carlosguso",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "GauravBansal29",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "zhou-quickli",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "KaranPradhan266",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "bill-ph",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "dmiska25",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "zachstence",
+      "opened_pr_count": 1,
+      "merged_pr_count": 1,
+      "throughput_ratio": 1.0
+    },
+    {
+      "engineer": "mp-hog",
+      "opened_pr_count": 56,
+      "merged_pr_count": 55,
+      "throughput_ratio": 0.9821
+    },
+    {
+      "engineer": "jurajmajerik",
+      "opened_pr_count": 47,
+      "merged_pr_count": 46,
+      "throughput_ratio": 0.9787
+    },
+    {
+      "engineer": "gesh",
+      "opened_pr_count": 34,
+      "merged_pr_count": 33,
+      "throughput_ratio": 0.9706
+    },
+    {
+      "engineer": "frankh",
+      "opened_pr_count": 49,
+      "merged_pr_count": 47,
+      "throughput_ratio": 0.9592
+    },
+    {
+      "engineer": "scheduled-actions-posthog[bot]",
+      "opened_pr_count": 74,
+      "merged_pr_count": 70,
+      "throughput_ratio": 0.9459
+    },
+    {
+      "engineer": "ReeceJones",
+      "opened_pr_count": 85,
+      "merged_pr_count": 80,
+      "throughput_ratio": 0.9412
+    },
+    {
+      "engineer": "lucasheriques",
+      "opened_pr_count": 30,
+      "merged_pr_count": 28,
+      "throughput_ratio": 0.9333
+    },
+    {
+      "engineer": "carlos-marchal-ph",
+      "opened_pr_count": 44,
+      "merged_pr_count": 41,
+      "throughput_ratio": 0.9318
+    },
+    {
+      "engineer": "veryayskiy",
+      "opened_pr_count": 102,
+      "merged_pr_count": 95,
+      "throughput_ratio": 0.9314
+    },
+    {
+      "engineer": "rafaeelaudibert",
+      "opened_pr_count": 159,
+      "merged_pr_count": 146,
+      "throughput_ratio": 0.9182
+    },
+    {
+      "engineer": "eli-r-ph",
+      "opened_pr_count": 120,
+      "merged_pr_count": 110,
+      "throughput_ratio": 0.9167
+    },
+    {
+      "engineer": "pawel-cebula",
+      "opened_pr_count": 24,
+      "merged_pr_count": 22,
+      "throughput_ratio": 0.9167
+    },
+    {
+      "engineer": "fuziontech",
+      "opened_pr_count": 44,
+      "merged_pr_count": 40,
+      "throughput_ratio": 0.9091
+    },
+    {
+      "engineer": "cvolzer3",
+      "opened_pr_count": 22,
+      "merged_pr_count": 20,
+      "throughput_ratio": 0.9091
+    },
+    {
+      "engineer": "arthurdedeus",
+      "opened_pr_count": 85,
+      "merged_pr_count": 77,
+      "throughput_ratio": 0.9059
+    },
+    {
+      "engineer": "andrewjmcgehee",
+      "opened_pr_count": 74,
+      "merged_pr_count": 67,
+      "throughput_ratio": 0.9054
+    },
+    {
+      "engineer": "Daesgar",
+      "opened_pr_count": 20,
+      "merged_pr_count": 18,
+      "throughput_ratio": 0.9
+    },
+    {
+      "engineer": "tomasfarias",
+      "opened_pr_count": 49,
+      "merged_pr_count": 44,
+      "throughput_ratio": 0.898
+    },
+    {
+      "engineer": "lmenezes",
+      "opened_pr_count": 29,
+      "merged_pr_count": 26,
+      "throughput_ratio": 0.8966
+    },
+    {
+      "engineer": "patricio-posthog",
+      "opened_pr_count": 19,
+      "merged_pr_count": 17,
+      "throughput_ratio": 0.8947
+    },
+    {
+      "engineer": "vdekrijger",
+      "opened_pr_count": 72,
+      "merged_pr_count": 64,
+      "throughput_ratio": 0.8889
+    },
+    {
+      "engineer": "yasen-posthog",
+      "opened_pr_count": 84,
+      "merged_pr_count": 74,
+      "throughput_ratio": 0.881
+    },
+    {
+      "engineer": "estefaniarabadan",
+      "opened_pr_count": 42,
+      "merged_pr_count": 37,
+      "throughput_ratio": 0.881
+    },
+    {
+      "engineer": "jose-sequeira",
+      "opened_pr_count": 92,
+      "merged_pr_count": 81,
+      "throughput_ratio": 0.8804
+    },
+    {
+      "engineer": "Piccirello",
+      "opened_pr_count": 115,
+      "merged_pr_count": 101,
+      "throughput_ratio": 0.8783
+    },
+    {
+      "engineer": "fasyy612",
+      "opened_pr_count": 55,
+      "merged_pr_count": 48,
+      "throughput_ratio": 0.8727
+    },
+    {
+      "engineer": "adamleithp",
+      "opened_pr_count": 109,
+      "merged_pr_count": 95,
+      "throughput_ratio": 0.8716
+    },
+    {
+      "engineer": "havenbarnes",
+      "opened_pr_count": 77,
+      "merged_pr_count": 67,
+      "throughput_ratio": 0.8701
+    },
+    {
+      "engineer": "rossgray",
+      "opened_pr_count": 46,
+      "merged_pr_count": 40,
+      "throughput_ratio": 0.8696
+    },
+    {
+      "engineer": "EDsCODE",
+      "opened_pr_count": 15,
+      "merged_pr_count": 13,
+      "throughput_ratio": 0.8667
+    },
+    {
+      "engineer": "tatoalo",
+      "opened_pr_count": 59,
+      "merged_pr_count": 51,
+      "throughput_ratio": 0.8644
+    },
+    {
+      "engineer": "kappa90",
+      "opened_pr_count": 73,
+      "merged_pr_count": 63,
+      "throughput_ratio": 0.863
+    },
+    {
+      "engineer": "pl",
+      "opened_pr_count": 70,
+      "merged_pr_count": 60,
+      "throughput_ratio": 0.8571
+    },
+    {
+      "engineer": "hpouillot",
+      "opened_pr_count": 56,
+      "merged_pr_count": 48,
+      "throughput_ratio": 0.8571
+    },
+    {
+      "engineer": "ordehi",
+      "opened_pr_count": 42,
+      "merged_pr_count": 36,
+      "throughput_ratio": 0.8571
+    },
+    {
+      "engineer": "tests-posthog[bot]",
+      "opened_pr_count": 7,
+      "merged_pr_count": 6,
+      "throughput_ratio": 0.8571
+    },
+    {
+      "engineer": "dmarticus",
+      "opened_pr_count": 97,
+      "merged_pr_count": 83,
+      "throughput_ratio": 0.8557
+    },
+    {
+      "engineer": "Gilbert09",
+      "opened_pr_count": 66,
+      "merged_pr_count": 56,
+      "throughput_ratio": 0.8485
+    },
+    {
+      "engineer": "robbie-c",
+      "opened_pr_count": 85,
+      "merged_pr_count": 72,
+      "throughput_ratio": 0.8471
+    },
+    {
+      "engineer": "jonmcwest",
+      "opened_pr_count": 136,
+      "merged_pr_count": 115,
+      "throughput_ratio": 0.8456
+    },
+    {
+      "engineer": "richardsolomou",
+      "opened_pr_count": 45,
+      "merged_pr_count": 38,
+      "throughput_ratio": 0.8444
+    },
+    {
+      "engineer": "ablaszkiewicz",
+      "opened_pr_count": 76,
+      "merged_pr_count": 64,
+      "throughput_ratio": 0.8421
+    },
+    {
+      "engineer": "haacked",
+      "opened_pr_count": 131,
+      "merged_pr_count": 110,
+      "throughput_ratio": 0.8397
+    },
+    {
+      "engineer": "slshults",
+      "opened_pr_count": 6,
+      "merged_pr_count": 5,
+      "throughput_ratio": 0.8333
+    },
+    {
+      "engineer": "clickhouse-sync-posthog[bot]",
+      "opened_pr_count": 6,
+      "merged_pr_count": 5,
+      "throughput_ratio": 0.8333
+    },
+    {
+      "engineer": "gustavohstrassburger",
+      "opened_pr_count": 76,
+      "merged_pr_count": 63,
+      "throughput_ratio": 0.8289
+    },
+    {
+      "engineer": "oliverb123",
+      "opened_pr_count": 64,
+      "merged_pr_count": 53,
+      "throughput_ratio": 0.8281
+    },
+    {
+      "engineer": "rodrigoi",
+      "opened_pr_count": 58,
+      "merged_pr_count": 48,
+      "throughput_ratio": 0.8276
+    },
+    {
+      "engineer": "jabahamondes",
+      "opened_pr_count": 69,
+      "merged_pr_count": 57,
+      "throughput_ratio": 0.8261
+    },
+    {
+      "engineer": "anirudhpillai",
+      "opened_pr_count": 46,
+      "merged_pr_count": 38,
+      "throughput_ratio": 0.8261
+    },
+    {
+      "engineer": "lricoy",
+      "opened_pr_count": 63,
+      "merged_pr_count": 52,
+      "throughput_ratio": 0.8254
+    },
+    {
+      "engineer": "z0br0wn",
+      "opened_pr_count": 17,
+      "merged_pr_count": 14,
+      "throughput_ratio": 0.8235
+    },
+    {
+      "engineer": "andyzzhao",
+      "opened_pr_count": 45,
+      "merged_pr_count": 37,
+      "throughput_ratio": 0.8222
+    },
+    {
+      "engineer": "mariusandra",
+      "opened_pr_count": 71,
+      "merged_pr_count": 58,
+      "throughput_ratio": 0.8169
+    },
+    {
+      "engineer": "Radu-Raicea",
+      "opened_pr_count": 54,
+      "merged_pr_count": 44,
+      "throughput_ratio": 0.8148
+    },
+    {
+      "engineer": "jordanm-posthog",
+      "opened_pr_count": 70,
+      "merged_pr_count": 57,
+      "throughput_ratio": 0.8143
+    },
+    {
+      "engineer": "TueHaulund",
+      "opened_pr_count": 75,
+      "merged_pr_count": 61,
+      "throughput_ratio": 0.8133
+    },
+    {
+      "engineer": "nickbest-ph",
+      "opened_pr_count": 56,
+      "merged_pr_count": 45,
+      "throughput_ratio": 0.8036
+    },
+    {
+      "engineer": "skoob13",
+      "opened_pr_count": 116,
+      "merged_pr_count": 93,
+      "throughput_ratio": 0.8017
+    },
+    {
+      "engineer": "orian",
+      "opened_pr_count": 35,
+      "merged_pr_count": 28,
+      "throughput_ratio": 0.8
+    },
+    {
+      "engineer": "adboio",
+      "opened_pr_count": 184,
+      "merged_pr_count": 146,
+      "throughput_ratio": 0.7935
+    },
+    {
+      "engineer": "MattBro",
+      "opened_pr_count": 86,
+      "merged_pr_count": 68,
+      "throughput_ratio": 0.7907
+    },
+    {
+      "engineer": "ksvat",
+      "opened_pr_count": 43,
+      "merged_pr_count": 34,
+      "throughput_ratio": 0.7907
+    },
+    {
+      "engineer": "webjunkie",
+      "opened_pr_count": 176,
+      "merged_pr_count": 139,
+      "throughput_ratio": 0.7898
+    },
+    {
+      "engineer": "joshsny",
+      "opened_pr_count": 98,
+      "merged_pr_count": 77,
+      "throughput_ratio": 0.7857
+    },
+    {
+      "engineer": "sortafreel",
+      "opened_pr_count": 37,
+      "merged_pr_count": 29,
+      "throughput_ratio": 0.7838
+    },
+    {
+      "engineer": "georgemunyoro",
+      "opened_pr_count": 37,
+      "merged_pr_count": 29,
+      "throughput_ratio": 0.7838
+    },
+    {
+      "engineer": "pauldambra",
+      "opened_pr_count": 261,
+      "merged_pr_count": 204,
+      "throughput_ratio": 0.7816
+    },
+    {
+      "engineer": "andehen",
+      "opened_pr_count": 64,
+      "merged_pr_count": 50,
+      "throughput_ratio": 0.7812
+    },
+    {
+      "engineer": "MattPua",
+      "opened_pr_count": 50,
+      "merged_pr_count": 39,
+      "throughput_ratio": 0.78
+    },
+    {
+      "engineer": "matheus-vb",
+      "opened_pr_count": 25,
+      "merged_pr_count": 19,
+      "throughput_ratio": 0.76
+    },
+    {
+      "engineer": "sampennington",
+      "opened_pr_count": 111,
+      "merged_pr_count": 84,
+      "throughput_ratio": 0.7568
+    },
+    {
+      "engineer": "andrewm4894",
+      "opened_pr_count": 288,
+      "merged_pr_count": 216,
+      "throughput_ratio": 0.75
+    },
+    {
+      "engineer": "danielxnj",
+      "opened_pr_count": 16,
+      "merged_pr_count": 12,
+      "throughput_ratio": 0.75
+    },
+    {
+      "engineer": "bciaraldi",
+      "opened_pr_count": 16,
+      "merged_pr_count": 12,
+      "throughput_ratio": 0.75
+    },
+    {
+      "engineer": "edwinyjlim",
+      "opened_pr_count": 12,
+      "merged_pr_count": 9,
+      "throughput_ratio": 0.75
+    },
+    {
+      "engineer": "dmarchuk",
+      "opened_pr_count": 4,
+      "merged_pr_count": 3,
+      "throughput_ratio": 0.75
+    },
+    {
+      "engineer": "daibhin",
+      "opened_pr_count": 4,
+      "merged_pr_count": 3,
+      "throughput_ratio": 0.75
+    },
+    {
+      "engineer": "meikelmosby",
+      "opened_pr_count": 87,
+      "merged_pr_count": 64,
+      "throughput_ratio": 0.7356
+    },
+    {
+      "engineer": "rnegron",
+      "opened_pr_count": 11,
+      "merged_pr_count": 8,
+      "throughput_ratio": 0.7273
+    },
+    {
+      "engineer": "benjackwhite",
+      "opened_pr_count": 51,
+      "merged_pr_count": 37,
+      "throughput_ratio": 0.7255
+    },
+    {
+      "engineer": "thmsobrmlr",
+      "opened_pr_count": 109,
+      "merged_pr_count": 79,
+      "throughput_ratio": 0.7248
+    },
+    {
+      "engineer": "dustinbyrne",
+      "opened_pr_count": 18,
+      "merged_pr_count": 13,
+      "throughput_ratio": 0.7222
+    },
+    {
+      "engineer": "odin-posthog",
+      "opened_pr_count": 32,
+      "merged_pr_count": 23,
+      "throughput_ratio": 0.7188
+    },
+    {
+      "engineer": "VojtechBartos",
+      "opened_pr_count": 21,
+      "merged_pr_count": 15,
+      "throughput_ratio": 0.7143
+    },
+    {
+      "engineer": "danielcarletti",
+      "opened_pr_count": 7,
+      "merged_pr_count": 5,
+      "throughput_ratio": 0.7143
+    },
+    {
+      "engineer": "sakce",
+      "opened_pr_count": 166,
+      "merged_pr_count": 118,
+      "throughput_ratio": 0.7108
+    },
+    {
+      "engineer": "luke-belton",
+      "opened_pr_count": 62,
+      "merged_pr_count": 44,
+      "throughput_ratio": 0.7097
+    },
+    {
+      "engineer": "Twixes",
+      "opened_pr_count": 101,
+      "merged_pr_count": 71,
+      "throughput_ratio": 0.703
+    },
+    {
+      "engineer": "gewenyu99",
+      "opened_pr_count": 10,
+      "merged_pr_count": 7,
+      "throughput_ratio": 0.7
+    },
+    {
+      "engineer": "charlesvien",
+      "opened_pr_count": 10,
+      "merged_pr_count": 7,
+      "throughput_ratio": 0.7
+    },
+    {
+      "engineer": "mendral-app[bot]",
+      "opened_pr_count": 231,
+      "merged_pr_count": 160,
+      "throughput_ratio": 0.6926
+    },
+    {
+      "engineer": "a-lider",
+      "opened_pr_count": 52,
+      "merged_pr_count": 36,
+      "throughput_ratio": 0.6923
+    },
+    {
+      "engineer": "timgl",
+      "opened_pr_count": 13,
+      "merged_pr_count": 9,
+      "throughput_ratio": 0.6923
+    },
+    {
+      "engineer": "MarconLP",
+      "opened_pr_count": 34,
+      "merged_pr_count": 23,
+      "throughput_ratio": 0.6765
+    },
+    {
+      "engineer": "daniloc",
+      "opened_pr_count": 6,
+      "merged_pr_count": 4,
+      "throughput_ratio": 0.6667
+    },
+    {
+      "engineer": "langesven",
+      "opened_pr_count": 3,
+      "merged_pr_count": 2,
+      "throughput_ratio": 0.6667
+    },
+    {
+      "engineer": "raquelmsmith",
+      "opened_pr_count": 17,
+      "merged_pr_count": 11,
+      "throughput_ratio": 0.6471
+    },
+    {
+      "engineer": "gantoine",
+      "opened_pr_count": 19,
+      "merged_pr_count": 12,
+      "throughput_ratio": 0.6316
+    },
+    {
+      "engineer": "christiaan-ph",
+      "opened_pr_count": 32,
+      "merged_pr_count": 20,
+      "throughput_ratio": 0.625
+    },
+    {
+      "engineer": "clr182",
+      "opened_pr_count": 30,
+      "merged_pr_count": 18,
+      "throughput_ratio": 0.6
+    },
+    {
+      "engineer": "abhischekt",
+      "opened_pr_count": 25,
+      "merged_pr_count": 15,
+      "throughput_ratio": 0.6
+    },
+    {
+      "engineer": "aspicer",
+      "opened_pr_count": 27,
+      "merged_pr_count": 16,
+      "throughput_ratio": 0.5926
+    },
+    {
+      "engineer": "fercgomes",
+      "opened_pr_count": 66,
+      "merged_pr_count": 36,
+      "throughput_ratio": 0.5455
+    },
+    {
+      "engineer": "xljones",
+      "opened_pr_count": 4,
+      "merged_pr_count": 2,
+      "throughput_ratio": 0.5
+    },
+    {
+      "engineer": "charlescook-ph",
+      "opened_pr_count": 4,
+      "merged_pr_count": 2,
+      "throughput_ratio": 0.5
+    },
+    {
+      "engineer": "ceyniustranberg",
+      "opened_pr_count": 2,
+      "merged_pr_count": 1,
+      "throughput_ratio": 0.5
+    },
+    {
+      "engineer": "beatlevic",
+      "opened_pr_count": 2,
+      "merged_pr_count": 1,
+      "throughput_ratio": 0.5
+    },
+    {
+      "engineer": "kurekszymon",
+      "opened_pr_count": 2,
+      "merged_pr_count": 1,
+      "throughput_ratio": 0.5
+    },
+    {
+      "engineer": "salmanmkc",
+      "opened_pr_count": 2,
+      "merged_pr_count": 1,
+      "throughput_ratio": 0.5
+    },
+    {
+      "engineer": "abigailbramble",
+      "opened_pr_count": 2,
+      "merged_pr_count": 1,
+      "throughput_ratio": 0.5
+    },
+    {
+      "engineer": "posthog-bot",
+      "opened_pr_count": 15,
+      "merged_pr_count": 7,
+      "throughput_ratio": 0.4667
+    },
+    {
+      "engineer": "posthog-js-upgrader[bot]",
+      "opened_pr_count": 99,
+      "merged_pr_count": 43,
+      "throughput_ratio": 0.4343
+    },
+    {
+      "engineer": "lshaowei18",
+      "opened_pr_count": 7,
+      "merged_pr_count": 3,
+      "throughput_ratio": 0.4286
+    },
+    {
+      "engineer": "mircoboettcher",
+      "opened_pr_count": 5,
+      "merged_pr_count": 2,
+      "throughput_ratio": 0.4
+    },
+    {
+      "engineer": "Copilot",
+      "opened_pr_count": 5,
+      "merged_pr_count": 2,
+      "throughput_ratio": 0.4
+    },
+    {
+      "engineer": "inkeep[bot]",
+      "opened_pr_count": 21,
+      "merged_pr_count": 8,
+      "throughput_ratio": 0.381
+    },
+    {
+      "engineer": "darkopia",
+      "opened_pr_count": 32,
+      "merged_pr_count": 11,
+      "throughput_ratio": 0.3438
+    },
+    {
+      "engineer": "parinporecha",
+      "opened_pr_count": 3,
+      "merged_pr_count": 1,
+      "throughput_ratio": 0.3333
+    },
+    {
+      "engineer": "dependabot[bot]",
+      "opened_pr_count": 97,
+      "merged_pr_count": 30,
+      "throughput_ratio": 0.3093
+    },
+    {
+      "engineer": "jeremylongshore",
+      "opened_pr_count": 7,
+      "merged_pr_count": 2,
+      "throughput_ratio": 0.2857
+    },
+    {
+      "engineer": "posthog[bot]",
+      "opened_pr_count": 26,
+      "merged_pr_count": 5,
+      "throughput_ratio": 0.1923
+    },
+    {
+      "engineer": "harihran-del",
+      "opened_pr_count": 32,
+      "merged_pr_count": 2,
+      "throughput_ratio": 0.0625
+    },
+    {
+      "engineer": "timon0305",
+      "opened_pr_count": 4,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "matt-metivier",
+      "opened_pr_count": 4,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "zaniluca",
+      "opened_pr_count": 3,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "janpio",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "JasonLovesDoggo",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "kyleswank",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "advaitpaliwal",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "feliperalmeida",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "annaszell",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "HarshadaGawas05",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "rainsubtime",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "vmaineng",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "camerondeleone",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "willwearing",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "danielalanbates",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "KevinRSDNguyen",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Greeva48",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Suhaib3100",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "kriscoleman",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "grandhi02",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "naaa760",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Basit-Balogun10",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "NewSmoke38",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "akramcodez",
+      "opened_pr_count": 2,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "tejasae-afk",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "dschofie",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "sbrin",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "jaencarrodine",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "api2062",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "okxint",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "SaraMiteva",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "anujsb",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Illumiknight07",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Arpan200502",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "manthankhawse",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "giulio-leone",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "miles-kt-inkeep",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "KarloAldrete",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "maycuatroi1",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "bbloomf",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "manan19",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Sireeshreddy01",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "mixelburg",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "sapdragon",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "pierreeurope",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "nielskaspers",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "ericls",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "masylum",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "themavik",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Niceplace",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "ragini-pandey",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "am-design-works",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Fizza-Mukhtar",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "bs1180",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "rui-movio",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "david-is-back",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "ja-me-sk",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "hbnordin2",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "wudidapaopao",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "phillram",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Vitor-Bukovitz",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "jshorwitz",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "rohan-pandeyy",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "cubic-dev-ai[bot]",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "Hettbhutak",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "MikeAthie",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "smallbrownbike",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "joshuaisaact",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "MuzzaiyyanHussain",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "ProCO-RPHopkins",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "ahmedhesham6",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "KyeongJooni",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "AaronDewes",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "gdeglin",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "jverre",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "michael-kutsch",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    },
+    {
+      "engineer": "carlosbaraza",
+      "opened_pr_count": 1,
+      "merged_pr_count": 0,
+      "throughput_ratio": 0.0
+    }
+  ]
+}

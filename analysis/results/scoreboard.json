@@ -1,0 +1,2343 @@
+{
+  "source": {
+    "throughput": "analysis/results/throughput.json",
+    "collaboration": "analysis/results/balance-view.json",
+    "impact": "analysis/results/change-surface.json",
+    "speed": "analysis/results/merge-time.json"
+  },
+  "weights": {
+    "throughput": 0.35,
+    "collaboration": 0.25,
+    "impact": 0.25,
+    "speed": 0.15
+  },
+  "normalization": {
+    "throughput": "min-max (higher is better)",
+    "collaboration": "min-max (higher is better)",
+    "impact": "min-max (higher is better)",
+    "speed": "min-max inverse on average_open_to_merge_hours (lower is better)"
+  },
+  "engineer_count": 232,
+  "engineers": [
+    {
+      "engineer": "webjunkie",
+      "overall_score": 0.8097,
+      "component_scores": {
+        "throughput": 0.7898,
+        "collaboration": 0.5518,
+        "impact": 1.0,
+        "speed": 0.9688
+      }
+    },
+    {
+      "engineer": "lucasheriques",
+      "overall_score": 0.7235,
+      "component_scores": {
+        "throughput": 0.9333,
+        "collaboration": 1.0,
+        "impact": 0.0083,
+        "speed": 0.9651
+      }
+    },
+    {
+      "engineer": "Piccirello",
+      "overall_score": 0.7135,
+      "component_scores": {
+        "throughput": 0.8783,
+        "collaboration": 1.0,
+        "impact": 0.029,
+        "speed": 0.9921
+      }
+    },
+    {
+      "engineer": "ablaszkiewicz",
+      "overall_score": 0.6971,
+      "component_scores": {
+        "throughput": 0.8421,
+        "collaboration": 1.0,
+        "impact": 0.0153,
+        "speed": 0.9904
+      }
+    },
+    {
+      "engineer": "rafaeelaudibert",
+      "overall_score": 0.6829,
+      "component_scores": {
+        "throughput": 0.9182,
+        "collaboration": 0.6666,
+        "impact": 0.1918,
+        "speed": 0.9793
+      }
+    },
+    {
+      "engineer": "orian",
+      "overall_score": 0.6792,
+      "component_scores": {
+        "throughput": 0.8,
+        "collaboration": 1.0,
+        "impact": 0.0029,
+        "speed": 0.9896
+      }
+    },
+    {
+      "engineer": "hpouillot",
+      "overall_score": 0.666,
+      "component_scores": {
+        "throughput": 0.8571,
+        "collaboration": 0.8572,
+        "impact": 0.0166,
+        "speed": 0.9837
+      }
+    },
+    {
+      "engineer": "oliverb123",
+      "overall_score": 0.6489,
+      "component_scores": {
+        "throughput": 0.8281,
+        "collaboration": 0.8334,
+        "impact": 0.0121,
+        "speed": 0.9849
+      }
+    },
+    {
+      "engineer": "veryayskiy",
+      "overall_score": 0.6486,
+      "component_scores": {
+        "throughput": 0.9314,
+        "collaboration": 0.6666,
+        "impact": 0.0274,
+        "speed": 0.9943
+      }
+    },
+    {
+      "engineer": "dmarticus",
+      "overall_score": 0.6409,
+      "component_scores": {
+        "throughput": 0.8557,
+        "collaboration": 0.75,
+        "impact": 0.0282,
+        "speed": 0.9792
+      }
+    },
+    {
+      "engineer": "mariusandra",
+      "overall_score": 0.6401,
+      "component_scores": {
+        "throughput": 0.8169,
+        "collaboration": 0.8,
+        "impact": 0.024,
+        "speed": 0.9876
+      }
+    },
+    {
+      "engineer": "robbie-c",
+      "overall_score": 0.6374,
+      "component_scores": {
+        "throughput": 0.8471,
+        "collaboration": 0.75,
+        "impact": 0.0224,
+        "speed": 0.9854
+      }
+    },
+    {
+      "engineer": "pawel-cebula",
+      "overall_score": 0.6332,
+      "component_scores": {
+        "throughput": 0.9167,
+        "collaboration": 0.6666,
+        "impact": 0.0026,
+        "speed": 0.9673
+      }
+    },
+    {
+      "engineer": "andrewjmcgehee",
+      "overall_score": 0.6327,
+      "component_scores": {
+        "throughput": 0.9054,
+        "collaboration": 0.6666,
+        "impact": 0.016,
+        "speed": 0.968
+      }
+    },
+    {
+      "engineer": "tomasfarias",
+      "overall_score": 0.6305,
+      "component_scores": {
+        "throughput": 0.898,
+        "collaboration": 0.6666,
+        "impact": 0.0038,
+        "speed": 0.9908
+      }
+    },
+    {
+      "engineer": "MattBro",
+      "overall_score": 0.6261,
+      "component_scores": {
+        "throughput": 0.7907,
+        "collaboration": 0.8,
+        "impact": 0.014,
+        "speed": 0.9723
+      }
+    },
+    {
+      "engineer": "havenbarnes",
+      "overall_score": 0.6225,
+      "component_scores": {
+        "throughput": 0.8701,
+        "collaboration": 0.6666,
+        "impact": 0.0215,
+        "speed": 0.9732
+      }
+    },
+    {
+      "engineer": "Gilbert09",
+      "overall_score": 0.6072,
+      "component_scores": {
+        "throughput": 0.8485,
+        "collaboration": 0.6666,
+        "impact": 0.0163,
+        "speed": 0.9297
+      }
+    },
+    {
+      "engineer": "thmsobrmlr",
+      "overall_score": 0.5908,
+      "component_scores": {
+        "throughput": 0.7248,
+        "collaboration": 0.75,
+        "impact": 0.02,
+        "speed": 0.9643
+      }
+    },
+    {
+      "engineer": "sortafreel",
+      "overall_score": 0.59,
+      "component_scores": {
+        "throughput": 0.7838,
+        "collaboration": 0.6666,
+        "impact": 0.0068,
+        "speed": 0.982
+      }
+    },
+    {
+      "engineer": "jose-sequeira",
+      "overall_score": 0.5883,
+      "component_scores": {
+        "throughput": 0.8804,
+        "collaboration": 0.5,
+        "impact": 0.0299,
+        "speed": 0.9847
+      }
+    },
+    {
+      "engineer": "yasen-posthog",
+      "overall_score": 0.5618,
+      "component_scores": {
+        "throughput": 0.881,
+        "collaboration": 0.4,
+        "impact": 0.0247,
+        "speed": 0.9818
+      }
+    },
+    {
+      "engineer": "eli-r-ph",
+      "overall_score": 0.559,
+      "component_scores": {
+        "throughput": 0.9167,
+        "collaboration": 0.3334,
+        "impact": 0.0256,
+        "speed": 0.9892
+      }
+    },
+    {
+      "engineer": "jordanm-posthog",
+      "overall_score": 0.5582,
+      "component_scores": {
+        "throughput": 0.8143,
+        "collaboration": 0.5,
+        "impact": 0.018,
+        "speed": 0.9578
+      }
+    },
+    {
+      "engineer": "fasyy612",
+      "overall_score": 0.5554,
+      "component_scores": {
+        "throughput": 0.8727,
+        "collaboration": 0.4,
+        "impact": 0.0103,
+        "speed": 0.9824
+      }
+    },
+    {
+      "engineer": "benjackwhite",
+      "overall_score": 0.5518,
+      "component_scores": {
+        "throughput": 0.7255,
+        "collaboration": 0.5714,
+        "impact": 0.0608,
+        "speed": 0.932
+      }
+    },
+    {
+      "engineer": "georgemunyoro",
+      "overall_score": 0.5468,
+      "component_scores": {
+        "throughput": 0.7838,
+        "collaboration": 0.5,
+        "impact": 0.0161,
+        "speed": 0.956
+      }
+    },
+    {
+      "engineer": "haacked",
+      "overall_score": 0.546,
+      "component_scores": {
+        "throughput": 0.8397,
+        "collaboration": 0.4,
+        "impact": 0.0241,
+        "speed": 0.9739
+      }
+    },
+    {
+      "engineer": "gantoine",
+      "overall_score": 0.5379,
+      "component_scores": {
+        "throughput": 0.6316,
+        "collaboration": 0.6666,
+        "impact": 0.0094,
+        "speed": 0.9854
+      }
+    },
+    {
+      "engineer": "lricoy",
+      "overall_score": 0.5333,
+      "component_scores": {
+        "throughput": 0.8254,
+        "collaboration": 0.4,
+        "impact": 0.0097,
+        "speed": 0.9464
+      }
+    },
+    {
+      "engineer": "fercgomes",
+      "overall_score": 0.5269,
+      "component_scores": {
+        "throughput": 0.5455,
+        "collaboration": 0.75,
+        "impact": 0.0115,
+        "speed": 0.9706
+      }
+    },
+    {
+      "engineer": "TueHaulund",
+      "overall_score": 0.5227,
+      "component_scores": {
+        "throughput": 0.8133,
+        "collaboration": 0.3334,
+        "impact": 0.0306,
+        "speed": 0.9802
+      }
+    },
+    {
+      "engineer": "joshsny",
+      "overall_score": 0.5143,
+      "component_scores": {
+        "throughput": 0.7857,
+        "collaboration": 0.3334,
+        "impact": 0.0288,
+        "speed": 0.9916
+      }
+    },
+    {
+      "engineer": "sarahxsanders",
+      "overall_score": 0.5006,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.011,
+        "speed": 0.9854
+      }
+    },
+    {
+      "engineer": "zachstence",
+      "overall_score": 0.5,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9998
+      }
+    },
+    {
+      "engineer": "Classy-Bear",
+      "overall_score": 0.4999,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9996
+      }
+    },
+    {
+      "engineer": "Nezz",
+      "overall_score": 0.4999,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9995
+      }
+    },
+    {
+      "engineer": "andre347",
+      "overall_score": 0.4999,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9992
+      }
+    },
+    {
+      "engineer": "nicowaltz",
+      "overall_score": 0.4996,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0012,
+        "speed": 0.9952
+      }
+    },
+    {
+      "engineer": "carlosguso",
+      "overall_score": 0.4995,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9965
+      }
+    },
+    {
+      "engineer": "orlandohohmeier",
+      "overall_score": 0.4995,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9966
+      }
+    },
+    {
+      "engineer": "fivestarspicy",
+      "overall_score": 0.499,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9933
+      }
+    },
+    {
+      "engineer": "sayer122",
+      "overall_score": 0.4985,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9899
+      }
+    },
+    {
+      "engineer": "JJCLane",
+      "overall_score": 0.4984,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9892
+      }
+    },
+    {
+      "engineer": "annikaschmid",
+      "overall_score": 0.4983,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9884
+      }
+    },
+    {
+      "engineer": "jonathanlab",
+      "overall_score": 0.4983,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0008,
+        "speed": 0.9875
+      }
+    },
+    {
+      "engineer": "marandaneto",
+      "overall_score": 0.4981,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0003,
+        "speed": 0.9867
+      }
+    },
+    {
+      "engineer": "k11kirky",
+      "overall_score": 0.498,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0022,
+        "speed": 0.9829
+      }
+    },
+    {
+      "engineer": "abheek9",
+      "overall_score": 0.4979,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0003,
+        "speed": 0.9858
+      }
+    },
+    {
+      "engineer": "igormq",
+      "overall_score": 0.4977,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9846
+      }
+    },
+    {
+      "engineer": "GauravBansal29",
+      "overall_score": 0.4968,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0002,
+        "speed": 0.9786
+      }
+    },
+    {
+      "engineer": "caiquejjx",
+      "overall_score": 0.4964,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9762
+      }
+    },
+    {
+      "engineer": "bill-ph",
+      "overall_score": 0.4956,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0003,
+        "speed": 0.9702
+      }
+    },
+    {
+      "engineer": "mp-hog",
+      "overall_score": 0.4943,
+      "component_scores": {
+        "throughput": 0.9821,
+        "collaboration": 0.0,
+        "impact": 0.0108,
+        "speed": 0.986
+      }
+    },
+    {
+      "engineer": "will-marella",
+      "overall_score": 0.4939,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9591
+      }
+    },
+    {
+      "engineer": "zhou-quickli",
+      "overall_score": 0.4938,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9587
+      }
+    },
+    {
+      "engineer": "jurajmajerik",
+      "overall_score": 0.4933,
+      "component_scores": {
+        "throughput": 0.9787,
+        "collaboration": 0.0,
+        "impact": 0.0112,
+        "speed": 0.9863
+      }
+    },
+    {
+      "engineer": "kliment-slice",
+      "overall_score": 0.4919,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0002,
+        "speed": 0.9456
+      }
+    },
+    {
+      "engineer": "dmiska25",
+      "overall_score": 0.4904,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0001,
+        "speed": 0.936
+      }
+    },
+    {
+      "engineer": "adamleithp",
+      "overall_score": 0.4899,
+      "component_scores": {
+        "throughput": 0.8716,
+        "collaboration": 0.0,
+        "impact": 0.1459,
+        "speed": 0.9889
+      }
+    },
+    {
+      "engineer": "MichaelKutsch-ph",
+      "overall_score": 0.4896,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0004,
+        "speed": 0.9298
+      }
+    },
+    {
+      "engineer": "gesh",
+      "overall_score": 0.4892,
+      "component_scores": {
+        "throughput": 0.9706,
+        "collaboration": 0.0,
+        "impact": 0.0112,
+        "speed": 0.9782
+      }
+    },
+    {
+      "engineer": "darkLord19",
+      "overall_score": 0.4884,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.923
+      }
+    },
+    {
+      "engineer": "frankh",
+      "overall_score": 0.4872,
+      "component_scores": {
+        "throughput": 0.9592,
+        "collaboration": 0.0,
+        "impact": 0.0148,
+        "speed": 0.9855
+      }
+    },
+    {
+      "engineer": "KaranPradhan266",
+      "overall_score": 0.4844,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.8962
+      }
+    },
+    {
+      "engineer": "scheduled-actions-posthog[bot]",
+      "overall_score": 0.4817,
+      "component_scores": {
+        "throughput": 0.9459,
+        "collaboration": 0.0,
+        "impact": 0.005,
+        "speed": 0.9961
+      }
+    },
+    {
+      "engineer": "buildwithmalik",
+      "overall_score": 0.4782,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0021,
+        "speed": 0.8515
+      }
+    },
+    {
+      "engineer": "ReeceJones",
+      "overall_score": 0.4779,
+      "component_scores": {
+        "throughput": 0.9412,
+        "collaboration": 0.0,
+        "impact": 0.025,
+        "speed": 0.9481
+      }
+    },
+    {
+      "engineer": "carlos-marchal-ph",
+      "overall_score": 0.4764,
+      "component_scores": {
+        "throughput": 0.9318,
+        "collaboration": 0.0,
+        "impact": 0.0077,
+        "speed": 0.9891
+      }
+    },
+    {
+      "engineer": "arthurdedeus",
+      "overall_score": 0.4697,
+      "component_scores": {
+        "throughput": 0.9059,
+        "collaboration": 0.0,
+        "impact": 0.0246,
+        "speed": 0.9767
+      }
+    },
+    {
+      "engineer": "fuziontech",
+      "overall_score": 0.4688,
+      "component_scores": {
+        "throughput": 0.9091,
+        "collaboration": 0.0,
+        "impact": 0.0032,
+        "speed": 0.9989
+      }
+    },
+    {
+      "engineer": "sampennington",
+      "overall_score": 0.4672,
+      "component_scores": {
+        "throughput": 0.7568,
+        "collaboration": 0.2,
+        "impact": 0.0189,
+        "speed": 0.9843
+      }
+    },
+    {
+      "engineer": "cvolzer3",
+      "overall_score": 0.4661,
+      "component_scores": {
+        "throughput": 0.9091,
+        "collaboration": 0.0,
+        "impact": 0.0089,
+        "speed": 0.9715
+      }
+    },
+    {
+      "engineer": "Daesgar",
+      "overall_score": 0.4645,
+      "component_scores": {
+        "throughput": 0.9,
+        "collaboration": 0.0,
+        "impact": 0.0017,
+        "speed": 0.9941
+      }
+    },
+    {
+      "engineer": "lmenezes",
+      "overall_score": 0.464,
+      "component_scores": {
+        "throughput": 0.8966,
+        "collaboration": 0.0,
+        "impact": 0.012,
+        "speed": 0.9814
+      }
+    },
+    {
+      "engineer": "ioannisj",
+      "overall_score": 0.4628,
+      "component_scores": {
+        "throughput": 1.0,
+        "collaboration": 0.0,
+        "impact": 0.0014,
+        "speed": 0.7494
+      }
+    },
+    {
+      "engineer": "patricio-posthog",
+      "overall_score": 0.4598,
+      "component_scores": {
+        "throughput": 0.8947,
+        "collaboration": 0.0,
+        "impact": 0.003,
+        "speed": 0.9729
+      }
+    },
+    {
+      "engineer": "vdekrijger",
+      "overall_score": 0.4586,
+      "component_scores": {
+        "throughput": 0.8889,
+        "collaboration": 0.0,
+        "impact": 0.0135,
+        "speed": 0.9608
+      }
+    },
+    {
+      "engineer": "estefaniarabadan",
+      "overall_score": 0.4576,
+      "component_scores": {
+        "throughput": 0.881,
+        "collaboration": 0.0,
+        "impact": 0.0052,
+        "speed": 0.9866
+      }
+    },
+    {
+      "engineer": "tatoalo",
+      "overall_score": 0.4558,
+      "component_scores": {
+        "throughput": 0.8644,
+        "collaboration": 0.0,
+        "impact": 0.0245,
+        "speed": 0.9809
+      }
+    },
+    {
+      "engineer": "rossgray",
+      "overall_score": 0.4542,
+      "component_scores": {
+        "throughput": 0.8696,
+        "collaboration": 0.0,
+        "impact": 0.0114,
+        "speed": 0.9801
+      }
+    },
+    {
+      "engineer": "kappa90",
+      "overall_score": 0.4524,
+      "component_scores": {
+        "throughput": 0.863,
+        "collaboration": 0.0,
+        "impact": 0.0272,
+        "speed": 0.9567
+      }
+    },
+    {
+      "engineer": "pl",
+      "overall_score": 0.4513,
+      "component_scores": {
+        "throughput": 0.8571,
+        "collaboration": 0.0,
+        "impact": 0.0175,
+        "speed": 0.9798
+      }
+    },
+    {
+      "engineer": "jonmcwest",
+      "overall_score": 0.451,
+      "component_scores": {
+        "throughput": 0.8456,
+        "collaboration": 0.0,
+        "impact": 0.0282,
+        "speed": 0.9866
+      }
+    },
+    {
+      "engineer": "tests-posthog[bot]",
+      "overall_score": 0.4487,
+      "component_scores": {
+        "throughput": 0.8571,
+        "collaboration": 0.0,
+        "impact": 0.0005,
+        "speed": 0.9903
+      }
+    },
+    {
+      "engineer": "richardsolomou",
+      "overall_score": 0.4473,
+      "component_scores": {
+        "throughput": 0.8444,
+        "collaboration": 0.0,
+        "impact": 0.0195,
+        "speed": 0.9791
+      }
+    },
+    {
+      "engineer": "ordehi",
+      "overall_score": 0.447,
+      "component_scores": {
+        "throughput": 0.8571,
+        "collaboration": 0.0,
+        "impact": 0.0066,
+        "speed": 0.969
+      }
+    },
+    {
+      "engineer": "aspicer",
+      "overall_score": 0.4462,
+      "component_scores": {
+        "throughput": 0.5926,
+        "collaboration": 0.4,
+        "impact": 0.0072,
+        "speed": 0.9133
+      }
+    },
+    {
+      "engineer": "EDsCODE",
+      "overall_score": 0.4457,
+      "component_scores": {
+        "throughput": 0.8667,
+        "collaboration": 0.0,
+        "impact": 0.002,
+        "speed": 0.9457
+      }
+    },
+    {
+      "engineer": "gustavohstrassburger",
+      "overall_score": 0.4393,
+      "component_scores": {
+        "throughput": 0.8289,
+        "collaboration": 0.0,
+        "impact": 0.0101,
+        "speed": 0.978
+      }
+    },
+    {
+      "engineer": "rodrigoi",
+      "overall_score": 0.4384,
+      "component_scores": {
+        "throughput": 0.8276,
+        "collaboration": 0.0,
+        "impact": 0.0094,
+        "speed": 0.9761
+      }
+    },
+    {
+      "engineer": "slshults",
+      "overall_score": 0.4381,
+      "component_scores": {
+        "throughput": 0.8333,
+        "collaboration": 0.0,
+        "impact": 0.0003,
+        "speed": 0.9758
+      }
+    },
+    {
+      "engineer": "jabahamondes",
+      "overall_score": 0.4378,
+      "component_scores": {
+        "throughput": 0.8261,
+        "collaboration": 0.0,
+        "impact": 0.018,
+        "speed": 0.9608
+      }
+    },
+    {
+      "engineer": "clickhouse-sync-posthog[bot]",
+      "overall_score": 0.4372,
+      "component_scores": {
+        "throughput": 0.8333,
+        "collaboration": 0.0,
+        "impact": 0.0001,
+        "speed": 0.9702
+      }
+    },
+    {
+      "engineer": "anirudhpillai",
+      "overall_score": 0.4367,
+      "component_scores": {
+        "throughput": 0.8261,
+        "collaboration": 0.0,
+        "impact": 0.0102,
+        "speed": 0.9666
+      }
+    },
+    {
+      "engineer": "Radu-Raicea",
+      "overall_score": 0.4365,
+      "component_scores": {
+        "throughput": 0.8148,
+        "collaboration": 0.0,
+        "impact": 0.0155,
+        "speed": 0.9827
+      }
+    },
+    {
+      "engineer": "skoob13",
+      "overall_score": 0.4365,
+      "component_scores": {
+        "throughput": 0.8017,
+        "collaboration": 0.0,
+        "impact": 0.0343,
+        "speed": 0.9819
+      }
+    },
+    {
+      "engineer": "luke-belton",
+      "overall_score": 0.4364,
+      "component_scores": {
+        "throughput": 0.7097,
+        "collaboration": 0.1666,
+        "impact": 0.0038,
+        "speed": 0.9692
+      }
+    },
+    {
+      "engineer": "andyzzhao",
+      "overall_score": 0.4362,
+      "component_scores": {
+        "throughput": 0.8222,
+        "collaboration": 0.0,
+        "impact": 0.0058,
+        "speed": 0.9799
+      }
+    },
+    {
+      "engineer": "z0br0wn",
+      "overall_score": 0.4358,
+      "component_scores": {
+        "throughput": 0.8235,
+        "collaboration": 0.0,
+        "impact": 0.0031,
+        "speed": 0.9784
+      }
+    },
+    {
+      "engineer": "nickbest-ph",
+      "overall_score": 0.4333,
+      "component_scores": {
+        "throughput": 0.8036,
+        "collaboration": 0.0,
+        "impact": 0.0155,
+        "speed": 0.9881
+      }
+    },
+    {
+      "engineer": "pauldambra",
+      "overall_score": 0.4324,
+      "component_scores": {
+        "throughput": 0.7816,
+        "collaboration": 0.0,
+        "impact": 0.0439,
+        "speed": 0.9859
+      }
+    },
+    {
+      "engineer": "adboio",
+      "overall_score": 0.4315,
+      "component_scores": {
+        "throughput": 0.7935,
+        "collaboration": 0.0,
+        "impact": 0.0357,
+        "speed": 0.966
+      }
+    },
+    {
+      "engineer": "sakce",
+      "overall_score": 0.4306,
+      "component_scores": {
+        "throughput": 0.7108,
+        "collaboration": 0.1176,
+        "impact": 0.0298,
+        "speed": 0.9667
+      }
+    },
+    {
+      "engineer": "MattPua",
+      "overall_score": 0.4235,
+      "component_scores": {
+        "throughput": 0.78,
+        "collaboration": 0.0,
+        "impact": 0.0054,
+        "speed": 0.9944
+      }
+    },
+    {
+      "engineer": "andehen",
+      "overall_score": 0.423,
+      "component_scores": {
+        "throughput": 0.7812,
+        "collaboration": 0.0,
+        "impact": 0.01,
+        "speed": 0.9804
+      }
+    },
+    {
+      "engineer": "andrewm4894",
+      "overall_score": 0.4223,
+      "component_scores": {
+        "throughput": 0.75,
+        "collaboration": 0.0,
+        "impact": 0.0475,
+        "speed": 0.9862
+      }
+    },
+    {
+      "engineer": "ksvat",
+      "overall_score": 0.4209,
+      "component_scores": {
+        "throughput": 0.7907,
+        "collaboration": 0.0,
+        "impact": 0.0048,
+        "speed": 0.9529
+      }
+    },
+    {
+      "engineer": "matheus-vb",
+      "overall_score": 0.414,
+      "component_scores": {
+        "throughput": 0.76,
+        "collaboration": 0.0,
+        "impact": 0.0041,
+        "speed": 0.9797
+      }
+    },
+    {
+      "engineer": "edwinyjlim",
+      "overall_score": 0.4121,
+      "component_scores": {
+        "throughput": 0.75,
+        "collaboration": 0.0,
+        "impact": 0.0044,
+        "speed": 0.99
+      }
+    },
+    {
+      "engineer": "dmarchuk",
+      "overall_score": 0.4116,
+      "component_scores": {
+        "throughput": 0.75,
+        "collaboration": 0.0,
+        "impact": 0.0003,
+        "speed": 0.9934
+      }
+    },
+    {
+      "engineer": "bciaraldi",
+      "overall_score": 0.4107,
+      "component_scores": {
+        "throughput": 0.75,
+        "collaboration": 0.0,
+        "impact": 0.0007,
+        "speed": 0.9868
+      }
+    },
+    {
+      "engineer": "daibhin",
+      "overall_score": 0.4104,
+      "component_scores": {
+        "throughput": 0.75,
+        "collaboration": 0.0,
+        "impact": 0.0016,
+        "speed": 0.9831
+      }
+    },
+    {
+      "engineer": "meikelmosby",
+      "overall_score": 0.4081,
+      "component_scores": {
+        "throughput": 0.7356,
+        "collaboration": 0.0,
+        "impact": 0.0151,
+        "speed": 0.9789
+      }
+    },
+    {
+      "engineer": "danielxnj",
+      "overall_score": 0.4072,
+      "component_scores": {
+        "throughput": 0.75,
+        "collaboration": 0.0,
+        "impact": 0.0016,
+        "speed": 0.9621
+      }
+    },
+    {
+      "engineer": "VojtechBartos",
+      "overall_score": 0.4015,
+      "component_scores": {
+        "throughput": 0.7143,
+        "collaboration": 0.0,
+        "impact": 0.0135,
+        "speed": 0.9875
+      }
+    },
+    {
+      "engineer": "dustinbyrne",
+      "overall_score": 0.4013,
+      "component_scores": {
+        "throughput": 0.7222,
+        "collaboration": 0.0,
+        "impact": 0.0016,
+        "speed": 0.9875
+      }
+    },
+    {
+      "engineer": "odin-posthog",
+      "overall_score": 0.4011,
+      "component_scores": {
+        "throughput": 0.7188,
+        "collaboration": 0.0,
+        "impact": 0.0053,
+        "speed": 0.988
+      }
+    },
+    {
+      "engineer": "rnegron",
+      "overall_score": 0.4002,
+      "component_scores": {
+        "throughput": 0.7273,
+        "collaboration": 0.0,
+        "impact": 0.0005,
+        "speed": 0.97
+      }
+    },
+    {
+      "engineer": "Twixes",
+      "overall_score": 0.3954,
+      "component_scores": {
+        "throughput": 0.703,
+        "collaboration": 0.0,
+        "impact": 0.0216,
+        "speed": 0.9595
+      }
+    },
+    {
+      "engineer": "danielcarletti",
+      "overall_score": 0.3953,
+      "component_scores": {
+        "throughput": 0.7143,
+        "collaboration": 0.0,
+        "impact": 0.0008,
+        "speed": 0.9674
+      }
+    },
+    {
+      "engineer": "mendral-app[bot]",
+      "overall_score": 0.3943,
+      "component_scores": {
+        "throughput": 0.6926,
+        "collaboration": 0.0,
+        "impact": 0.0103,
+        "speed": 0.9952
+      }
+    },
+    {
+      "engineer": "charlesvien",
+      "overall_score": 0.3927,
+      "component_scores": {
+        "throughput": 0.7,
+        "collaboration": 0.0,
+        "impact": 0.0029,
+        "speed": 0.9798
+      }
+    },
+    {
+      "engineer": "timgl",
+      "overall_score": 0.3909,
+      "component_scores": {
+        "throughput": 0.6923,
+        "collaboration": 0.0,
+        "impact": 0.0011,
+        "speed": 0.9887
+      }
+    },
+    {
+      "engineer": "gewenyu99",
+      "overall_score": 0.3907,
+      "component_scores": {
+        "throughput": 0.7,
+        "collaboration": 0.0,
+        "impact": 0.01,
+        "speed": 0.9544
+      }
+    },
+    {
+      "engineer": "MarconLP",
+      "overall_score": 0.3884,
+      "component_scores": {
+        "throughput": 0.6765,
+        "collaboration": 0.0,
+        "impact": 0.0182,
+        "speed": 0.9805
+      }
+    },
+    {
+      "engineer": "a-lider",
+      "overall_score": 0.3875,
+      "component_scores": {
+        "throughput": 0.6923,
+        "collaboration": 0.0,
+        "impact": 0.0147,
+        "speed": 0.9434
+      }
+    },
+    {
+      "engineer": "langesven",
+      "overall_score": 0.3808,
+      "component_scores": {
+        "throughput": 0.6667,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9832
+      }
+    },
+    {
+      "engineer": "daniloc",
+      "overall_score": 0.3793,
+      "component_scores": {
+        "throughput": 0.6667,
+        "collaboration": 0.0,
+        "impact": 0.0005,
+        "speed": 0.9719
+      }
+    },
+    {
+      "engineer": "raquelmsmith",
+      "overall_score": 0.3722,
+      "component_scores": {
+        "throughput": 0.6471,
+        "collaboration": 0.0,
+        "impact": 0.0057,
+        "speed": 0.9621
+      }
+    },
+    {
+      "engineer": "christiaan-ph",
+      "overall_score": 0.3661,
+      "component_scores": {
+        "throughput": 0.625,
+        "collaboration": 0.0,
+        "impact": 0.0011,
+        "speed": 0.9805
+      }
+    },
+    {
+      "engineer": "abhischekt",
+      "overall_score": 0.3585,
+      "component_scores": {
+        "throughput": 0.6,
+        "collaboration": 0.0,
+        "impact": 0.0023,
+        "speed": 0.9861
+      }
+    },
+    {
+      "engineer": "clr182",
+      "overall_score": 0.3574,
+      "component_scores": {
+        "throughput": 0.6,
+        "collaboration": 0.0,
+        "impact": 0.0056,
+        "speed": 0.9731
+      }
+    },
+    {
+      "engineer": "kurekszymon",
+      "overall_score": 0.325,
+      "component_scores": {
+        "throughput": 0.5,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 1.0
+      }
+    },
+    {
+      "engineer": "ceyniustranberg",
+      "overall_score": 0.3247,
+      "component_scores": {
+        "throughput": 0.5,
+        "collaboration": 0.0,
+        "impact": 0.0001,
+        "speed": 0.9979
+      }
+    },
+    {
+      "engineer": "xljones",
+      "overall_score": 0.3237,
+      "component_scores": {
+        "throughput": 0.5,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9912
+      }
+    },
+    {
+      "engineer": "charlescook-ph",
+      "overall_score": 0.3236,
+      "component_scores": {
+        "throughput": 0.5,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9904
+      }
+    },
+    {
+      "engineer": "abigailbramble",
+      "overall_score": 0.322,
+      "component_scores": {
+        "throughput": 0.5,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.98
+      }
+    },
+    {
+      "engineer": "salmanmkc",
+      "overall_score": 0.3182,
+      "component_scores": {
+        "throughput": 0.5,
+        "collaboration": 0.0,
+        "impact": 0.0007,
+        "speed": 0.9538
+      }
+    },
+    {
+      "engineer": "beatlevic",
+      "overall_score": 0.316,
+      "component_scores": {
+        "throughput": 0.5,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9403
+      }
+    },
+    {
+      "engineer": "posthog-js-upgrader[bot]",
+      "overall_score": 0.3049,
+      "component_scores": {
+        "throughput": 0.4343,
+        "collaboration": 0.0,
+        "impact": 0.0127,
+        "speed": 0.9983
+      }
+    },
+    {
+      "engineer": "posthog-bot",
+      "overall_score": 0.2979,
+      "component_scores": {
+        "throughput": 0.4667,
+        "collaboration": 0.0,
+        "impact": 0.0004,
+        "speed": 0.8962
+      }
+    },
+    {
+      "engineer": "Copilot",
+      "overall_score": 0.282,
+      "component_scores": {
+        "throughput": 0.4,
+        "collaboration": 0.0,
+        "impact": 0.0002,
+        "speed": 0.9466
+      }
+    },
+    {
+      "engineer": "inkeep[bot]",
+      "overall_score": 0.2814,
+      "component_scores": {
+        "throughput": 0.381,
+        "collaboration": 0.0,
+        "impact": 0.0002,
+        "speed": 0.9868
+      }
+    },
+    {
+      "engineer": "lshaowei18",
+      "overall_score": 0.2786,
+      "component_scores": {
+        "throughput": 0.4286,
+        "collaboration": 0.0,
+        "impact": 0.0004,
+        "speed": 0.8567
+      }
+    },
+    {
+      "engineer": "mircoboettcher",
+      "overall_score": 0.2772,
+      "component_scores": {
+        "throughput": 0.4,
+        "collaboration": 0.0,
+        "impact": 0.0001,
+        "speed": 0.9147
+      }
+    },
+    {
+      "engineer": "darkopia",
+      "overall_score": 0.263,
+      "component_scores": {
+        "throughput": 0.3438,
+        "collaboration": 0.0,
+        "impact": 0.0009,
+        "speed": 0.9495
+      }
+    },
+    {
+      "engineer": "parinporecha",
+      "overall_score": 0.2613,
+      "component_scores": {
+        "throughput": 0.3333,
+        "collaboration": 0.0,
+        "impact": 0.0001,
+        "speed": 0.9639
+      }
+    },
+    {
+      "engineer": "dependabot[bot]",
+      "overall_score": 0.253,
+      "component_scores": {
+        "throughput": 0.3093,
+        "collaboration": 0.0,
+        "impact": 0.0053,
+        "speed": 0.9564
+      }
+    },
+    {
+      "engineer": "jeremylongshore",
+      "overall_score": 0.2423,
+      "component_scores": {
+        "throughput": 0.2857,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9488
+      }
+    },
+    {
+      "engineer": "posthog[bot]",
+      "overall_score": 0.2159,
+      "component_scores": {
+        "throughput": 0.1923,
+        "collaboration": 0.0,
+        "impact": 0.0011,
+        "speed": 0.9887
+      }
+    },
+    {
+      "engineer": "harihran-del",
+      "overall_score": 0.1682,
+      "component_scores": {
+        "throughput": 0.0625,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.9758
+      }
+    },
+    {
+      "engineer": "ProCO-RPHopkins",
+      "overall_score": 0.0855,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0001,
+        "speed": 0.5697
+      }
+    },
+    {
+      "engineer": "antlio",
+      "overall_score": 0.0666,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.4441
+      }
+    },
+    {
+      "engineer": "zlwaterfield",
+      "overall_score": 0.0002,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0009,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "AaronDewes",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Arpan200502",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Basit-Balogun10",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Fizza-Mukhtar",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Greeva48",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "HarshadaGawas05",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Hettbhutak",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Illumiknight07",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "JasonLovesDoggo",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "KarloAldrete",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "KevinRSDNguyen",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "KyeongJooni",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "MikeAthie",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "MuzzaiyyanHussain",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "NewSmoke38",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Niceplace",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "SaraMiteva",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Sireeshreddy01",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Suhaib3100",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "Vitor-Bukovitz",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "advaitpaliwal",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "ahmedhesham6",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "akramcodez",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "am-design-works",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "annaszell",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "anujsb",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "api2062",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "bbloomf",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "bs1180",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "camerondeleone",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "carlosbaraza",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "cubic-dev-ai[bot]",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "danielalanbates",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "david-is-back",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "dschofie",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "ericls",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "feliperalmeida",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "gdeglin",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "giulio-leone",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "grandhi02",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "hbnordin2",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "ja-me-sk",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "jaencarrodine",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "janpio",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "joshuaisaact",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "jshorwitz",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "jverre",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "kriscoleman",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "kyleswank",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "manan19",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "manthankhawse",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "masylum",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "matt-metivier",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "maycuatroi1",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "mcoll-posthog",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "michael-kutsch",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "miles-kt-inkeep",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "mixelburg",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "naaa760",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "nielskaspers",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "okxint",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "phillram",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "pierreeurope",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "ragini-pandey",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "rainsubtime",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "rohan-pandeyy",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "rui-movio",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "sapdragon",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "sbrin",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "smallbrownbike",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "tejasae-afk",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "themavik",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "timon0305",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "vmaineng",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "willwearing",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "wudidapaopao",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    },
+    {
+      "engineer": "zaniluca",
+      "overall_score": 0.0,
+      "component_scores": {
+        "throughput": 0.0,
+        "collaboration": 0.0,
+        "impact": 0.0,
+        "speed": 0.0
+      }
+    }
+  ]
+}

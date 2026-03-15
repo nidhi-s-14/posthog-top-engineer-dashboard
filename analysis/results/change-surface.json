@@ -1,0 +1,1095 @@
+{
+  "source": {
+    "from": "analysis/results/git-history-summary.json",
+    "analysis": "commit_activity",
+    "definition": "log(1 + lines_changed) * files_changed"
+  },
+  "engineer_count": 155,
+  "engineers": [
+    {
+      "engineer": "webjunkie",
+      "lines_changed": 3165152,
+      "files_changed": 16332,
+      "log_lines_changed": 14.9677,
+      "change_surface_score": 244452.67
+    },
+    {
+      "engineer": "rafaeelaudibert",
+      "lines_changed": 135820,
+      "files_changed": 3966,
+      "log_lines_changed": 11.8191,
+      "change_surface_score": 46874.52
+    },
+    {
+      "engineer": "adamleithp",
+      "lines_changed": 39719,
+      "files_changed": 3367,
+      "log_lines_changed": 10.5896,
+      "change_surface_score": 35655.22
+    },
+    {
+      "engineer": "benjackwhite",
+      "lines_changed": 27484,
+      "files_changed": 1455,
+      "log_lines_changed": 10.2214,
+      "change_surface_score": 14872.13
+    },
+    {
+      "engineer": "andrewm4894",
+      "lines_changed": 46726,
+      "files_changed": 1079,
+      "log_lines_changed": 10.7521,
+      "change_surface_score": 11601.49
+    },
+    {
+      "engineer": "pauldambra",
+      "lines_changed": 34964,
+      "files_changed": 1026,
+      "log_lines_changed": 10.4621,
+      "change_surface_score": 10734.12
+    },
+    {
+      "engineer": "adboio",
+      "lines_changed": 37092,
+      "files_changed": 829,
+      "log_lines_changed": 10.5212,
+      "change_surface_score": 8722.06
+    },
+    {
+      "engineer": "skoob13",
+      "lines_changed": 36327,
+      "files_changed": 799,
+      "log_lines_changed": 10.5003,
+      "change_surface_score": 8389.77
+    },
+    {
+      "engineer": "TueHaulund",
+      "lines_changed": 47384,
+      "files_changed": 694,
+      "log_lines_changed": 10.7661,
+      "change_surface_score": 7471.65
+    },
+    {
+      "engineer": "jose-sequeira",
+      "lines_changed": 55216,
+      "files_changed": 669,
+      "log_lines_changed": 10.919,
+      "change_surface_score": 7304.83
+    },
+    {
+      "engineer": "sakce",
+      "lines_changed": 30286,
+      "files_changed": 707,
+      "log_lines_changed": 10.3185,
+      "change_surface_score": 7295.16
+    },
+    {
+      "engineer": "Piccirello",
+      "lines_changed": 16591,
+      "files_changed": 730,
+      "log_lines_changed": 9.7167,
+      "change_surface_score": 7093.17
+    },
+    {
+      "engineer": "joshsny",
+      "lines_changed": 25031,
+      "files_changed": 696,
+      "log_lines_changed": 10.1279,
+      "change_surface_score": 7049.03
+    },
+    {
+      "engineer": "jonmcwest",
+      "lines_changed": 21727,
+      "files_changed": 690,
+      "log_lines_changed": 9.9864,
+      "change_surface_score": 6890.59
+    },
+    {
+      "engineer": "dmarticus",
+      "lines_changed": 66700,
+      "files_changed": 620,
+      "log_lines_changed": 11.108,
+      "change_surface_score": 6886.94
+    },
+    {
+      "engineer": "veryayskiy",
+      "lines_changed": 27920,
+      "files_changed": 654,
+      "log_lines_changed": 10.2371,
+      "change_surface_score": 6695.09
+    },
+    {
+      "engineer": "kappa90",
+      "lines_changed": 27259,
+      "files_changed": 652,
+      "log_lines_changed": 10.2132,
+      "change_surface_score": 6658.99
+    },
+    {
+      "engineer": "eli-r-ph",
+      "lines_changed": 47230,
+      "files_changed": 581,
+      "log_lines_changed": 10.7628,
+      "change_surface_score": 6253.19
+    },
+    {
+      "engineer": "ReeceJones",
+      "lines_changed": 26388,
+      "files_changed": 601,
+      "log_lines_changed": 10.1807,
+      "change_surface_score": 6118.6
+    },
+    {
+      "engineer": "yasen-posthog",
+      "lines_changed": 21038,
+      "files_changed": 606,
+      "log_lines_changed": 9.9541,
+      "change_surface_score": 6032.2
+    },
+    {
+      "engineer": "arthurdedeus",
+      "lines_changed": 17848,
+      "files_changed": 614,
+      "log_lines_changed": 9.7897,
+      "change_surface_score": 6010.88
+    },
+    {
+      "engineer": "tatoalo",
+      "lines_changed": 26287,
+      "files_changed": 588,
+      "log_lines_changed": 10.1769,
+      "change_surface_score": 5984.0
+    },
+    {
+      "engineer": "haacked",
+      "lines_changed": 43137,
+      "files_changed": 552,
+      "log_lines_changed": 10.6722,
+      "change_surface_score": 5891.03
+    },
+    {
+      "engineer": "mariusandra",
+      "lines_changed": 34727,
+      "files_changed": 561,
+      "log_lines_changed": 10.4553,
+      "change_surface_score": 5865.42
+    },
+    {
+      "engineer": "robbie-c",
+      "lines_changed": 26901,
+      "files_changed": 537,
+      "log_lines_changed": 10.2,
+      "change_surface_score": 5477.38
+    },
+    {
+      "engineer": "Twixes",
+      "lines_changed": 96991,
+      "files_changed": 459,
+      "log_lines_changed": 11.4824,
+      "change_surface_score": 5270.41
+    },
+    {
+      "engineer": "havenbarnes",
+      "lines_changed": 22630,
+      "files_changed": 524,
+      "log_lines_changed": 10.0271,
+      "change_surface_score": 5254.19
+    },
+    {
+      "engineer": "thmsobrmlr",
+      "lines_changed": 27673,
+      "files_changed": 477,
+      "log_lines_changed": 10.2282,
+      "change_surface_score": 4878.87
+    },
+    {
+      "engineer": "richardsolomou",
+      "lines_changed": 26120,
+      "files_changed": 469,
+      "log_lines_changed": 10.1705,
+      "change_surface_score": 4769.96
+    },
+    {
+      "engineer": "sampennington",
+      "lines_changed": 19496,
+      "files_changed": 467,
+      "log_lines_changed": 9.878,
+      "change_surface_score": 4613.03
+    },
+    {
+      "engineer": "MarconLP",
+      "lines_changed": 14542,
+      "files_changed": 465,
+      "log_lines_changed": 9.5849,
+      "change_surface_score": 4456.96
+    },
+    {
+      "engineer": "jabahamondes",
+      "lines_changed": 20237,
+      "files_changed": 445,
+      "log_lines_changed": 9.9153,
+      "change_surface_score": 4412.32
+    },
+    {
+      "engineer": "jordanm-posthog",
+      "lines_changed": 112566,
+      "files_changed": 379,
+      "log_lines_changed": 11.6313,
+      "change_surface_score": 4408.26
+    },
+    {
+      "engineer": "pl",
+      "lines_changed": 43995,
+      "files_changed": 400,
+      "log_lines_changed": 10.6919,
+      "change_surface_score": 4276.74
+    },
+    {
+      "engineer": "hpouillot",
+      "lines_changed": 18225,
+      "files_changed": 414,
+      "log_lines_changed": 9.8106,
+      "change_surface_score": 4061.59
+    },
+    {
+      "engineer": "Gilbert09",
+      "lines_changed": 33893,
+      "files_changed": 382,
+      "log_lines_changed": 10.431,
+      "change_surface_score": 3984.64
+    },
+    {
+      "engineer": "georgemunyoro",
+      "lines_changed": 80144,
+      "files_changed": 349,
+      "log_lines_changed": 11.2916,
+      "change_surface_score": 3940.77
+    },
+    {
+      "engineer": "andrewjmcgehee",
+      "lines_changed": 27907,
+      "files_changed": 382,
+      "log_lines_changed": 10.2367,
+      "change_surface_score": 3910.41
+    },
+    {
+      "engineer": "Radu-Raicea",
+      "lines_changed": 21562,
+      "files_changed": 380,
+      "log_lines_changed": 9.9787,
+      "change_surface_score": 3791.92
+    },
+    {
+      "engineer": "nickbest-ph",
+      "lines_changed": 29829,
+      "files_changed": 367,
+      "log_lines_changed": 10.3033,
+      "change_surface_score": 3781.3
+    },
+    {
+      "engineer": "ablaszkiewicz",
+      "lines_changed": 16164,
+      "files_changed": 385,
+      "log_lines_changed": 9.6906,
+      "change_surface_score": 3730.88
+    },
+    {
+      "engineer": "meikelmosby",
+      "lines_changed": 20782,
+      "files_changed": 372,
+      "log_lines_changed": 9.9419,
+      "change_surface_score": 3698.38
+    },
+    {
+      "engineer": "frankh",
+      "lines_changed": 14877,
+      "files_changed": 376,
+      "log_lines_changed": 9.6076,
+      "change_surface_score": 3612.47
+    },
+    {
+      "engineer": "a-lider",
+      "lines_changed": 12777,
+      "files_changed": 381,
+      "log_lines_changed": 9.4555,
+      "change_surface_score": 3602.54
+    },
+    {
+      "engineer": "MattBro",
+      "lines_changed": 14838,
+      "files_changed": 357,
+      "log_lines_changed": 9.605,
+      "change_surface_score": 3428.99
+    },
+    {
+      "engineer": "VojtechBartos",
+      "lines_changed": 72589,
+      "files_changed": 296,
+      "log_lines_changed": 11.1926,
+      "change_surface_score": 3313.0
+    },
+    {
+      "engineer": "vdekrijger",
+      "lines_changed": 19454,
+      "files_changed": 333,
+      "log_lines_changed": 9.8759,
+      "change_surface_score": 3288.66
+    },
+    {
+      "engineer": "posthog-js-upgrader[bot]",
+      "lines_changed": 6321,
+      "files_changed": 354,
+      "log_lines_changed": 8.7518,
+      "change_surface_score": 3098.13
+    },
+    {
+      "engineer": "oliverb123",
+      "lines_changed": 17354,
+      "files_changed": 302,
+      "log_lines_changed": 9.7616,
+      "change_surface_score": 2948.01
+    },
+    {
+      "engineer": "lmenezes",
+      "lines_changed": 17818,
+      "files_changed": 301,
+      "log_lines_changed": 9.788,
+      "change_surface_score": 2946.19
+    },
+    {
+      "engineer": "fercgomes",
+      "lines_changed": 16206,
+      "files_changed": 291,
+      "log_lines_changed": 9.6932,
+      "change_surface_score": 2820.72
+    },
+    {
+      "engineer": "rossgray",
+      "lines_changed": 19470,
+      "files_changed": 282,
+      "log_lines_changed": 9.8767,
+      "change_surface_score": 2785.22
+    },
+    {
+      "engineer": "gesh",
+      "lines_changed": 6319,
+      "files_changed": 314,
+      "log_lines_changed": 8.7515,
+      "change_surface_score": 2747.96
+    },
+    {
+      "engineer": "jurajmajerik",
+      "lines_changed": 16735,
+      "files_changed": 281,
+      "log_lines_changed": 9.7253,
+      "change_surface_score": 2732.81
+    },
+    {
+      "engineer": "sarahxsanders",
+      "lines_changed": 12347,
+      "files_changed": 286,
+      "log_lines_changed": 9.4212,
+      "change_surface_score": 2694.48
+    },
+    {
+      "engineer": "mp-hog",
+      "lines_changed": 16015,
+      "files_changed": 273,
+      "log_lines_changed": 9.6813,
+      "change_surface_score": 2643.01
+    },
+    {
+      "engineer": "mendral-app[bot]",
+      "lines_changed": 8555,
+      "files_changed": 279,
+      "log_lines_changed": 9.0544,
+      "change_surface_score": 2526.17
+    },
+    {
+      "engineer": "fasyy612",
+      "lines_changed": 12248,
+      "files_changed": 267,
+      "log_lines_changed": 9.4132,
+      "change_surface_score": 2513.32
+    },
+    {
+      "engineer": "anirudhpillai",
+      "lines_changed": 8053,
+      "files_changed": 277,
+      "log_lines_changed": 8.9939,
+      "change_surface_score": 2491.32
+    },
+    {
+      "engineer": "gustavohstrassburger",
+      "lines_changed": 15004,
+      "files_changed": 258,
+      "log_lines_changed": 9.6161,
+      "change_surface_score": 2480.96
+    },
+    {
+      "engineer": "andehen",
+      "lines_changed": 11162,
+      "files_changed": 263,
+      "log_lines_changed": 9.3204,
+      "change_surface_score": 2451.25
+    },
+    {
+      "engineer": "gewenyu99",
+      "lines_changed": 12996,
+      "files_changed": 258,
+      "log_lines_changed": 9.4725,
+      "change_surface_score": 2443.9
+    },
+    {
+      "engineer": "lricoy",
+      "lines_changed": 10510,
+      "files_changed": 256,
+      "log_lines_changed": 9.2602,
+      "change_surface_score": 2370.61
+    },
+    {
+      "engineer": "rodrigoi",
+      "lines_changed": 23405,
+      "files_changed": 229,
+      "log_lines_changed": 10.0607,
+      "change_surface_score": 2303.91
+    },
+    {
+      "engineer": "gantoine",
+      "lines_changed": 9356,
+      "files_changed": 251,
+      "log_lines_changed": 9.1439,
+      "change_surface_score": 2295.11
+    },
+    {
+      "engineer": "cvolzer3",
+      "lines_changed": 11075,
+      "files_changed": 235,
+      "log_lines_changed": 9.3125,
+      "change_surface_score": 2188.45
+    },
+    {
+      "engineer": "lucasheriques",
+      "lines_changed": 11691,
+      "files_changed": 216,
+      "log_lines_changed": 9.3667,
+      "change_surface_score": 2023.2
+    },
+    {
+      "engineer": "carlos-marchal-ph",
+      "lines_changed": 11990,
+      "files_changed": 201,
+      "log_lines_changed": 9.3919,
+      "change_surface_score": 1887.77
+    },
+    {
+      "engineer": "aspicer",
+      "lines_changed": 7285,
+      "files_changed": 199,
+      "log_lines_changed": 8.8937,
+      "change_surface_score": 1769.85
+    },
+    {
+      "engineer": "sortafreel",
+      "lines_changed": 12700,
+      "files_changed": 175,
+      "log_lines_changed": 9.4494,
+      "change_surface_score": 1653.65
+    },
+    {
+      "engineer": "ordehi",
+      "lines_changed": 5801,
+      "files_changed": 186,
+      "log_lines_changed": 8.666,
+      "change_surface_score": 1611.87
+    },
+    {
+      "engineer": "andyzzhao",
+      "lines_changed": 8526,
+      "files_changed": 157,
+      "log_lines_changed": 9.051,
+      "change_surface_score": 1421.01
+    },
+    {
+      "engineer": "raquelmsmith",
+      "lines_changed": 6048,
+      "files_changed": 159,
+      "log_lines_changed": 8.7076,
+      "change_surface_score": 1384.52
+    },
+    {
+      "engineer": "clr182",
+      "lines_changed": 17837,
+      "files_changed": 141,
+      "log_lines_changed": 9.7891,
+      "change_surface_score": 1380.26
+    },
+    {
+      "engineer": "MattPua",
+      "lines_changed": 3113,
+      "files_changed": 164,
+      "log_lines_changed": 8.0437,
+      "change_surface_score": 1319.16
+    },
+    {
+      "engineer": "dependabot[bot]",
+      "lines_changed": 8794,
+      "files_changed": 144,
+      "log_lines_changed": 9.0819,
+      "change_surface_score": 1307.8
+    },
+    {
+      "engineer": "odin-posthog",
+      "lines_changed": 10940,
+      "files_changed": 140,
+      "log_lines_changed": 9.3003,
+      "change_surface_score": 1302.04
+    },
+    {
+      "engineer": "estefaniarabadan",
+      "lines_changed": 7826,
+      "files_changed": 142,
+      "log_lines_changed": 8.9653,
+      "change_surface_score": 1273.08
+    },
+    {
+      "engineer": "scheduled-actions-posthog[bot]",
+      "lines_changed": 7207,
+      "files_changed": 138,
+      "log_lines_changed": 8.8829,
+      "change_surface_score": 1225.85
+    },
+    {
+      "engineer": "ksvat",
+      "lines_changed": 4199,
+      "files_changed": 141,
+      "log_lines_changed": 8.3428,
+      "change_surface_score": 1176.34
+    },
+    {
+      "engineer": "edwinyjlim",
+      "lines_changed": 7829,
+      "files_changed": 119,
+      "log_lines_changed": 8.9657,
+      "change_surface_score": 1066.92
+    },
+    {
+      "engineer": "matheus-vb",
+      "lines_changed": 8187,
+      "files_changed": 112,
+      "log_lines_changed": 9.0104,
+      "change_surface_score": 1009.17
+    },
+    {
+      "engineer": "luke-belton",
+      "lines_changed": 3712,
+      "files_changed": 114,
+      "log_lines_changed": 8.2196,
+      "change_surface_score": 937.03
+    },
+    {
+      "engineer": "tomasfarias",
+      "lines_changed": 2947,
+      "files_changed": 117,
+      "log_lines_changed": 7.9889,
+      "change_surface_score": 934.7
+    },
+    {
+      "engineer": "fuziontech",
+      "lines_changed": 6769,
+      "files_changed": 88,
+      "log_lines_changed": 8.8203,
+      "change_surface_score": 776.18
+    },
+    {
+      "engineer": "z0br0wn",
+      "lines_changed": 7379,
+      "files_changed": 85,
+      "log_lines_changed": 8.9065,
+      "change_surface_score": 757.05
+    },
+    {
+      "engineer": "patricio-posthog",
+      "lines_changed": 3491,
+      "files_changed": 91,
+      "log_lines_changed": 8.1582,
+      "change_surface_score": 742.4
+    },
+    {
+      "engineer": "orian",
+      "lines_changed": 2374,
+      "files_changed": 91,
+      "log_lines_changed": 7.7728,
+      "change_surface_score": 707.32
+    },
+    {
+      "engineer": "charlesvien",
+      "lines_changed": 2019,
+      "files_changed": 92,
+      "log_lines_changed": 7.6109,
+      "change_surface_score": 700.2
+    },
+    {
+      "engineer": "pawel-cebula",
+      "lines_changed": 2660,
+      "files_changed": 82,
+      "log_lines_changed": 7.8865,
+      "change_surface_score": 646.69
+    },
+    {
+      "engineer": "abhischekt",
+      "lines_changed": 6626,
+      "files_changed": 63,
+      "log_lines_changed": 8.7989,
+      "change_surface_score": 554.33
+    },
+    {
+      "engineer": "k11kirky",
+      "lines_changed": 2904,
+      "files_changed": 69,
+      "log_lines_changed": 7.9742,
+      "change_surface_score": 550.22
+    },
+    {
+      "engineer": "buildwithmalik",
+      "lines_changed": 3465,
+      "files_changed": 62,
+      "log_lines_changed": 8.1508,
+      "change_surface_score": 505.35
+    },
+    {
+      "engineer": "EDsCODE",
+      "lines_changed": 3194,
+      "files_changed": 62,
+      "log_lines_changed": 8.0693,
+      "change_surface_score": 500.3
+    },
+    {
+      "engineer": "Daesgar",
+      "lines_changed": 1640,
+      "files_changed": 56,
+      "log_lines_changed": 7.4031,
+      "change_surface_score": 414.57
+    },
+    {
+      "engineer": "daibhin",
+      "lines_changed": 2288,
+      "files_changed": 52,
+      "log_lines_changed": 7.7359,
+      "change_surface_score": 402.27
+    },
+    {
+      "engineer": "dustinbyrne",
+      "lines_changed": 2328,
+      "files_changed": 51,
+      "log_lines_changed": 7.7532,
+      "change_surface_score": 395.41
+    },
+    {
+      "engineer": "danielxnj",
+      "lines_changed": 3408,
+      "files_changed": 47,
+      "log_lines_changed": 8.1342,
+      "change_surface_score": 382.31
+    },
+    {
+      "engineer": "ioannisj",
+      "lines_changed": 2224,
+      "files_changed": 43,
+      "log_lines_changed": 7.7075,
+      "change_surface_score": 331.42
+    },
+    {
+      "engineer": "nicowaltz",
+      "lines_changed": 5016,
+      "files_changed": 34,
+      "log_lines_changed": 8.5206,
+      "change_surface_score": 289.7
+    },
+    {
+      "engineer": "christiaan-ph",
+      "lines_changed": 581,
+      "files_changed": 44,
+      "log_lines_changed": 6.3665,
+      "change_surface_score": 280.12
+    },
+    {
+      "engineer": "timgl",
+      "lines_changed": 1441,
+      "files_changed": 36,
+      "log_lines_changed": 7.2738,
+      "change_surface_score": 261.86
+    },
+    {
+      "engineer": "posthog[bot]",
+      "lines_changed": 1999,
+      "files_changed": 34,
+      "log_lines_changed": 7.6009,
+      "change_surface_score": 258.43
+    },
+    {
+      "engineer": "darkopia",
+      "lines_changed": 900,
+      "files_changed": 33,
+      "log_lines_changed": 6.8035,
+      "change_surface_score": 224.52
+    },
+    {
+      "engineer": "zlwaterfield",
+      "lines_changed": 1534,
+      "files_changed": 30,
+      "log_lines_changed": 7.3363,
+      "change_surface_score": 220.09
+    },
+    {
+      "engineer": "danielcarletti",
+      "lines_changed": 2328,
+      "files_changed": 25,
+      "log_lines_changed": 7.7532,
+      "change_surface_score": 193.83
+    },
+    {
+      "engineer": "jonathanlab",
+      "lines_changed": 562,
+      "files_changed": 30,
+      "log_lines_changed": 6.3333,
+      "change_surface_score": 190.0
+    },
+    {
+      "engineer": "bciaraldi",
+      "lines_changed": 630,
+      "files_changed": 28,
+      "log_lines_changed": 6.4473,
+      "change_surface_score": 180.52
+    },
+    {
+      "engineer": "salmanmkc",
+      "lines_changed": 192,
+      "files_changed": 33,
+      "log_lines_changed": 5.2627,
+      "change_surface_score": 173.67
+    },
+    {
+      "engineer": "rnegron",
+      "lines_changed": 167,
+      "files_changed": 24,
+      "log_lines_changed": 5.124,
+      "change_surface_score": 122.98
+    },
+    {
+      "engineer": "tests-posthog[bot]",
+      "lines_changed": 3455,
+      "files_changed": 14,
+      "log_lines_changed": 8.1479,
+      "change_surface_score": 114.07
+    },
+    {
+      "engineer": "daniloc",
+      "lines_changed": 691,
+      "files_changed": 17,
+      "log_lines_changed": 6.5396,
+      "change_surface_score": 111.17
+    },
+    {
+      "engineer": "lshaowei18",
+      "lines_changed": 3986,
+      "files_changed": 13,
+      "log_lines_changed": 8.2908,
+      "change_surface_score": 107.78
+    },
+    {
+      "engineer": "posthog-bot",
+      "lines_changed": 773,
+      "files_changed": 15,
+      "log_lines_changed": 6.6516,
+      "change_surface_score": 99.77
+    },
+    {
+      "engineer": "MichaelKutsch-ph",
+      "lines_changed": 699,
+      "files_changed": 14,
+      "log_lines_changed": 6.5511,
+      "change_surface_score": 91.72
+    },
+    {
+      "engineer": "dmarchuk",
+      "lines_changed": 698,
+      "files_changed": 13,
+      "log_lines_changed": 6.5497,
+      "change_surface_score": 85.15
+    },
+    {
+      "engineer": "abheek9",
+      "lines_changed": 258,
+      "files_changed": 14,
+      "log_lines_changed": 5.5568,
+      "change_surface_score": 77.8
+    },
+    {
+      "engineer": "bill-ph",
+      "lines_changed": 1011,
+      "files_changed": 11,
+      "log_lines_changed": 6.9197,
+      "change_surface_score": 76.12
+    },
+    {
+      "engineer": "marandaneto",
+      "lines_changed": 164,
+      "files_changed": 14,
+      "log_lines_changed": 5.1059,
+      "change_surface_score": 71.48
+    },
+    {
+      "engineer": "slshults",
+      "lines_changed": 311,
+      "files_changed": 11,
+      "log_lines_changed": 5.743,
+      "change_surface_score": 63.17
+    },
+    {
+      "engineer": "kliment-slice",
+      "lines_changed": 197,
+      "files_changed": 11,
+      "log_lines_changed": 5.2883,
+      "change_surface_score": 58.17
+    },
+    {
+      "engineer": "inkeep[bot]",
+      "lines_changed": 200,
+      "files_changed": 10,
+      "log_lines_changed": 5.3033,
+      "change_surface_score": 53.03
+    },
+    {
+      "engineer": "Copilot",
+      "lines_changed": 75,
+      "files_changed": 11,
+      "log_lines_changed": 4.3307,
+      "change_surface_score": 47.64
+    },
+    {
+      "engineer": "GauravBansal29",
+      "lines_changed": 44,
+      "files_changed": 10,
+      "log_lines_changed": 3.8067,
+      "change_surface_score": 38.07
+    },
+    {
+      "engineer": "ProCO-RPHopkins",
+      "lines_changed": 123,
+      "files_changed": 6,
+      "log_lines_changed": 4.8203,
+      "change_surface_score": 28.92
+    },
+    {
+      "engineer": "parinporecha",
+      "lines_changed": 40,
+      "files_changed": 6,
+      "log_lines_changed": 3.7136,
+      "change_surface_score": 22.28
+    },
+    {
+      "engineer": "ceyniustranberg",
+      "lines_changed": 114,
+      "files_changed": 4,
+      "log_lines_changed": 4.7449,
+      "change_surface_score": 18.98
+    },
+    {
+      "engineer": "clickhouse-sync-posthog[bot]",
+      "lines_changed": 34,
+      "files_changed": 5,
+      "log_lines_changed": 3.5553,
+      "change_surface_score": 17.78
+    },
+    {
+      "engineer": "dmiska25",
+      "lines_changed": 252,
+      "files_changed": 3,
+      "log_lines_changed": 5.5334,
+      "change_surface_score": 16.6
+    },
+    {
+      "engineer": "mircoboettcher",
+      "lines_changed": 27,
+      "files_changed": 4,
+      "log_lines_changed": 3.3322,
+      "change_surface_score": 13.33
+    },
+    {
+      "engineer": "harihran-del",
+      "lines_changed": 31,
+      "files_changed": 3,
+      "log_lines_changed": 3.4657,
+      "change_surface_score": 10.4
+    },
+    {
+      "engineer": "beatlevic",
+      "lines_changed": 94,
+      "files_changed": 2,
+      "log_lines_changed": 4.5539,
+      "change_surface_score": 9.11
+    },
+    {
+      "engineer": "zhou-quickli",
+      "lines_changed": 56,
+      "files_changed": 2,
+      "log_lines_changed": 4.0431,
+      "change_surface_score": 8.09
+    },
+    {
+      "engineer": "JJCLane",
+      "lines_changed": 9,
+      "files_changed": 3,
+      "log_lines_changed": 2.3026,
+      "change_surface_score": 6.91
+    },
+    {
+      "engineer": "Nezz",
+      "lines_changed": 30,
+      "files_changed": 2,
+      "log_lines_changed": 3.434,
+      "change_surface_score": 6.87
+    },
+    {
+      "engineer": "igormq",
+      "lines_changed": 24,
+      "files_changed": 2,
+      "log_lines_changed": 3.2189,
+      "change_surface_score": 6.44
+    },
+    {
+      "engineer": "jeremylongshore",
+      "lines_changed": 19,
+      "files_changed": 2,
+      "log_lines_changed": 2.9957,
+      "change_surface_score": 5.99
+    },
+    {
+      "engineer": "charlescook-ph",
+      "lines_changed": 11,
+      "files_changed": 2,
+      "log_lines_changed": 2.4849,
+      "change_surface_score": 4.97
+    },
+    {
+      "engineer": "andre347",
+      "lines_changed": 10,
+      "files_changed": 2,
+      "log_lines_changed": 2.3979,
+      "change_surface_score": 4.8
+    },
+    {
+      "engineer": "langesven",
+      "lines_changed": 8,
+      "files_changed": 2,
+      "log_lines_changed": 2.1972,
+      "change_surface_score": 4.39
+    },
+    {
+      "engineer": "carlosguso",
+      "lines_changed": 5,
+      "files_changed": 2,
+      "log_lines_changed": 1.7918,
+      "change_surface_score": 3.58
+    },
+    {
+      "engineer": "xljones",
+      "lines_changed": 4,
+      "files_changed": 2,
+      "log_lines_changed": 1.6094,
+      "change_surface_score": 3.22
+    },
+    {
+      "engineer": "zachstence",
+      "lines_changed": 4,
+      "files_changed": 2,
+      "log_lines_changed": 1.6094,
+      "change_surface_score": 3.22
+    },
+    {
+      "engineer": "fivestarspicy",
+      "lines_changed": 21,
+      "files_changed": 1,
+      "log_lines_changed": 3.091,
+      "change_surface_score": 3.09
+    },
+    {
+      "engineer": "kurekszymon",
+      "lines_changed": 12,
+      "files_changed": 1,
+      "log_lines_changed": 2.5649,
+      "change_surface_score": 2.56
+    },
+    {
+      "engineer": "abigailbramble",
+      "lines_changed": 11,
+      "files_changed": 1,
+      "log_lines_changed": 2.4849,
+      "change_surface_score": 2.48
+    },
+    {
+      "engineer": "orlandohohmeier",
+      "lines_changed": 4,
+      "files_changed": 1,
+      "log_lines_changed": 1.6094,
+      "change_surface_score": 1.61
+    },
+    {
+      "engineer": "annikaschmid",
+      "lines_changed": 4,
+      "files_changed": 1,
+      "log_lines_changed": 1.6094,
+      "change_surface_score": 1.61
+    },
+    {
+      "engineer": "Classy-Bear",
+      "lines_changed": 4,
+      "files_changed": 1,
+      "log_lines_changed": 1.6094,
+      "change_surface_score": 1.61
+    },
+    {
+      "engineer": "antlio",
+      "lines_changed": 4,
+      "files_changed": 1,
+      "log_lines_changed": 1.6094,
+      "change_surface_score": 1.61
+    },
+    {
+      "engineer": "will-marella",
+      "lines_changed": 2,
+      "files_changed": 1,
+      "log_lines_changed": 1.0986,
+      "change_surface_score": 1.1
+    },
+    {
+      "engineer": "darkLord19",
+      "lines_changed": 2,
+      "files_changed": 1,
+      "log_lines_changed": 1.0986,
+      "change_surface_score": 1.1
+    },
+    {
+      "engineer": "KaranPradhan266",
+      "lines_changed": 2,
+      "files_changed": 1,
+      "log_lines_changed": 1.0986,
+      "change_surface_score": 1.1
+    },
+    {
+      "engineer": "caiquejjx",
+      "lines_changed": 1,
+      "files_changed": 1,
+      "log_lines_changed": 0.6931,
+      "change_surface_score": 0.69
+    },
+    {
+      "engineer": "sayer122",
+      "lines_changed": 1,
+      "files_changed": 1,
+      "log_lines_changed": 0.6931,
+      "change_surface_score": 0.69
+    }
+  ]
+}

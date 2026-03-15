@@ -1,0 +1,3 @@
+[submodule "vendor/posthog"]
+	path = vendor/posthog
+	url = https://github.com/PostHog/posthog.git
